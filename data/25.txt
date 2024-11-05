@@ -1,0 +1,21 @@
+
+Hackers are actively exploiting a recently disclosed RCE vulnerability in Zimbra email servers that can be triggered simply by sending specially crafted emails to the SMTP server.
+The Zimbra remote code execution flaw is tracked as CVE-2024-45519 and exists in Zimbra's postjournal service, which is used to parse incoming emails over SMTP. Attackers can exploit the vulnerability by sending specially crafted emails with commands to execute in the CC field, which are then executed when the postjournal service processes the email.
+The malicious activity was first reported by HarfangLab's threat researcher Ivan Kwiatkowski, who characterized it as "mass-exploitation," and was subsequently also confirmed by experts at Proofpoint.
+
+Proofpoint says they detected the malicious activity on September 28, one day after researchers at Project Discovery released a proof-of-concept exploit.
+The researchers warn that the attackers are sending emails that spoof Gmail and contain fake email addresses and malicious code in the email's "CC" field. If created properly, the Zimbra email server will parse the commands in the CC field and execute them on the server.
+Specifically, the emails contain base-64 encoded strings that are executed via the 'sh' shell to build and drop a webshell on the Zimbra server.
+Once the webshell is installed, it listens for inbound connections containing a specific JSESSIONID cookie field. If the correct cookie is detected, the webshell parses another cookie (JACTION) that contains base64-encoded commands to execute. The webshell also supports downloading and executing files on the compromised server.
+Once installed, the webshell offers full access to the compromised Zimbra server for data theft or to further spread into the internal network.
+ProjectDiscovery researchers published a technical write-up last week on CVE-2024-45519, including a proof-of-concept (PoC) exploit that matches what is seen in the wild now.
+The researchers reverse-engineered Zimbra's patch to find that the 'popen' function, which receives user input, has been replaced with a new function named 'execvp,' which features an input sanitization mechanism.
+Working their way backward, they discovered that it's possible to send SMTP commands to Zimbra's postjournal service on port 10027, resulting in arbitrary command execution. The working exploit was also published in 'ready-to-use' Python script form on GitHub.
+Apart from applying the available security updates, the researchers also proposed that system administrators turn off 'postjournal' if it's not required for their operations and ensure that 'mynetworks' is correctly configured to prevent unauthorized access.
+According to Zimbra's security bulletin, CVE-2024-45519 has been resolved in version 9.0.0 Patch 41 or later, versions 10.0.9 and 10.1.1, and Zimbra 8.8.15 Patch 46 or later.
+Given the active exploitation status of the vulnerability, impacted users are strongly recommended to move to the new versions as soon as possible or at least apply the mitigation measures listed above.
+Critical Progress WhatsUp RCE flaw now under active exploitation
+Hackers targeting WhatsUp Gold with public exploit since August
+Exploit code released for critical Ivanti RCE flaw, patch now
+Critical Ivanti RCE flaw with public exploit now used in attacks
+CISA warns of actively exploited Apache HugeGraph-Server bug

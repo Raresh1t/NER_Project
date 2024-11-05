@@ -1,0 +1,20 @@
+
+GitHub is being abused to distribute the Lumma Stealer information-stealing malware as fake fixes posted in project comments.
+The campaign was first reported by a contributor to the teloxide rust library, who noted on Reddit that they received five different comments in their GitHub issues that pretended to be fixes but were instead pushing malware.
+Further review by BleepingComputer found thousands of similar comments posted to a wide range of projects on GitHub, all offering fake fixes to other people's questions.
+The solution tells people to download a password-protected archive from mediafire.com or through a bit.ly URL and run the executable within it. In the current campaign, the password has been "changeme" in all the comments we have seen.
+Reverse engineer Nicholas Sherlock told BleepingComputer that over 29,000 comments pushing this malware had been posted over a 3-day period.
+Clicking on the link brings visitors to a download page for a file called 'fix.zip,' which contains a few DLL files and an executable named x86_64-w64-ranlib.exe.
+Running the executable on Any.Run indicates it is the Lumma Stealer information-stealing malware.
+Lumma Stealer is an advanced info stealer that, when executed, attempts to steal cookies, credentials, passwords, credit cards, and browsing history from Google Chrome, Microsoft Edge, Mozilla Firefox, and other Chromium browsers.
+The malware can also steal cryptocurrency wallets, private keys, and text files with names like seed.txt, pass.txt, ledger.txt, trezor.txt, metamask.txt, bitcoin.txt, words, wallet.txt, *.txt, and *.pdf, as these are likely to contain private crypto keys and passwords.
+This data is collected into an archive and sent back to the attacker, where they can use the information in further attacks or sell it on cybercrime marketplaces.
+While GitHub Staff has been deleting these comments as they are detected, people have already reported falling for the attack.
+For those who ran the malware, you must change the passwords at all your accounts using a unique password for each site and migrate cryptocurrency to a new wallet.
+Last month, Check Point Research disclosed a similar campaign by the Stargazer Goblin threat actors, who created a malware Distribution-as-a-Service (DaaS) from over 3,000 fake accounts on GitHub to push information-stealing malware.
+It is unclear if this is the same campaign or a new one conducted by different threat actors.
+StackExchange abused to spread malicious PyPi packages as answers
+Over 3,000 GitHub accounts used by malware distribution service
+Facebook ads for Windows desktop themes push info-stealing malware
+ViperSoftX malware covertly runs PowerShell using AutoIT scripting
+New Voldemort malware abuses Google Sheets to store stolen data

@@ -1,0 +1,25 @@
+
+Microsoft warns that ransomware threat actor Storm-0501 has recently switched tactics and now targets hybrid cloud environments, expanding its strategy to compromise all victim assets.
+The threat actor first emerged in 2021 as a ransomware affiliate for the Sabbath ransomware operation. Later they started to deploy file-encrypting malware from Hive, BlackCat, LockBit, and Hunters International gangs. Recently, they have been observed to deploy the Embargo ransomware.
+Storm-0501's recent attacks targeted hospitals, government, manufacturing, and transportation organizations, and law enforcement agencies in the United States.
+The attacker gains access to cloud environments by exploiting weak credentials and taking advantage of privileged accounts, with the goal of stealing data and executing a ransomware payload.
+Microsoft explains that the Storm-0501 obtains initial access to the network with stolen or purchased credentials, or by exploiting known vulnerabilities.
+Some of the flaws used in recent attacks are CVE-2022-47966 (Zoho ManageEngine), CVE-2023-4966 (Citrix NetScaler), and possibly CVE-2023-29300 or CVE-2023-38203 (ColdFusion 2016).
+The adversary moves laterally using frameworks like Impacket and Cobalt Strike, steals data through a custom Rclone binary renamed to mimic a Windows tool, and disables security agents with PowerShell cmdlets.
+By leveraging stolen Microsoft Entra ID (formerly Azure AD) credentials, Storm-0501 moves from on-premise to cloud environments, compromising synchronization accounts and hijacking sessions for persistence.
+Microsoft Entra Connect Sync accounts are crucial for synchronizing data between on-premises Active Directory (AD) and cloud-based Microsoft Entra ID and typically allow a wide range of sensitive actions.
+If the attackers possess the credentials for the Directory Synchronization Account, they can use specialized tools like AADInternals to change cloud passwords, thus bypassing additional protections.
+If a domain admin or other high-privileged on-premises account also exists in the cloud environment and lacks proper protections (e.g. multi-factor authentication), Storm-0501 may use the same credentials to access the cloud again.
+After getting access to the cloud infrastructure, the threat actor plants a persistent backdoor by creating a new federated domain within the Microsoft Entra tenant, which allows them to authenticate as any user for which the "Immutableid" property is known or set by them.
+In the final step, the attackers will either deploy Embargo ransomware on the victim's on-premise and cloud environments or maintain backdoor access for a later time.
+"Once the threat actor achieved sufficient control over the network, successfully extracted sensitive files, and managed to move laterally to the cloud environment, the threat actor then deployed the Embargo ransomware across the organization" Microsoft
+"We observed that the threat actor did not always resort to ransomware distribution, and in some cases only maintained backdoor access to the network," Microsoft said.
+The ransomware payload is deployed using compromised accounts like Domain Admin, via scheduled tasks or Group Policy Objects (GPOs) to encrypt files across the organization's devices.
+The Embargo threat group uses Rust-based malware to run their ransomware-as-a-service (RaaS) operation that accepts affiliates who breach companies to deploy the payload and share a part of the profit with the developers.
+In August 2024, an Embargo ransomware affiliate hit the American Radio Relay League (ARRL) and received $1 million in exchange for a working decryptor.
+Earlier this year, in May, an Embargo affiliate breached Firstmac Limited, one of Australia's largest mortgage lending and investment management firms, and leaked 500GB of stolen sensitive data when the deadline to negotiate a solution was reached.
+Ransomware gangs now abuse Microsoft Azure tool for data theft
+American Radio Relay League confirms $1 million ransom payment
+MoneyGram: No evidence ransomware is behind recent cyberattack
+Highline Public Schools confirms ransomware behind shutdown
+US sanctions crypto exchanges used by Russian ransomware gangs

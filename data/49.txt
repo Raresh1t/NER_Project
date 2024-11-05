@@ -1,0 +1,20 @@
+
+Microsoft Defender now automatically detects and notifies users with a Microsoft 365 Personal or Family subscription when they're connected to unsecured Wi-Fi networks.
+The Defender privacy protection feature (also known as Defender VPN) protects your privacy and security when connected to public Wi-Fi or an untrusted network, where your data and identity could be exposed or stolen.
+To do that, it encrypts and routes your internet traffic through Microsoft's servers and hides your internet address (IP address) using a VPN (Virtual Private Network).
+Microsoft announced today that Defender VPN has been upgraded to automatically alert users they're exposed to attacks and can now be configured to enable automatically for better safety.
+"We've added detection for un-safe Wi-Fi (suspicious Wi-Fi). These detections are possible using Defender heuristics that examine multiple characteristics of a Wi-Fi hotspot to determine if it is suspicious," Microsoft said.
+"As with unsecure Wi-Fi, you get a notification for un-safe Wi- Fi as well and can turn on Defender VPN for added safety."
+This can help defend you against attackers setting up a rogue wireless access point to trick users into connecting to it in Evil Twin attacks. After the victims connect, they can steal sensitive information in Man-in-the-Middle (MiTM) attacks or use phishing techniques to get more information.
+​The unsafe Wi-Fi alerts are now only available in Defender for Android, iOS, and Windows, with macOS support also to roll out soon.
+The company has also added support for Defender VPN on Windows and macOS systems and made it available in Germany and Canada. More countries will be added in the upcoming months.
+"We're adding privacy protection to ten additional countries in Europe, Asia, and LATAM regions soon," said Microsoft.
+First introduced one year ago in September 2023 on Android devices in the United States, privacy protection is a feature included with Microsoft Defender for individuals.
+It's important to note that Microsoft says that Defender VPN will send anonymized service data to the company's servers but won't collect browsing data, history, personal details, or your device's physical location.
+This anonymized service data contains details like the duration of the VPN's use, the amount of VPN bandwidth used, and the Wi-Fi hotspot names detected as potentially malicious for threat research purposes (the company says the latter is only sent to its servers after user consent is provided).
+If you're not a Microsoft Defender user with a Microsoft 365 Family or Personal subscription, you can also protect yourself by enabling multi-factor authentication on as many of your accounts as possible and turning off automatic Wi-Fi connections to ensure your device doesn't connect to potentially malicious wireless networks.
+Windows Server August updates fix Microsoft 365 Defender issue
+This hardware VPN router is cheaper many software subscriptions
+Microsoft fixes Outlook email sending issue for users with many folders
+Get Office apps, OneDrive, and more with 42% off Microsoft 365
+A three-year subscription to WindScribe VPN is now down to $79

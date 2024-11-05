@@ -1,0 +1,20 @@
+
+On Thursday, K-12 school district Highline Public Schools confirmed that a ransomware attack forced it to shut down all schools in early September.
+Highline Public Schools has over 2,000 staff members and offers programs ranging from early childhood education to college preparation. It serves over 17,500 students across 34 schools in the Burien, Des Moines, Normandy Park, SeaTac, and White Center communities in Washington State.
+After discovering evidence of unauthorized activity on its network following a September 7 security breach, the school district was forced to shut down all schools and cancel school activities.
+Highline's central office remained open, and staff were instructed to report for work. The district also started investigating the attack's impact and working to restore systems with help from third-party, state, and federal partners.
+"In response, a third-party cybersecurity forensic specialist was engaged, and an investigation was launched, which confirmed that the unauthorized activity was a form of ransomware," the school district said this week.
+"We notified the FBI of this activity, and we are working to support their investigation. Due to the nature of the investigation, we cannot comment on any potential law enforcement investigation at this time."
+The district is still rebuilding affected network systems to come back online and says it will start re-imaging all student and staff devices starting October 14.
+"We are working to rebuild our network systems. Beginning the week of October 14, technology services staff will prompt all staff and students to update their network passwords. Additionally, we will re-image all district-provided Windows devices," it added.
+"We expect to restore access to several of our network tools during the week of October 14. We are prioritizing access to tools that are authenticated through ClassLink."
+The only devices that won't have to be re-imaged are Chromebooks and Apple devices, although tech staff and students will first have to reset passwords before using them.
+No other details are available regarding the ransomware operation behind last month's cyberattack, and it's currently unclear whether any personal information belonging to staff or students was exposed or stolen in the incident. However, as a precaution, the district provides all Highline employees one year of free credit and identity monitoring services.
+The ransomware attack on Highline Public Schools' network is the latest in a series of cyberattacks that have affected school districts and systems across North America and worldwide.
+For instance, the Toronto District School Board (TDSB)—the fourth largest school board in North America and the largest in Canada—warned in June that it was hit by a ransomware attack that impacted its software testing environment.
+In June, attackers also breached the Mobile Guardian digital classroom management platform and remotely wiped datafrom around 13,000 iPads and Chromebooks used by students across North America, Europe, and Singapore.
+Highline Public Schools closes schools following cyberattack
+US Marshals Service disputes ransomware gang's breach claims
+MoneyGram: No evidence ransomware is behind recent cyberattack
+US sanctions crypto exchanges used by Russian ransomware gangs
+Russian operators of cybercrime money laundering platforms charged in the U.S.

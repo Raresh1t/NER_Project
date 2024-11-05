@@ -1,0 +1,31 @@
+
+A Linux malware named "perfctl" has been targeting Linux servers and workstations for at least three years, remaining largely undetected through high levels of evasion and the use of rootkits.
+According to Aqua Nautilus researchers who discovered perfctl, the malware likely targeted millions of Linux servers in recent years and possibly caused infections in several thousands of them.
+This is based on numerous reports by victims of the malware submitted to online discussion forums, all containing indicators of compromise exclusively associated with perfctl activity.
+According to Aqua Nautilus, the primary purpose of perfctl is for cryptomining, using the compromised servers to mine the hard-to-trace Monero cryptocurrency. However, it could be easily used for more damaging operations.
+Aqua Nautilus believes that the threat actors exploit misconfigurations or exposed secrets to breach Linux servers. These misconfigurations range from publicly accessible files that contain credentials to exposed login interfaces.
+The researchers have also observed exploitation of CVE-2023-33246, a remote command execution impacting Apache RocketMQ versions 5.1.0 and older, and CVE-2021-4034 (PwnKit), an elevation of privilege flaw in Polkit.
+Once initial access is established, the packed and obfuscated payload, named "httpd," is downloaded from the attacker's server and executed. It then copies itself in the /tmp directory under the "sh" name and then deletes the original binary.
+The new process assumes the same name ("sh"), essentially blending with normal Linux system operations.
+Additional copies are created in other system locations, such as "/root/.config," "/usr/bin/" and "usr/lib" to ensure persistence in the case of a cleanup.
+When launched, perfctl opens a Unix socket for internal communications and establishes an encrypted channel with the threat actor's servers over TOR, making it impossible to decipher the exchange.
+It then drops a rootkit named 'libgcwrap.so' which hooks into various system functions to modify authentication mechanisms and intercept network traffic as needed to facilitate evasion.
+Additional userland rootkits are also deployed, replacing the ldd, top, crontab, and lsof utilities with trojanized versions, again, preventing direct detection of the malware's activities.
+Finally, an XMRIG miner is dropped onto the system and executed to mine Monero using the server's CPU resources.
+The cryptominer communicates with the set mining pools over TOR, so the network traffic is obscured, and the profits cannot be traced.
+In some cases, Aqua Nautilus has also seen the deployment of proxy-jacking software giving the attackers an additional monetization route, selling unused network bandwidth through Bitping, Repocket, Speedshare, and other similar services.
+Most users become suspicious that their servers are infected after they notice that the CPU is at 100% utilization due to the it mining for cryptocurrency.
+However, the malware is highly evasive, carrying out the mining activities until a user logs into the server, which causes it to stop immediately and wait until the server is idle again.
+"I only became aware of the malware because my monitoring setup alerted me to 100% CPU utilization," reported a user on Reddit.
+"However, the process would stop immediately when I logged in via SSH or console. As soon as I logged out, the malware would resume running within a few seconds or minutes."
+Using rootkits also makes it difficult to remove as the processes are hidden from userland utilities and normal malware removal techniques, commonly requiring users to take it offline or boot via a live CD to inspect the filesystem.
+However, as the infection modifies and replaces legitimate Linux files, the best suggestion is to wipe and reinstall the device to ensure that nothing is left behind.
+Aqua Nautilus proposes several ways for detecting and stopping perfctl, which fall into four main categories: system monitoring, network traffic analysis, file and process integrity monitoring, and proactive mitigation.
+Regarding detection, the following tips are provided by Aqua Nautilus:
+System admins should ensure that all known flaws on internet-facing applications such as RocketMQ servers (CVE-2023-33246) and Polkit (CVE-2021-4043) are patched.
+Also, it would be effective to turn off unused HTTP services, use role-based access controls, and apply the 'noexec' option to critical directories like '/tmp' and '/dev.shm.'
+New Linux malware Hadooken targets Oracle WebLogic servers
+GitHub comments abused to push password stealing malware masked as fixes
+Stealthy 'sedexp' Linux malware evaded detection for two years
+Man pleads guilty to stealing $37 million in crypto from 571 victims
+US sanctions crypto exchanges used by Russian ransomware gangs

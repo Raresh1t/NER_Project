@@ -1,0 +1,16 @@
+
+Two Chinese nationals were sentenced to prison for scamming Apple out of more than $2.5 million after exchanging over 6,000 counterfeit iPhones for authentic ones.
+Between July 2017 and December 2019, Haotian Sun, Pengfei Xue, and their co-conspirators, Wen Jin Gao and Dian Luo, exploited Apple's device replacement policy to replace non-functioning fake iPhones for genuine devices.
+Their goal was to "unjustly enrich themselves by fraudulently obtaining authentic iPhones from Apple after submitting inauthentic iPhones to Apple for repair and replacement," according to the court documents.
+The counterfeit iPhones were shipped from Hong Kong to commercial mail receiving agency (CMRA) mailboxes in United Parcel Service (UPS) stores in the United States. To open these mailboxes, they used their actual university identification cards and driver's licenses.
+As discovered by the investigators, they submitted these fake iPhones with spoofed IMEIs and serial numbers to Apple retail stores and Apple Authorized Service Providers.
+Apple sent them replacement iPhones via private and commercial interstate carriers (including FedEx, DLH, and UPS). The devices were then shipped back to Hong Kong, where they were sold, and the proceeds were shared among the conspirators.
+Their return fraud scheme was possible because Apple customers can return faulty iPhones via mail, at Apple retail stores, or through Apple Authorized Service Providers and exchange them for new ones within one year of purchase under the company's warranty service and handset replacement program.
+"Members of the conspiracy submitted more than 6,000 inauthentic phones to Apple during the conspiracy, causing a loss of more than $2.5 million," the Justice Department said in a press release published today.
+Sun and Xue were arrested by U.S. postal inspectors in December 2019 and were both convicted of mail fraud and conspiracy to commit mail fraud in February.
+Sun was sentenced to 57 months in prison and three years of supervised release, while Xue received a 54-month prison sentence followed by three years of supervised release. The court also ordered them to pay Apple $1,072,200 and $397,800 in restitution, respectively.
+FBI: Reported cryptocurrency losses reached $5.6 billion in 2023
+‘Pig butchering’ trading apps found on Google Play, App Store
+macOS Sequoia change breaks networking for VPN, antivirus software
+Suspects behind $230 million cryptocurrency theft arrested in Miami
+Apple pulls iPadOS 18 update bricking M4 iPad Pro devices

@@ -1,0 +1,19 @@
+
+Canadian video game developer Red Barrels is warning that the development of its Outlast games will likely be delayed after the company suffered a cyberattack impacting its internal IT systems and data.
+Although the statement emphasizes that the attack has not affected player data, the production timeline has been impacted.
+"The Red Barrels team regrets to announce that its internal IT systems were recently impacted by a cybersecurity event, involving access to some of its data," reads a statement on Red Barrel's website.
+"As soon as the event was detected, measures were deployed to secure the systems and the information contained therein. A group of leading external cybersecurity experts has been mandated to conduct an in-depth investigation into the incident."
+"We also notified stakeholders potentially affected by the event and the relevant authorities. As a precautionary measure our employees have been offered appropriate support."
+Red Barrels is a gaming studio founded in 2011 by industry veterans who have previously worked on successful titles such as Prince of Persia, Assassin's Creed, and Splinter Cell.
+The studio is best known for creating the Outlast series, a popular survival horror franchise with its third and latest installment, The Outlast Trials, released in March 2024.
+This title is specifically mentioned in the Red Barrels announcement, presumably to prepare players for delays in the delivery of patches, updates, and new content.
+The team previously teased Outlast 3, indicating they were already developing the next installment. While no release date has been confirmed, recent events will naturally affect the production timeline.
+"The hit on our production timeline has been significant. We will do our best to follow our roadmap, but unfortunately, some things will have to be delayed," continued Red Barrel's statement.
+The gaming studio says its investigation into the incident has been completed, and the breach has been contained, promising to continue implementing security measures that will protect its players' and internal data.
+It is unclear if the hackers who performed the attack stole game source code or other assets related to upcoming projects that could damage the studio if leaked publicly.
+BleepingComputer contacted Red Barrels to request more information about the attack and its impact, and we will update this story as soon as we know more.
+Disney ditching Slack after massive July data breach
+Xerox says subsidiary XBS U.S. breached after ransomware gang leaks data
+DICK'S shuts down email, locks employee accounts after cyberattack
+CSC ServiceWorks discloses data breach after 2023 cyberattack
+Comcast and Truist Bank customers caught up in FBCS data breach

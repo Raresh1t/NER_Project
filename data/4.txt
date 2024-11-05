@@ -1,0 +1,20 @@
+
+Threat actors target Middle Eastern organizations with malware disguised as the legitimate Palo Alto GlobalProtect Tool that can steal data and execute remote PowerShell commands to infiltrate internal networks further.
+Palo Alto GlobalProtect is a legitimate security solution offered by Palo Alto Networks that provides secure VPN access with multi-factor authentication support. Organizations widely use the product to ensure remote employees, contractors, and partners can securely access private network resources.
+Using Palo Alto GlobalProtect as bait shows the attackers' targeting focuses on high-value corporate entities using enterprise software rather than random users.
+Researchers at Trend Micro who discovered this campaign have no insight into how the malware is delivered, but based on the lure used, they believe the attack starts with a phishing email.
+The victim executes a file named 'setup.exe' on their system, which deploys a file called 'GlobalProtect.exe' along with configuration files.
+At this stage, a window resembling a normal GlobalProtect installation process appears, but the malware quietly loads on the system in the background.
+Upon execution, it checks for signs of running on a sandbox before executing its primary code. Then, it transmits profiling information about the breached machine onto the command and control (C2) server.
+As an additional evasion layer, the malware uses AES encryption on its strings and data packets to be exfiltrated to the C2.
+The C2 address seen by Trend Micro used a newly registered URL containing the "sharjahconnect" string, making it appear like a legitimate VPN connection portal for Sharjah-based offices in the United Arab Emirates.
+Considering the campaign's targeting scope, this choice helps the threat actors blend with normal operations and reduce red flags that could raise the victim's suspicion.
+Beacons sent out at periodic intervals are employed to communicate the malware status with the threat actors in the post-infection phase using the Interactsh open-source tool.
+While Interactsh is a legitimate open-source tool commonly used by pentesters, its related domain, oast.fun, has also been observed in APT-level operations in the past, like in APT28 campaigns. However, no attribution was given in this operation using the Palo Alto product lure.
+The commands received from the command and control server are:
+Trend Micro notes that, while the attackers remain unknown, the operation appears highly targeted, using custom URLs for the targeted entities and freshly registered C2 domains to evade blocklists.
+GitHub comments abused to push password stealing malware masked as fixes
+New Voldemort malware abuses Google Sheets to store stolen data
+Stealthy 'sedexp' Linux malware evaded detection for two years
+Hackers use PHP exploit to backdoor Windows systems with new malware
+Azure domains and Google abused to spread disinformation and malware

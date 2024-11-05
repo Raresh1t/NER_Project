@@ -1,0 +1,19 @@
+
+​Russian law enforcement detained almost 100 suspects linked to the Cryptex cryptocurrency exchange, the UAPS anonymous payment service, and 33 other online services and platforms used to make illegal payments and sell stolen credentials.
+Following 148 raids, 96 individuals were arrested and charged with organizing and participating in a criminal organization, unlawful access to computer information, illegal payment processing, and illegal banking activities.
+"According to investigators, in 2013, defendants, possessing knowledge in the field of banking, created a criminal community to commit crimes and personal enrichment," according to a press release issued by the Investigative Committee of the Russian Federation (ICR), the leading federal investigating authority in Russia.
+"The accomplices carried out illegal activities in exchanging currencies and cryptocurrencies, delivering and accepting cash, and selling bank cards and personal accounts. The main clients of these services were cybercriminals and hackers who used them to legalize their criminal income."
+Ministry of Internal Affairs Irina Volk told Interfax that "the defendants issued bank cards and provided access to transactions through a personal online account."
+Russian investigators found that in 2023 alone, the criminal network's services processed over 112 billion rubles (just over $1.1 billion), generating 3.7 billion rubles (around $38.7 million) in illicit income for those involved.
+According to ICR spokesperson Svetlana Petrenko, assets seized during this action include over 1.5 billion rubles, Robinson helicopters, luxury vehicles (including Bentley, Rolls Royce, Porsche, and Tesla Cybertruck cars), boats, and snowmobiles.
+As sources in Russian Law enforcement agencies told Interfax, one of the key suspects arrested in this week's action is Russian money launderer Sergey Ivanov (also known by his 'Taleon' online handle), who was sanctioned by the U.S. Treasury Department's Office of Foreign Assets Control (OFAC) last week.
+The Treasury Department believes that Ivanov's UAPS, PinPays, and PM2BTC services helped process hundreds of millions of dollars for ransomware actors, darknet marketplace vendors, initial access brokers, and other threat actors over the last two decades.
+Ivanov and his associate Timur Shakhmametov (aka JokerStash and Vega) were also charged by the Justice Department with money laundering, bank fraud, and running multiple websites that sell stolen credit card information and personal data.
+According to the U.S. DOJ, Shakhmametov was a Joker's Stash operator, one of the largest online carding markets that made profits of up to $1 billion between 2014 and 2021, when it was shut down.
+The U.S. Department of State now also offers a reward of up to $11 million through its Transnational Organized Crime Rewards Program for information that could help arrest or convict Ivanov and Timur Shakhmametov.
+Last week, Dutch authorities seized PM2BTC and Cryptex servers and over $7 million in cryptocurrency, while German law enforcement seized 47 cryptocurrency exchange platforms used to launder money for cybercriminals, including ransomware gangs.
+US sanctions crypto exchanges used by Russian ransomware gangs
+Suspects behind $230 million cryptocurrency theft arrested in Miami
+Wix to block Russian users starting September 12
+US cracks down on Russian disinformation before 2024 election
+Russian operators of cybercrime money laundering platforms charged in the U.S.

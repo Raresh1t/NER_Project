@@ -1,0 +1,18 @@
+
+The Federal Communications Commission (FCC) announced a $31.5 million settlement with T-Mobile over multiple data breaches that compromised the personal information of millions of U.S. consumers.
+This agreement resolves the FCC Enforcement Bureau investigations into several cybersecurity incidents and resulting data breaches that impacted T-Mobile's customers in 2021, 2022, and 2023 (an API incident and a sales application breach).
+As part of the settlement, the telecom carrier must invest $15.75 million in cybersecurity enhancements and pay the U.S. Treasury an additional $15.75 million civil penalty.
+The company has also committed to implementing more robust security measures, including adopting modern cybersecurity frameworks like zero-trust architecture and multi-factor authentication that resists phishing attacks.
+"Today's mobile networks are top targets for cybercriminals. Consumers' data is too important and much too sensitive to receive anything less than the best cybersecurity protections," said FCC Chairwoman Jessica Rosenworcel.
+"We will continue to send a strong message to providers entrusted with this delicate information that they need to beef up their systems or there will be consequences."
+As part of the agreement, T-Mobile has committed to enhance privacy, data security, and cybersecurity practices by addressing foundational security flaws, improving cyber hygiene, and adopting robust modern architectures by:
+"With companies like T-Mobile and other telecom service providers operating in a space where national security and consumer protection interests overlap, we are focused on ensuring critical technical changes are made to telecommunications networks to improve our national cybersecurity posture and help prevent future compromises of Americans' sensitive data," Loyaan A. Egal, Chief of FCC's Enforcement Bureau, added.
+The FCC's Privacy and Data Protection Task Force, established in 2023 by Chairwoman Rosenworcel, played a central role in the investigation and settlement, just as it did when the FCC reached similar settlements with AT&T in September 2024 ($13 million) and Verizon on behalf of its subsidiary TracFone Wireless in July 2024 ($16 million).
+The FCC has also fined the largest U.S. wireless carriers almost $200 million in April 2024 for sharing their customers' real-time location data without their consent.
+The April forfeiture orders finalized Notices of Apparent Liability (NAL) issued against AT&T, Sprint, T-Mobile, and Verizon in February 2020 and slapped each of the four carriers with multi-million fines: $12 million for Sprintand $80 million for T-Mobile (the two carriers have merged since the investigation began), more than $57 million for AT&T, and an almost $47 million fine for Verizon.
+In February, the FCC also updated its data breach reporting rules to require telecom companies to report data breaches impacting their customers' personally identifiable information within 30 days.
+AT&T pays $13 million FCC settlement over 2023 data breach
+23andMe to pay $30 million in genetics data breach settlement
+Comcast and Truist Bank customers caught up in FBCS data breach
+Outlast game development delayed after Red Barrels cyberattack
+Dutch Police: ‘State actor’ likely behind recent data breach

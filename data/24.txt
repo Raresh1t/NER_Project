@@ -1,0 +1,21 @@
+
+CISA warned today that a critical Ivanti vulnerability that can let threat actors gain remote code execution on vulnerable Endpoint Manager (EPM) appliances is now actively exploited in attacks.
+Ivanti EPM is an all-in-one endpoint management solution that helps admins manage client devices on various platforms, including Windows, macOS, Chrome OS, and IoT operating systems.
+Tracked as CVE-2024-29824, this SQL Injection vulnerability in Ivanti EPM's Core server that unauthenticated attackers within the same network can exploit to execute arbitrary code on unpatched systems. 
+Ivanti released security updates to patch this security flaw in May, when it also addressed five other remote code execution bugs in EPM's Core server, all impacting Ivanti EPM 2022 SU5 and prior.
+Horizon3.ai security researchers published a CVE-2024-29824 deep dive in June and released a proof-of-concept exploit on GitHub that can be used to "blindly execute commands on vulnerable Ivanti EPM appliances."
+They also advised admins looking for signs of potential exploitation on their appliances to review MS SQL logs for evidence of xp_cmdshell being used to obtain command execution. 
+Today, Ivanti updated the original security advisory to state that it "has confirmed exploitation of CVE-2024-29824 in the wild."
+"At the time of this update, we are aware of a limited number of customers who have been exploited," the company added.
+On Tuesday, CISA followed suit and added the Ivanti EPM RCE flaw to its Known Exploited Vulnerabilities catalog, tagging it as actively exploited.
+Federal Civilian Executive Branch (FCEB) agencies now must secure vulnerable appliances within three weeks by October 23, as required by  Binding Operational Directive (BOD) 22-01) requires,
+While CISA's KEV catalog is primarily designed to alert federal agencies of vulnerabilities they should patch as soon as possible, organizations worldwide should also prioritize patching this vulnerability to block ongoing attacks.
+Multiple Ivanti vulnerabilities have been exploited as zero-day flaws in widespread attacks in recent months, targeting the company's VPN appliances and ICS, IPS, and ZTA gateways. 
+Last month, Ivanti warned that threat actors were chaining two recently fixed Cloud Services Appliance (CSA) vulnerabilities to attack unpatched appliances.
+In response, Ivanti announced in September that it's working to improve its responsible disclosure process and testing capabilities to address such security threats more quickly.
+Ivanti partners with over 7,000 organizations to deliver system and IT asset management solutions to more than 40,000 companies globally.
+Ivanti fixes maximum severity RCE bug in Endpoint Management software
+Critical Progress WhatsUp RCE flaw now under active exploitation
+CISA warns of actively exploited Apache HugeGraph-Server bug
+Exploit code released for critical Ivanti RCE flaw, patch now
+CISA warns critical SolarWinds RCE bug is exploited in attacks

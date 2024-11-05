@@ -1,0 +1,20 @@
+
+DrayTek has released security updates for multiple router models to address 14 vulnerabilities of varying severity, including a remote code execution flaw that received the maximum CVSS score of 10.
+The flaws, which Forescout Research – Vedere Labs discovered, impact both actively supported and models that have reached end-of-life. However, due to the severity, DrayTek has provided fixes for routers in both categories.
+The researchers warned that their scans revealed that approximately 785,000 DrayTek routers might be vulnerable to the newly discovered set of flaws, with over 704,500 having their web interface exposed to the internet.
+Most vulnerabilities discovered by Vedere Labs are medium-severity buffer overflow and cross-site scripting problems dictated by several exploitation requirements.
+However, five of the flaws carry significant risks, requiring immediate attention. Those are summarized as follows:
+As of yet, there have been no reports of active exploitation of these flaws, and the publication of analytical details has been withheld to allow users enough time to apply the security updates.
+The above flaws impact 24 router models, of which 11 have reached the end of life yet still received fixes.
+The impacted models and target firmware versions to upgrade to can be seen in the table below.
+
+Users may download the latest firmware for their device model from DrayTek's official download portal.
+Verdere Labs reports that it found over 704,500 devices have the DrayTek Vigor Web user interface exposed to the internet, though it should only be accessible from a local network. 
+Nearly half of the devices under Forescout's direct visibility are located in the United States, but Shodan results show significant numbers in the United Kingdom, Vietnam, the Netherlands, and Australia.
+Apart from applying the latest firmware updates, users are recommended to take the following actions:
+All DrayTek users should confirm that their device's remote access console is disabled, as exploits and brute force attacks commonly target those services.
+Zyxel warns of critical OS command injection flaw in routers
+D-Link fixes critical RCE, hardcoded password flaws in WiFi 6 routers
+Flipper Zero releases Firmware 1.0 after three years of development
+D-Link says it is not fixing four RCE flaws in DIR-846W routers
+Cisco warns of critical RCE zero-days in end of life IP phones

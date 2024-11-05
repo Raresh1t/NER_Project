@@ -1,0 +1,20 @@
+
+Fake trading apps on Google Play and Apple's App Store lure victims into “pig butchering” scams that have a global reach.
+The apps have been removed from the official Android and iOS stores after accumulating several thousand downloads, say researcher at cybersecurity company Group-IB, who discovered the fraud.
+Pig butchering is the name of a scam where the victim is led to believe they are getting high investment returns on a fake trading platform that displays fabricated information. Fraudsters use social engineering to keep the victim depositing funds and prevent them from withdrawing the displayed "profit."
+The scam is revealed when the victim attempts to cash their money, which the fraudsters have already moved to their accounts.
+The fraudulent apps, which Group-IB categorizes under the “UniShadowTrade” malware family, are built using the UniApp framework and were first spotted in May.
+Their names are SBI-INT (iOS), Finans Insights (Android), Finans Trader6 (Android) and a look at the download counter for the last two shows that they were downloaded 5,000 times.
+Group-IB also warns that the UniShadow Trade apps can mimick a variety of legitimate cryptocurrency and trading platforms, providing the following extensive list with potential names that could be used in impersonation attempts.
+The researchers report that the apps were disguised as tools for "algebraic mathematical formulas and 3D graphics volume area calculations" on iOS, and as financial news feed aggregators on Android
+However, after installation they redirected victims to fake trading platforms accessible only via invitation codes.
+According to the researchers, the fraudsters groomed their victims in conversations over dating apps and used social engineering to gain their trust.
+The apps requested that users uploaded several documents, such as national IDs and passports, both to add legitimacy to the investment process and also to further empower the threat actors with sensitive information theft.
+After the removal of the fraudulent apps from the app stores in June, the threat actors moved the distribution operation to phishing websites, showing no signs of stopping.
+To stay clear from fraudulent investment schemes, it is recommended to do some research before deciding to work with an investment platform, such as checking the background and history (financial records, past performance, reputation), or if it is regulated by a locally or globally-recognized authority.
+Users should at least be wary of unsolicited messages and URLs promising high investment returns, since scams are typically promoted this way.
+Google removes Kaspersky's antivirus software from Play Store
+Fake WalletConnect app on Google Play steals Android users’ crypto
+Android malware 'Necro' infects 11 million devices via Google Play
+FBI: Reported cryptocurrency losses reached $5.6 billion in 2023
+Russian APT29 hackers use iOS, Chrome exploits created by spyware vendors
