@@ -48,15 +48,17 @@ def tokenize_text_files(text_files_dir, tokenizer, max_length=512):
                 text = file.read()
                 
                 # Tokenize the text and truncate it to the max length
-                tokens = tokenizer.tokenize(text)[:max_length]  # Tokenize and truncate
+                tokens = tokenizer(text, return_offsets_mapping=True) # Tokenize and truncate
+                offsets = tokens.offset_mapping[:max_length-1]
+                tokens = tokens.input_ids
                 token_ids = tokenizer.encode(text)            # Creates tokenized IDs of text
 
                 truncated_text = tokenizer.decode(token_ids, skip_special_tokens=True, clean_up_tokenization_spaces=True)  # Convert back to text
 
                 tokenized_data.append({
-                    'text': truncated_text,  # Truncated text
-                    'tokens': tokens,  # Truncated tokens
-                    'token_ids': token_ids  # Token IDs truncated to max_length
+                    'text': truncated_text,  # Truncated text  
+                    'token_ids': token_ids,  # Token IDs truncated to max_length
+                    'offsets' : offsets
                 })
     
     return tokenized_data
@@ -141,7 +143,7 @@ def apply_label_mapping_to_gold_labels(tokenized_gold_labels, label_mapping):
 
 
 ### PREDICT ENTITIES FUNCTION
-def predict_entities(ner_model, tokenized_data, max_length=512):
+def predict_entities(ner_model, tokenized_data):
     """
     Predict entities using the pre-trained NER model on tokenized and truncated data.
     
@@ -153,8 +155,8 @@ def predict_entities(ner_model, tokenized_data, max_length=512):
     predicted_entities = []
     
     for item in tokenized_data:
-        full_text = item['text']
-        truncated_text = full_text[:max_length]  # Truncate the text to the max length
+        truncated_text = item['text']
+        offsets = item['offsets']
         
         # Run the model on the truncated text
         predictions = ner_model(truncated_text)
@@ -162,8 +164,8 @@ def predict_entities(ner_model, tokenized_data, max_length=512):
         processed_predictions = []
         for entity in predictions:
             processed_predictions.append({
-                'start': entity.get('start', None),  # Safely get start position
-                'end': entity.get('end', None),  # Safely get end position
+                'start': offsets[entity.get('index', None)][0],  # Safely get start position
+                'end': offsets[entity.get('index', None)][1],  # Safely get end position
                 'type': entity.get('entity', None),  # Entity type (e.g., ORG, LOC, etc.)
                 'text': entity.get('word', None)  # The word corresponding to the entity
             })
