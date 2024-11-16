@@ -9,15 +9,6 @@ from sklearn.metrics import precision_recall_fscore_support
 
 ### LABEL MAP FOR CUSTOM LABELS
 label_mapping = {
-    #['ORG', 'MAL-ORG']: 'I-ORG',
-    #'ORG': ['ORG', 'MAL-ORG'],
-    #'I-ORG': ['ORG', 'MAL-ORG'],
-    #'PER': ['PER'],
-    #'I-PER': ['PER'],
-    #'LOC': ['LOC'],
-    #'I-LOC': ['LOC'],
-    #'MISC': ['Event', 'Software', 'CVE', 'Malware', 'MISC'],
-    #'I-MISC': ['Event', 'Software', 'CVE', 'Malware', 'MISC'],
     'MAL-ORG': 'I-ORG',  # Map MAL-ORG to I-ORG
     'ORG': 'I-ORG',       # Map ORG to I-ORG
     'PER': 'I-PER',       # Map PERSON entities to I-PER
@@ -82,27 +73,22 @@ def tokenize_gold_labels(json_file_path, tokenizer, max_length=512):
     # Process each item in the reconstructed gold labels
     for item in gold_labels:
         full_text = item['text']    # get the text from the gold
-        tokenized_text = tokenizer.tokenize(full_text)[:max_length]  # Tokenize and truncate if necessary
-        tokenized_encoded = tokenizer.encode(full_text)[:max_length]
-        decoded_text = tokenizer.decode(tokenized_encoded, skip_special_tokens=True, clean_up_tokenization_spaces=True)
 
         tokenized_entities = []
         for entity in item['entities']:
             start, end = entity['start'], entity['end']
-            text = tokenized_text
+            text = entity['text']
 
-            # Truncate entities if the start or end exceeds max_length
-            if start < max_length and end <= max_length:
-                tokenized_entities.append({
-                    'start': start,
-                    'end': end,
-                    'type': entity['type'],
-                    'tokenized_text': text
-                })
+            tokenized_entities.append({
+                'start': start,
+                'end': end,
+                'type': entity['type'],
+                'text': text
+            })
         
         # Append the tokenized text and entities
         tokenized_gold_labels.append({
-            'text': decoded_text,  # Truncated full text if needed
+            'text': full_text,  # Truncated full text if needed
             'entities': tokenized_entities
         })
 
@@ -131,6 +117,7 @@ def apply_label_mapping_to_gold_labels(tokenized_gold_labels, label_mapping):
                 'start': entity['start'],
                 'end': entity['end'],
                 'type': iob_label,  # Use the mapped IOB label
+                'text': entity['text']
             })
 
         mapped_gold_labels.append({
@@ -177,7 +164,7 @@ def predict_entities(ner_model, tokenized_data):
 
     return predicted_entities
 
-### MAP AND PREPROCESS PREDICTIONS
+### MAP AND PREPROCESS PREDICTIONS, deprecated
 """ def map_and_preprocess_predictions(predicted_entities, label_mapping):
     processed_predictions = []
     for pred in predicted_entities:
@@ -199,14 +186,14 @@ def predict_entities(ner_model, tokenized_data):
         processed_predictions.append(mapped_pred)
     return processed_predictions """
 
-def map_and_preprocess_predictions(predicted_entities):
-    """
+""" def map_and_preprocess_predictions(predicted_entities):
+    ""
     Preprocess the predicted entities to ensure they include start and end positions,
     without applying any label mapping since the labels are already in IOB format.
     
     :param predicted_entities: List of predicted entities from the model.
     :return: Processed predictions with start and end positions.
-    """
+    ""
     processed_predictions = []
 
     for pred in predicted_entities:
@@ -228,7 +215,35 @@ def map_and_preprocess_predictions(predicted_entities):
             'entities': processed_entities
         })
 
-    return processed_predictions
+    return processed_predictions """
+
+def consolidate_predictions(input):
+    new_entity_list = []
+    index = 0
+    entities = input[index].entities
+    entity = input[index]
+    temporary_text = ""
+
+    for i in range(len(entities)):
+        if not entity:
+           break
+        if entities[i][0] >= entity['start']:
+            temporary_text += entity['text']
+
+            if entities[i][1] == entity['end']:
+                datapoint = {
+                    "text": temporary_text,
+                    "type": entity['type'],
+                    "start": entity['start'],
+                    "end": entity['end']
+                }
+                new_entity_list.append(datapoint)
+
+                temporary_text = ""
+                index += 1
+                entity = entities[index] if index < len(entities) else None
+            
+    return new_entity_list
 
 
 # EVALUATE FUNCTION
@@ -327,12 +342,17 @@ def main():
     
     # PREDICT ENTITIES USING PRE-TRAINED MODEL
     predicted_entities = predict_entities(ner_model, tokenized_unlabeled_data)
+    print(predicted_entities[0])
     
-    # APPLY MAPPING AND PREPROCESSING
-    mapped_predictions = map_and_preprocess_predictions(predicted_entities)
+    # APPLY MAPPING AND PREPROCESSING, deprecated
+    #mapped_predictions = map_and_preprocess_predictions(predicted_entities)
+    #print(mapped_predictions[0])
+
+    aligned_entities = consolidate_predictions(predicted_entities)
+    print(aligned_entities[0])
     
     # EVALUATE
-    precision, recall, f1 = evaluate(mapped_gold_labels, mapped_predictions)
+    precision, recall, f1 = evaluate(mapped_gold_labels, predicted_entities)
     print(f"Precision: {precision:.4f}, Recall: {recall:.4f}, F1 Score: {f1:.4f}")
     
     # SAVE RESULTS
