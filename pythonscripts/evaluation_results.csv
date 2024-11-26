@@ -1,2 +1,2 @@
 Model Name,Run Time (seconds),Run Date,Precision,Recall,F1 Score,Additional Stats
-dbmdz/bert-large-cased-finetuned-conll03-english,25.591196060180664,2024-11-13 16:14:14,0.0,0.0,0.0,{}
+dbmdz/bert-large-cased-finetuned-conll03-english,25.478474855422974,2024-11-26 18:05:02,0.00042643923240938164,0.0004051863857374392,0.00041554124246831497,{}

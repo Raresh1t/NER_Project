@@ -164,86 +164,73 @@ def predict_entities(ner_model, tokenized_data):
 
     return predicted_entities
 
-### MAP AND PREPROCESS PREDICTIONS, deprecated
-""" def map_and_preprocess_predictions(predicted_entities, label_mapping):
-    processed_predictions = []
-    for pred in predicted_entities:
-        text = pred['text']
-        entities = pred['entities']
-        
-        # Apply label mapping
-        mapped_pred = {'text': text, 'entities': []}
-        for entity in entities:
-            model_label = entity['type']
-            mapped_labels = label_mapping.get(model_label, [model_label])  # Default to model label if no mapping found
-            for mapped_label in mapped_labels:
-                mapped_pred['entities'].append({
-                    'start': entity['start'],
-                    'end': entity['end'],
-                    'type': mapped_label,
-                    'text': entity['text']
-                })
-        processed_predictions.append(mapped_pred)
-    return processed_predictions """
+def process_predicted_ents(predicted_entities):
+    processed_results = []
 
-""" def map_and_preprocess_predictions(predicted_entities):
-    ""
-    Preprocess the predicted entities to ensure they include start and end positions,
-    without applying any label mapping since the labels are already in IOB format.
-    
-    :param predicted_entities: List of predicted entities from the model.
-    :return: Processed predictions with start and end positions.
-    ""
-    processed_predictions = []
+    for predicted_ents in predicted_entities:
+        text = predicted_ents["text"]
+        entities = predicted_ents["entities"]
 
-    for pred in predicted_entities:
-        text = pred['text']
-        entities = pred['entities']
+        merged_entities = new_extract_entities_from_tokens(text, entities)
 
-        processed_entities = []
-        for entity in entities:
-            # Ensure each entity has start, end, type, and text attributes
-            processed_entities.append({
-                'start': entity.get('start'),  # Safely get start position
-                'end': entity.get('end'),      # Safely get end position
-                'type': entity.get('type'),    # Entity type (e.g., I-ORG, I-LOC, etc.)
-                'text': entity.get('text')     # The text of the entity
-            })
-
-        processed_predictions.append({
-            'text': text,
-            'entities': processed_entities
+        processed_results.append({
+            "text": text,
+            "merged_entities": merged_entities
         })
+    return processed_results
 
-    return processed_predictions """
+def new_extract_entities_from_tokens(text, entities):
+    """
+    Identify and group continuous tokens into a single entity based on start and end indexes.
 
-def consolidate_predictions(input):
-    new_entity_list = []
-    index = 0
-    entities = input[index].entities
-    entity = input[index]
-    temporary_text = ""
+    :param text: Input text for tokenization.
+    :param entities: List of entities with start, end, type, and text fields.
+    :return: List of merged entities with aligned start and end positions.
+    """
+    # Initialize variables to store the results
+    merged_entities = []
+    temp_text = "" # Temporary storage for concatenating tokens within the same entity span
+    temp_types = [] # Temporary storage for entity types
+    start_pos = None # Start pos of curr entity
+    end_pos = None # End pos for current entity
 
-    for i in range(len(entities)):
-        if not entity:
-           break
-        if entities[i][0] >= entity['start']:
-            temporary_text += entity['text']
-
-            if entities[i][1] == entity['end']:
-                datapoint = {
-                    "text": temporary_text,
-                    "type": entity['type'],
-                    "start": entity['start'],
-                    "end": entity['end']
-                }
-                new_entity_list.append(datapoint)
-
-                temporary_text = ""
-                index += 1
-                entity = entities[index] if index < len(entities) else None
-            
-    return new_entity_list
+    # Loop through each token and check if it aligns with an entity
+    for entity in entities:
+        # Decode token text and clean away subword markers
+        token_text = entity["text"].replace("##", "")
+        #print(f"token text: {token_text}")
+        # If this is a new entity (not continuing the previous)
+        if not temp_text or entity["start"] != end_pos:
+            # If there exists an accumulated entity, finalize and store it
+            if temp_text:
+                # Determine majority type
+                majority_type = max(set(temp_types), key=temp_types.count)
+                merged_entities.append({
+                    "text": temp_text,
+                    "type": majority_type,
+                    "start": start_pos,
+                    "end": end_pos
+                })
+            # Either: Reset for next entity
+            temp_text = token_text
+            temp_types = [entity["type"]]
+            start_pos = entity["start"]
+            end_pos = entity["end"]
+        else:
+            # Or continue accumulating current entity
+            temp_text += token_text
+            temp_types.append(entity["type"])
+            end_pos = entity["end"]
+    # Add last accumulated entity
+    if temp_text:
+        majority_type = max(set(temp_types), key=temp_types.count)
+        merged_entities.append({
+            "text": temp_text,
+            "type": majority_type,
+            "start": start_pos,
+            "end": end_pos
+        })
+    return merged_entities
 
 
 # EVALUATE FUNCTION
@@ -253,7 +240,7 @@ def evaluate(gold_data, predicted_data):
     
     for gold, pred in zip(gold_data, predicted_data):
         gold_ents = {(ent['start'], ent['end'], ent['type']) for ent in gold['entities']}
-        pred_ents = {(ent['start'], ent['end'], ent['type']) for ent in pred['entities']}
+        pred_ents = {(ent['start'], ent['end'], ent['type']) for ent in pred['merged_entities']}
         
         # For each gold entity, check if it's in the predictions
         for entity in gold_ents:
@@ -344,20 +331,17 @@ def main():
     predicted_entities = predict_entities(ner_model, tokenized_unlabeled_data)
     print(predicted_entities[0])
     
-    # APPLY MAPPING AND PREPROCESSING, deprecated
-    #mapped_predictions = map_and_preprocess_predictions(predicted_entities)
-    #print(mapped_predictions[0])
-
-    aligned_entities = consolidate_predictions(predicted_entities)
-    print(aligned_entities[0])
+    # PROCESS PREDICTED ENTITIES AND MERGE
+    processed_predicted = process_predicted_ents(predicted_entities)
+    print(f"Processed results 0: {processed_predicted[0]}")
     
     # EVALUATE
-    precision, recall, f1 = evaluate(mapped_gold_labels, predicted_entities)
+    precision, recall, f1 = evaluate(mapped_gold_labels, processed_predicted)
     print(f"Precision: {precision:.4f}, Recall: {recall:.4f}, F1 Score: {f1:.4f}")
     
     # SAVE RESULTS
     run_time = time.time() - start_time
-    save_results(precision, recall, f1, predicted_entities, mapped_gold_labels, model_name, run_time=run_time, additional_stats=None)
+    save_results(precision, recall, f1, processed_predicted, mapped_gold_labels, model_name, run_time=run_time, additional_stats=None)
 
 
 if __name__ == "__main__":

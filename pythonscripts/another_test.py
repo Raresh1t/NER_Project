@@ -47,7 +47,7 @@ def extract_entities_from_tokens(text, entities):
                 temp_text = ""
                 index += 1
                 entity = entities[index] if index < len(entities) else None
-
+    print(f"Gold entities:{gold_entities}")
     return gold_entities
 
 
@@ -55,7 +55,36 @@ def extract_entities_from_tokens(text, entities):
 # Example input
 text = "A new ransomware-as-a-service (RaaS) operation named Cicada3301 has already listed 19 victims on its extortion portal."
 entities = [
-    {"start": 53, "end": 63, "type": "I-ORG", "text": "Cicada3301"}
+            {
+                "start": 53,
+                "end": 54,
+                "type": "I-ORG",
+                "text": "C"
+            },
+            {
+                "start": 54,
+                "end": 57,
+                "type": "I-MISC",
+                "text": "##ica"
+            },
+            {
+                "start": 57,
+                "end": 59,
+                "type": "I-MISC",
+                "text": "##da"
+            },
+            {
+                "start": 59,
+                "end": 61,
+                "type": "I-ORG",
+                "text": "##33"
+            },
+            {
+                "start": 61,
+                "end": 63,
+                "type": "I-ORG",
+                "text": "##01"
+            },
 ]
 
 # Extracted token-level entities
