@@ -1,4 +1,3 @@
-
 A new 'FakeUpdate' campaign targeting users in France leverages compromised websites to show fake browser and application updates that spread a new version of the WarmCookie backdoor.
 FakeUpdate is a cyberattack strategy used by a threat group known as 'SocGolish' who compromises or creates fake websites to show visitors fake update prompts for a variety of applications, such as web browsers, Java, VMware Workstation, WebEx, and Proton VPN.
 When users click on update prompts designed to appear legitimate, a fake update is downloaded that drops a malicious payload, like info-stealers, cryptocurrency drainers, RATs, and even ransomware.

@@ -1,4 +1,3 @@
-
 GitHub is being abused to distribute the Lumma Stealer information-stealing malware as fake fixes posted in project comments.
 The campaign was first reported by a contributor to the teloxide rust library, who noted on Reddit that they received five different comments in their GitHub issues that pretended to be fixes but were instead pushing malware.
 Further review by BleepingComputer found thousands of similar comments posted to a wide range of projects on GitHub, all offering fake fixes to other people's questions.

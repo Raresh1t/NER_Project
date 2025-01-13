@@ -1,4 +1,3 @@
-
 Cloud hosting provider Rackspace suffered a data breach exposing "limited" customer monitoring data after threat actors exploited a zero-day vulnerability in a third-party tool used by the ScienceLogic SL1 platform.
 ScienceLogic confirmed to BleepingComputer that they quickly developed a patch to address the risk and distributed it to all impacted customers while still providing assistance where needed.
 "We identified a zero-day remote code execution vulnerability within a non-ScienceLogic third-party utility that is delivered with the SL1 package," explained a statement from Jessica Lindberg, Vice President at ScienceLogic.

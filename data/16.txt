@@ -1,4 +1,3 @@
-
 The South Korea-aligned cyberespionage group APT-C-60 has been leveraging a zero-day code execution vulnerability in the Windows version of WPS Office to install the SpyGlace backdoor on East Asian targets.
 WPS Office is a productivity suite developed by the Chinese firm Kingsoft that is popular in Asia. Reportedly, it has over 500 million active users worldwide.
 The zero-day flaw, tracked as CVE-2024-7262, has been leveraged in attacks in the wild since at least late February 2024, but impacts versions from 12.2.0.13110 (August 2023) to 12.1.0.16412 (March 2024).

@@ -1,4 +1,3 @@
-
 Payment platform MoneyGram says there is no evidence that ransomware is behind a recent cyberattack that led to a five-day outage in September.
 MoneyGram is an American payment and money transfer platform that allows people to send and receive money through an extensive network of 350,000 physical locations in 200 countries or via its mobile app and website.
 MoneyGram confirmed they had suffered a cyberattack and took systems offline to contain the breach on September 20, three days after customers started reporting experiencing issues.

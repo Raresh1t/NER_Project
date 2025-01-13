@@ -1,4 +1,3 @@
-
 North Korean hackers have exploited a recently patched Google Chrome zero-day (CVE-2024-7971) to deploy the FudModule rootkit after gaining SYSTEM privileges using a Windows Kernel exploit.
 "We assess with high confidence that the observed exploitation of CVE-2024-7971 can be attributed to a North Korean threat actor targeting the cryptocurrency sector for financial gain," Microsoft said on Friday, attributing the attacks to Citrine Sleet (previously tracked as DEV-0139).
 Other cybersecurity vendors track this North Korean threat group as AppleJeus, Labyrinth Chollima, and UNC4736, while the U.S. government collectively refers to malicious actors sponsored by the North Korean government as Hidden Cobra.

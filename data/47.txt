@@ -1,4 +1,3 @@
-
 Global news agency AFP (Agence France-Presse) is warning that it suffered a cyberattack on Friday, which impacted IT systems and content delivery services for its partners.
 The news organization says the attack does not impact news coverage worldwide but has impacted some client services.
 AFP's IT staff is working with France's cybersecurity agency (ANSSI) to mitigate the attack and resolve its repercussions.

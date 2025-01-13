@@ -1,4 +1,3 @@
-
 Japan's Computer Emergency Response Center (JPCERT/CC) has shared tips on detecting different ransomware gang's attacks based on entries in Windows Event Logs, providing timely detection of ongoing attacks before they spread too far into a network.
 JPCERT/CC says the technique can be valuable when responding to ransomware attacks, and identifying the attack vector among various possibilities is crucial for timely mitigation.
 The investigation strategy proposed by JPCERT/CC covers four types of Windows Event Logs: Application, Security, System, and Setup logs.

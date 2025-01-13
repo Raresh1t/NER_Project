@@ -1,4 +1,3 @@
-
 The Federal Communications Commission (FCC) announced a $31.5 million settlement with T-Mobile over multiple data breaches that compromised the personal information of millions of U.S. consumers.
 This agreement resolves the FCC Enforcement Bureau investigations into several cybersecurity incidents and resulting data breaches that impacted T-Mobile's customers in 2021, 2022, and 2023 (an API incident and a sales application breach).
 As part of the settlement, the telecom carrier must invest $15.75 million in cybersecurity enhancements and pay the U.S. Treasury an additional $15.75 million civil penalty.

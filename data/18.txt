@@ -1,4 +1,3 @@
-
 The Browser Company has introduced an Arc Bug Bounty Program to encourage security researchers to report vulnerabilities to the project and receive rewards.
 This development comes in response to a critical remote code execution flaw, tracked as CVE-2024-45489, that could have enabled threat actors to launch mass-scale attacks against users of the program.
 The flaw allowed attackers to exploit how Arc uses Firebase for authentication and database management to execute arbitrary code on a target's browser.

@@ -1,4 +1,3 @@
-
 Users were left alarmed this week on receiving unexpected emails from Google Pay stating that they had successfully "added a new card" to their Google account.
 The notification left users panicking and voicing their concerns on social media amid concerns they had been victims of a compromise.
 For many, the payment card being referred to had been issued years ago and presently expired, which added to the confusion. 

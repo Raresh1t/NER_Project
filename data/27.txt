@@ -1,4 +1,3 @@
-
 DrayTek has released security updates for multiple router models to address 14 vulnerabilities of varying severity, including a remote code execution flaw that received the maximum CVSS score of 10.
 The flaws, which Forescout Research – Vedere Labs discovered, impact both actively supported and models that have reached end-of-life. However, due to the severity, DrayTek has provided fixes for routers in both categories.
 The researchers warned that their scans revealed that approximately 785,000 DrayTek routers might be vulnerable to the newly discovered set of flaws, with over 704,500 having their web interface exposed to the internet.

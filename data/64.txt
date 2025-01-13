@@ -1,4 +1,3 @@
-
 The Russian state-sponsored APT29 hacking group has been observed using the same iOS and Android exploits created by commercial spyware vendors in a series of cyberattacks between November 2023 and July 2024.
 The activity was discovered by Google's Threat Analysis Group (TAG), who said the n-day flaws have already been patched but remain effective on devices that have not been updated.
 APT29, also known as "Midnight Blizzard", targeted multiple websites of the Mongolian government and employed "watering hole" tactics.

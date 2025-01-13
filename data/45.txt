@@ -1,4 +1,3 @@
-
 A Linux malware named "perfctl" has been targeting Linux servers and workstations for at least three years, remaining largely undetected through high levels of evasion and the use of rootkits.
 According to Aqua Nautilus researchers who discovered perfctl, the malware likely targeted millions of Linux servers in recent years and possibly caused infections in several thousands of them.
 This is based on numerous reports by victims of the malware submitted to online discussion forums, all containing indicators of compromise exclusively associated with perfctl activity.
