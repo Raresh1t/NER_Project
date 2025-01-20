@@ -1,3 +1,4 @@
+
 Comcast Cable Communications and Truist Bank have disclosed they were impacted by a data breach at FBCS, and are now informing their respective customers that their data has been compromised.
 The case concerns a data breach at Financial Business and Consumer Solutions (FBCS), a debt collection agency in the U.S. that partners with various companies to collect unpaid debts on their behalf.
 Last April this year, FBCS informed of a data breach determined to have occurred between February 14 and February 26, 2024, when threat actors breached its network and stole the following details from its electronic records:

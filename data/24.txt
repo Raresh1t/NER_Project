@@ -1,3 +1,4 @@
+
 CISA warned today that a critical Ivanti vulnerability that can let threat actors gain remote code execution on vulnerable Endpoint Manager (EPM) appliances is now actively exploited in attacks.
 Ivanti EPM is an all-in-one endpoint management solution that helps admins manage client devices on various platforms, including Windows, macOS, Chrome OS, and IoT operating systems.
 Tracked as CVE-2024-29824, this SQL Injection vulnerability in Ivanti EPM's Core server that unauthenticated attackers within the same network can exploit to execute arbitrary code on unpatched systems. 

@@ -1,3 +1,4 @@
+
 U.S. cybersecurity agency CISA is warning about two critical vulnerabilities that allow authentication bypass and remote code execution in Optigo Networks ONS-S8 Aggregation Switch products used in critical infrastructure.
 The flaws concern weak authentication problems, allowing bypassing of password requirements, and user input validation issues potentially leading to remote code execution, arbitrary file uploads, and directory traversal.
 The device is used in critical infrastructure and manufacturing units worldwide, and considering that the flaws are remotely exploitable with low attack complexity, the risk is deemed very high.

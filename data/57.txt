@@ -1,3 +1,4 @@
+
 The malicious PoorTry kernel-mode Windows driver used by multiple ransomware gangs to turn off Endpoint Detection and Response (EDR) solutions has evolved into an EDR wiper, deleting files crucial for the operation of security solutions and making restoration harder.
 Though Trend Micro had warned about this functionality added on Poortry since May 2023, Sophos has now confirmed seeing the EDR wiping attacks in the wild.
 This evolution of PoorTry from an EDR deactivator to an EDR wiper represents a very aggressive shift in tactics by ransomware actors, who now prioritize a more disruptive setup phase to ensure better outcomes in the encryption stage.

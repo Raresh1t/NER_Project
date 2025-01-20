@@ -1,3 +1,4 @@
+
 A critical vulnerability in NVIDIA Container Toolkit impacts all AI applications in a cloud or on-premise environment that rely on it to access GPU resources.
 The security issue is tracked as CVE-2024-0132 and allows an adversary to perform container escape attacks and gain full access to the host system, where they could execute commands or exfiltrate sensitive information.
 The particular library comes pre-installed in many AI-focused platforms and virtual machine images and is the standard tool for GPU access when NVIDIA hardware is involved.

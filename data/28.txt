@@ -1,3 +1,4 @@
+
 The national Dutch police (Politie) says that a state actor was likely behind the data breach it detected last week.
 The attack compromised police office contact details, names, email addresses, phone numbers, and in some cases, private details.
 According to the original report, the attacker had hacked a police account and stole work-related contact details of multiple officers.

@@ -1,3 +1,4 @@
+
 Hackers are actively exploiting a recently disclosed RCE vulnerability in Zimbra email servers that can be triggered simply by sending specially crafted emails to the SMTP server.
 The Zimbra remote code execution flaw is tracked as CVE-2024-45519 and exists in Zimbra's postjournal service, which is used to parse incoming emails over SMTP. Attackers can exploit the vulnerability by sending specially crafted emails with commands to execute in the CC field, which are then executed when the postjournal service processes the email.
 The malicious activity was first reported by HarfangLab's threat researcher Ivan Kwiatkowski, who characterized it as "mass-exploitation," and was subsequently also confirmed by experts at Proofpoint.

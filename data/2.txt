@@ -1,3 +1,4 @@
+
 The popular Docker-OSX project has been removed from Docker Hub after Apple filed a DMCA (Digital Millennium Copyright Act) takedown request, alleging that it violated its copyright.
 Docker-OSX is an open-source project created by security researcher Sick.Codes that allows for the virtualization of macOS on non-Apple hardware. It can be hosted on any system that supports Docker, including Linux and Windows.
 The project is useful for developers who need to test software on macOS or security researchers trying out various configurations to uncover bugs or to research malware.

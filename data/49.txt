@@ -1,3 +1,4 @@
+
 Microsoft Defender now automatically detects and notifies users with a Microsoft 365 Personal or Family subscription when they're connected to unsecured Wi-Fi networks.
 The Defender privacy protection feature (also known as Defender VPN) protects your privacy and security when connected to public Wi-Fi or an untrusted network, where your data and identity could be exposed or stolen.
 To do that, it encrypts and routes your internet traffic through Microsoft's servers and hides your internet address (IP address) using a VPN (Virtual Private Network).

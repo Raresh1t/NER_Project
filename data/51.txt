@@ -1,3 +1,4 @@
+
 The APT33 Iranian hacking group has used new Tickler malware to backdoor the networks of organizations in the government, defense, satellite, oil and gas sectors in the United States and the United Arab Emirates.
 As Microsoft security researchers observed, the threat group (also tracked as Peach Sandstorm and Refined Kitten), which operates on behalf of the Iranian Islamic Revolutionary Guard Corps (IRGC), used this new malware as part of an intelligence collection campaign between April and July 2024.
 Throughout these attacks, the threat actors leveraged Microsoft Azure infrastructure for command-and-control (C2), using fraudulent, attacker-controlled Azure subscriptions that the company has since disrupted.

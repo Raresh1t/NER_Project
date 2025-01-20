@@ -1,3 +1,4 @@
+
 The City of Columbus, Ohio, has filed a lawsuit against security researcher David Leroy Ross, aka Connor Goodwolf, accusing him of illegally downloading and disseminating data stolen from the City's IT network and leaked by the Rhysida ransomware gang.
 Columbus, the capital and most populous (2,140,000) city in Ohio, suffered a ransomware attack on July 18, 2024, which caused various service outages and unavailability of email and IT connectivity between public agencies.
 At the end of July, the City's administration announced that no systems had been encrypted, but they were looking into the possibility that sensitive data might have been stolen in the attack.

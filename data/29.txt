@@ -1,3 +1,4 @@
+
 Microsoft warns that ransomware threat actor Storm-0501 has recently switched tactics and now targets hybrid cloud environments, expanding its strategy to compromise all victim assets.
 The threat actor first emerged in 2021 as a ransomware affiliate for the Sabbath ransomware operation. Later they started to deploy file-encrypting malware from Hive, BlackCat, LockBit, and Hunters International gangs. Recently, they have been observed to deploy the Embargo ransomware.
 Storm-0501's recent attacks targeted hospitals, government, manufacturing, and transportation organizations, and law enforcement agencies in the United States.

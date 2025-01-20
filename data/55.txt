@@ -1,3 +1,4 @@
+
 Adobe Commerce and Magento online stores are being targeted in "CosmicSting" attacks at an alarming rate, with threat actors hacking approximately 5% of all stores.
 The CosmicSting vulnerability (CVE-2024-34102) is a critical severity information disclosure flaw; when chained with CVE-2024-2961, a security issue in glibc's iconv function, an attacker can achieve remote code execution on the target server.
 The critical flaw impacts the following products:

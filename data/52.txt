@@ -1,3 +1,4 @@
+
 A new malware campaign is spreading a previously undocumented backdoor named "Voldemort" to organizations worldwide, impersonating tax agencies from the U.S., Europe, and Asia.
 As per a Proofpoint report, the campaign started on August 5, 2024, and has disseminated over 20,000 emails to over 70 targeted organizations, reaching 6,000 in a single day at the peak of its activity.
 Over half of all targeted organizations are in the insurance, aerospace, transportation, and education sectors. The threat actor behind this campaign is unknown, but Proofpoint believes the most likely objective is to conduct cyber espionage.

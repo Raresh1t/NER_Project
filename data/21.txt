@@ -1,3 +1,4 @@
+
 During a distributed denial-of-service campaign targeting organizations in the financial services, internet, and telecommunications sectors, volumetric attacks peaked at 3.8 terabits per second, the largest publicly recorded to date. The assault consisted of a “month-long” barrage of more than 100 hyper-volumetric DDoS attacks flooding the network infrastructure with garbage data.
 In a volumetric DDoS attack, the target is overwhelmed with large amounts of data to the point that they consume the bandwidth or exhaust the resources of applications and devices, leaving legitimate users with no access.
 Many of the attacks aimed at the target’s network infrastructure (network and transport layers L3/4) exceeded two billion packets per second (pps) and three terabits per second (Tbps).

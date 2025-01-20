@@ -1,3 +1,4 @@
+
 On Thursday, K-12 school district Highline Public Schools confirmed that a ransomware attack forced it to shut down all schools in early September.
 Highline Public Schools has over 2,000 staff members and offers programs ranging from early childhood education to college preparation. It serves over 17,500 students across 34 schools in the Burien, Des Moines, Normandy Park, SeaTac, and White Center communities in Washington State.
 After discovering evidence of unauthorized activity on its network following a September 7 security breach, the school district was forced to shut down all schools and cancel school activities.

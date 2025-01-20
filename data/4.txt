@@ -1,3 +1,4 @@
+
 Threat actors target Middle Eastern organizations with malware disguised as the legitimate Palo Alto GlobalProtect Tool that can steal data and execute remote PowerShell commands to infiltrate internal networks further.
 Palo Alto GlobalProtect is a legitimate security solution offered by Palo Alto Networks that provides secure VPN access with multi-factor authentication support. Organizations widely use the product to ensure remote employees, contractors, and partners can securely access private network resources.
 Using Palo Alto GlobalProtect as bait shows the attackers' targeting focuses on high-value corporate entities using enterprise software rather than random users.

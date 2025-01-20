@@ -1,3 +1,4 @@
+
 The RansomHub ransomware gang is behind the recent cyberattack on oil and gas services giant Halliburton, which disrupted the company's IT systems and business operations.
 The attack caused widespread disruption, and BleepingComputer was told that customers couldn't generate invoices or purchase orders because the required systems were down.
 Halliburton disclosed the attack last Friday in an SEC filing, stating they suffered a cyberattack on August 21, 2024, by an unauthorized party.

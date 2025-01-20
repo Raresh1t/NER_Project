@@ -1,3 +1,4 @@
+
 Since surfacing in February 2024, RansomHub ransomware affiliates have breached over 200 victims from a wide range of critical U.S. infrastructure sectors.
 This relatively new ransomware-as-a-service (RaaS) operation extorts victims in exchange for not leaking stolen files and sells the documents to the highest bidder if negotiations fail. The ransomware group focuses on data-theft-based extortion rather than encrypting victims' files, although they were also identified as potential buyers of Knight ransomware source code.
 Since the start of the year, RansomHub has claimed responsibility for breaching American not-for-profit credit union Patelco, the Rite Aid drugstore chain, the Christie's auction house, U.S. telecom provider Frontier Communications, and oil services giant Halliburton. Frontier Communications later warned over 750,000 customers their personal information was exposed in a data breach.

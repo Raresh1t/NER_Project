@@ -1,3 +1,4 @@
+
 Over the weekend, Google removed Kaspersky's Android security apps from the Google Play store and disabled the Russian company's developer accounts.
 Users have been reporting over the last week that Kaspersky's products (including Kaspersky Endpoint Security and VPN & Antivirus by Kaspersky) are no longer available on Google Play in the United States and other world regions.
 Kaspersky confirmed the issue on the company's official forums on Sunday and said that it's currently investigating why its software is no longer available on Google's app store.

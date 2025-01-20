@@ -1,3 +1,4 @@
+
 A recently disclosed vulnerability in the Common Unix Printing System (CUPS) open-source printing system can be exploited by threat actors to launch distributed denial-of-service (DDoS) attacks with a 600x amplification factor.
 As Akamai security researchers found, a CVE-2024-47176 security flaw in the cups-browsed daemon that can be chained with three other bugs to gain remote code execution on Unix-like systems via a single UDP packet can also be leveraged to amplify DDoS attacks.
 The vulnerability is triggered when an attacker sends a specially crafted packet, tricking a CUPS server into treating a target as a printer to be added. 

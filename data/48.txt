@@ -1,3 +1,4 @@
+
 Microsoft and the Justice Department have seized over 100 domains used by the Russian ColdRiver hacking group to target United States government employees and nonprofit organizations from Russia and worldwide in spear-phishing attacks.
 In December, the United Kingdom and its Five Eyes allies linked this threat group to Russia's Federal Security Service (FSB), the country's internal security and counterintelligence service.
 According to a partially unsealed affidavit, they attacked a wide range of targets, including United States-based companies and former and current employees of the United States Intelligence Community, Department of Defense, and Department of State, as well as staff at the Department of Energy and U.S. military defense contractors.
