@@ -292,7 +292,7 @@ def save_results(precision, recall, f1, predicted_entities, gold_entities, model
     }
     
     # Save evaluation metrics to a CSV file using result_data
-    with open('evaluation_results.csv', 'w', newline='') as csvfile:
+    with open('evaluation_results_firstmodel.csv', 'w', newline='') as csvfile:
         fieldnames = list(result_data.keys()) + list(additional_stats.keys())  # Create headers from result_data
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
         writer.writeheader()
@@ -305,7 +305,7 @@ def save_results(precision, recall, f1, predicted_entities, gold_entities, model
         'gold_entities': gold_entities
     }
     
-    with open('predicted_vs_gold.json', 'w') as outfile:
+    with open('predicted_vs_gold_firstmodel.json', 'w') as outfile:
         json.dump(result_details, outfile, indent=4)
 
 # MAIN
@@ -313,16 +313,19 @@ def main():
     start_time = time.time()
     
     # LOAD PRE-TRAINED MODEL AND TOKENIZER FROM HF
-    model_name = "dbmdz/bert-large-cased-finetuned-conll03-english"
+    model_name = "ner_model_2"
+    tokenizer_path = "ner_model/tokenizer.json"
+    #"dbmdz/bert-large-cased-finetuned-conll03-english"
     ner_model = pipeline("ner", model=model_name)
     tokenizer = AutoTokenizer.from_pretrained(ner_model.model.name_or_path)
+    #AutoTokenizer.from_pretrained(ner_model.model.name_or_path)
     max_length = 512
     
     # TOKENIZE UNLABELED DATA
     tokenized_unlabeled_data = tokenize_text_files('../data', tokenizer, max_length=max_length)
     
     # LOAD AND TOKENIZE GOLD LABELS
-    tokenized_gold_labels = tokenize_gold_labels("../Labeled_data/gold_labels/reconstructed_gold_labels.json", tokenizer, max_length=max_length)
+    tokenized_gold_labels = tokenize_gold_labels("../Labeled_data/gold_labels/reconstructed_gold_labels_2.json", tokenizer, max_length=max_length)
 
     # APPLY LABEL MAPPING TO GOLD LABELS
     mapped_gold_labels = apply_label_mapping_to_gold_labels(tokenized_gold_labels, label_mapping)

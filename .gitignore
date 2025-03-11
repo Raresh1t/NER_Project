@@ -1,3 +1,6 @@
 pythonscripts/ner_models/
 *.safetensors
 pythonscripts/results/
+pythonscripts/logs/
+pythonscripts/temp_model/
+pythonscripts/.ipynb_checkpoints
