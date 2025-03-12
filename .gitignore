@@ -3,4 +3,5 @@ pythonscripts/ner_models/
 pythonscripts/results/
 pythonscripts/logs/
 pythonscripts/temp_model/
-pythonscripts/.ipynb_checkpoints
+pythonscripts/.ipynb_checkpoints/
+testing/
