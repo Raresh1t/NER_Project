@@ -1,0 +1,11 @@
+1. Separate tokenized data into:
+    - BERT (##-style)
+    - ModernBERT ('space'-style)
+This is for training purposes, as they tokenize subwords differently.
+The process is simply tokenizing the raw text with the ModernBERT tokenizer and storing it in a separate file.
+
+2. Grid search for hyperparameters during training.
+    - Grid can be created and then modified later, but should include the most important paramaters.
+Use GridSearchCV from sklearn.
+
+3. Use CyNER. Either dataset mapping or model evaluation.
