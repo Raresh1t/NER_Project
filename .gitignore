@@ -4,6 +4,6 @@ pythonscripts/results/
 pythonscripts/logs/
 pythonscripts/temp_model/
 pythonscripts/.ipynb_checkpoints/
-testing/
+/testing/
 data/.ipynb_checkpoints
 labeled_data/gold_labels/.ipynb_checkpoints
