@@ -1,0 +1,4686 @@
+[
+    {
+        "text": "The Australian government has banned all Kaspersky Lab products and web services from its systems and devices following an analysis that claims the company poses a significant security risk to the country. \"After considering threat and risk analysis, I have determined that the use of Kaspersky Lab, Inc. products and web services by Australian Government entities poses an unacceptable security risk to Australian Government, networks and data, arising from threats of foreign interference, espionage and sabotage,\" justified\u00a0Stephanie Foster, Secretary of the Department of Home Affairs.\"I have also considered the important need for a strong policy signal to critical infrastructure and other Australian governments regarding the unacceptable security risk associated with the use of Kaspersky Lab, Inc. products and web services. \"According to the directive issued by the Department of Home Affairs, all non-corporate Commonwealth entities (subject to the Public Governance, Performance and Accountability Act 2013) must: A provision for exemption exists for cases where using Kaspersky products is necessary for national security or regulatory functions, including compliance and law enforcement. Responding to our request for a comment, a Kaspersky spokesperson refuted the cited allegations, saying the cited risks \"are not based on specific evidence and no due process has been organized or followed to provide justification.\" The cybersecurity company stated that the real reasons behind this sudden ban are purely political. \"Kaspersky believes that the decision stems from the current geopolitical climate and was not supported by any technical assessment of the company's products, which the company has been continuously advocating for,\" stated Mai Al Akkad, Kaspersky's Corporate Communications Manager. \"The fact that the directive was issued without any warning or opportunity for engagement to address the Australian Government's concerns highlights its political nature.\" This move by the Australian government follows similar actions in other Western countries that have also cited national security and espionage concerns. The U.S. prohibited the use of Kaspersky products on government systems in 2017 and expanded the ban to cover all U.S. companies and consumers on September 29, 2024. The German government advised companies in the country against using Kaspersky products soon after the invasion of Ukraine, while Canada banned the use of Kaspersky security products on the mobile devices of government employees in October 2023. Based on an analysis of 14M malicious actions, discover the top 10 MITRE ATT&CK techniques behind 93% of attacks and how to defend against them. US healthcare org pays $11M settlement over alleged cybersecurity lapses Swiss critical sector faces new 24-hour cyberattack reporting rule New Chirp tool uses audio tones to transfer data between devices Trump bans China-linked apps for collecting Americans\u2019 data Open-source tool 'Rayhunter' helps users detect Stingray attacks",
+        "entities": [
+            {
+                "start": 4,
+                "end": 14,
+                "type": "LOC",
+                "text": "Australian"
+            },
+            {
+                "start": 41,
+                "end": 54,
+                "type": "ORG",
+                "text": "Kaspersky Lab"
+            },
+            {
+                "start": 285,
+                "end": 304,
+                "type": "ORG",
+                "text": "Kaspersky Lab, Inc."
+            },
+            {
+                "start": 334,
+                "end": 344,
+                "type": "LOC",
+                "text": "Australian"
+            },
+            {
+                "start": 404,
+                "end": 414,
+                "type": "LOC",
+                "text": "Australian"
+            },
+            {
+                "start": 459,
+                "end": 490,
+                "type": "Event",
+                "text": "threats of foreign interference"
+            },
+            {
+                "start": 492,
+                "end": 501,
+                "type": "Event",
+                "text": "espionage"
+            },
+            {
+                "start": 506,
+                "end": 514,
+                "type": "Event",
+                "text": "sabotage"
+            },
+            {
+                "start": 527,
+                "end": 543,
+                "type": "PER",
+                "text": "Stephanie Foster"
+            },
+            {
+                "start": 562,
+                "end": 588,
+                "type": "ORG",
+                "text": "Department of Home Affairs"
+            },
+            {
+                "start": 696,
+                "end": 706,
+                "type": "LOC",
+                "text": "Australian"
+            },
+            {
+                "start": 787,
+                "end": 806,
+                "type": "ORG",
+                "text": "Kaspersky Lab, Inc."
+            },
+            {
+                "start": 876,
+                "end": 902,
+                "type": "ORG",
+                "text": "Department of Home Affairs"
+            },
+            {
+                "start": 922,
+                "end": 934,
+                "type": "ORG",
+                "text": "Commonwealth"
+            },
+            {
+                "start": 960,
+                "end": 1018,
+                "type": "MISC",
+                "text": "Public Governance, Performance and Accountability Act 2013"
+            },
+            {
+                "start": 1081,
+                "end": 1090,
+                "type": "ORG",
+                "text": "Kaspersky"
+            },
+            {
+                "start": 1245,
+                "end": 1254,
+                "type": "ORG",
+                "text": "Kaspersky"
+            },
+            {
+                "start": 1536,
+                "end": 1545,
+                "type": "ORG",
+                "text": "Kaspersky"
+            },
+            {
+                "start": 1758,
+                "end": 1770,
+                "type": "PER",
+                "text": "Mai Al Akkad"
+            },
+            {
+                "start": 1772,
+                "end": 1783,
+                "type": "ORG",
+                "text": "Kaspersky's"
+            },
+            {
+                "start": 1784,
+                "end": 1816,
+                "type": "MISC",
+                "text": "Corporate Communications Manager"
+            },
+            {
+                "start": 1923,
+                "end": 1933,
+                "type": "LOC",
+                "text": "Australian"
+            },
+            {
+                "start": 2007,
+                "end": 2017,
+                "type": "LOC",
+                "text": "Australian"
+            },
+            {
+                "start": 2062,
+                "end": 2069,
+                "type": "LOC",
+                "text": "Western"
+            },
+            {
+                "start": 2147,
+                "end": 2151,
+                "type": "LOC",
+                "text": "U.S."
+            },
+            {
+                "start": 2174,
+                "end": 2183,
+                "type": "ORG",
+                "text": "Kaspersky"
+            },
+            {
+                "start": 2257,
+                "end": 2261,
+                "type": "LOC",
+                "text": "U.S."
+            },
+            {
+                "start": 2313,
+                "end": 2319,
+                "type": "LOC",
+                "text": "German"
+            },
+            {
+                "start": 2378,
+                "end": 2387,
+                "type": "ORG",
+                "text": "Kaspersky"
+            },
+            {
+                "start": 2424,
+                "end": 2431,
+                "type": "LOC",
+                "text": "Ukraine"
+            },
+            {
+                "start": 2439,
+                "end": 2445,
+                "type": "LOC",
+                "text": "Canada"
+            },
+            {
+                "start": 2464,
+                "end": 2473,
+                "type": "ORG",
+                "text": "Kaspersky"
+            },
+            {
+                "start": 2622,
+                "end": 2634,
+                "type": "MISC",
+                "text": "MITRE ATT&CK"
+            },
+            {
+                "start": 2700,
+                "end": 2702,
+                "type": "LOC",
+                "text": "US"
+            },
+            {
+                "start": 2773,
+                "end": 2778,
+                "type": "LOC",
+                "text": "Swiss"
+            },
+            {
+                "start": 2844,
+                "end": 2849,
+                "type": "Software",
+                "text": "Chirp"
+            },
+            {
+                "start": 2905,
+                "end": 2910,
+                "type": "PER",
+                "text": "Trump"
+            },
+            {
+                "start": 2916,
+                "end": 2921,
+                "type": "LOC",
+                "text": "China"
+            },
+            {
+                "start": 2949,
+                "end": 2959,
+                "type": "LOC",
+                "text": "Americans\u00e2\u20ac\u2122"
+            },
+            {
+                "start": 2983,
+                "end": 2992,
+                "type": "Software",
+                "text": "Rayhunter"
+            },
+            {
+                "start": 3013,
+                "end": 3021,
+                "type": "Malware",
+                "text": "Stingray"
+            }
+        ]
+    },
+    {
+        "text": "Threat intelligence company GreyNoise warns that a critical PHP remote code execution vulnerability that impacts Windows systems is now under mass exploitation. Tracked as CVE-2024-4577, this PHP-CGI argument injection flaw was patched in June 2024 and affects Windows PHP installations with PHP running in CGI mode. Successful exploitation enables unauthenticated attackers to execute arbitrary code and leads to complete system compromise following successful exploitation. A day after PHP maintainers released CVE-2024-4577 patches on June 7, 2024, WatchTowr Labs released proof-of-concept (PoC) exploit code, and the Shadowserver Foundation reported observing exploitation attempts. GreyNoise's warning comes after Cisco Talos revealed earlier that an unknown attacker had exploited the same PHP vulnerability to target Japanese organizations since at least early January 2025. While Talos observed the attackers attempting to steal credentials, it believes their goals extend beyond just credential harvesting, based on post-exploitation activities, which include establishing persistence, elevating privileges to SYSTEM level, deployment of adversarial tools and frameworks, and usage of \"TaoWu\" Cobalt Strike kit plugins. However, as GreyNoise reported, the threat actors behind this malicious activity cast a much wider net by targeting vulnerable devices globally, with significant increases observed in the United States, Singapore, Japan, and other countries since January 2025. In January alone, its worldwide network of honeypots known as Global Observation Grid (GOG) spotted 1,089 unique IP addresses attempting to exploit this PHP security flaw. \"While initial reports focused on attacks in Japan, GreyNoise data confirms that exploitation is far more widespread [..] More than 43% of IPs targeting CVE-2024-4577 in the past 30 days are from Germany and China,\" the threat intelligence firm said, warning that at least 79\u00a0exploits are available online. \"In February, GreyNoise detected a coordinated spike in exploitation attempts against networks in multiple countries, suggesting additional automated scanning for vulnerable targets.\" Previously, CVE-2024-4577 was exploited by unknown attackers who backdoored a university's Windows systems in Taiwan with newly discovered malware dubbed Msupedge. The TellYouThePass ransomware gang also started exploiting the vulnerability to deploy webshells and encrypt victims' systems less than 48 hours after patches were released in June 2024. Based on an analysis of 14M malicious actions, discover the top 10 MITRE ATT&CK techniques behind 93% of attacks and how to defend against them. Hackers exploit Cityworks RCE bug to breach Microsoft IIS servers Critical Ivanti RCE flaw with public exploit now used in attacks CISA tags Windows, Cisco vulnerabilities as actively exploited CISA flags Craft CMS code injection flaw as exploited in attacks Ivanti fixes three critical flaws in Connect Secure & Policy Secure",
+        "entities": [
+            {
+                "start": 28,
+                "end": 37,
+                "type": "ORG",
+                "text": "GreyNoise"
+            },
+            {
+                "start": 64,
+                "end": 85,
+                "type": "Event",
+                "text": "remote code execution"
+            },
+            {
+                "start": 113,
+                "end": 120,
+                "type": "Software",
+                "text": "Windows"
+            },
+            {
+                "start": 172,
+                "end": 185,
+                "type": "CVE",
+                "text": "CVE-2024-4577"
+            },
+            {
+                "start": 192,
+                "end": 199,
+                "type": "MISC",
+                "text": "PHP-CGI"
+            },
+            {
+                "start": 261,
+                "end": 272,
+                "type": "Software",
+                "text": "Windows PHP"
+            },
+            {
+                "start": 292,
+                "end": 295,
+                "type": "MISC",
+                "text": "PHP"
+            },
+            {
+                "start": 60,
+                "end": 63,
+                "type": "MISC",
+                "text": "PHP"
+            },
+            {
+                "start": 378,
+                "end": 400,
+                "type": "Event",
+                "text": "execute arbitrary code"
+            },
+            {
+                "start": 423,
+                "end": 474,
+                "type": "Event",
+                "text": "system compromise following successful exploitation"
+            },
+            {
+                "start": 488,
+                "end": 491,
+                "type": "MISC",
+                "text": "PHP"
+            },
+            {
+                "start": 513,
+                "end": 526,
+                "type": "CVE",
+                "text": "CVE-2024-4577"
+            },
+            {
+                "start": 552,
+                "end": 566,
+                "type": "ORG",
+                "text": "WatchTowr Labs"
+            },
+            {
+                "start": 621,
+                "end": 644,
+                "type": "ORG",
+                "text": "Shadowserver Foundation"
+            },
+            {
+                "start": 687,
+                "end": 698,
+                "type": "ORG",
+                "text": "GreyNoise's"
+            },
+            {
+                "start": 719,
+                "end": 730,
+                "type": "ORG",
+                "text": "Cisco Talos"
+            },
+            {
+                "start": 796,
+                "end": 799,
+                "type": "MISC",
+                "text": "PHP"
+            },
+            {
+                "start": 824,
+                "end": 832,
+                "type": "LOC",
+                "text": "Japanese"
+            },
+            {
+                "start": 888,
+                "end": 893,
+                "type": "ORG",
+                "text": "Talos"
+            },
+            {
+                "start": 917,
+                "end": 948,
+                "type": "Event",
+                "text": "attempting to steal credentials"
+            },
+            {
+                "start": 993,
+                "end": 1014,
+                "type": "Event",
+                "text": "credential harvesting"
+            },
+            {
+                "start": 1069,
+                "end": 1093,
+                "type": "Event",
+                "text": "establishing persistence"
+            },
+            {
+                "start": 1095,
+                "end": 1115,
+                "type": "Event",
+                "text": "elevating privileges"
+            },
+            {
+                "start": 1133,
+                "end": 1179,
+                "type": "Event",
+                "text": "deployment of adversarial tools and frameworks"
+            },
+            {
+                "start": 1195,
+                "end": 1200,
+                "type": "Malware",
+                "text": "TaoWu"
+            },
+            {
+                "start": 1202,
+                "end": 1215,
+                "type": "Malware",
+                "text": "Cobalt Strike"
+            },
+            {
+                "start": 1241,
+                "end": 1250,
+                "type": "ORG",
+                "text": "GreyNoise"
+            },
+            {
+                "start": 1417,
+                "end": 1430,
+                "type": "LOC",
+                "text": "United States"
+            },
+            {
+                "start": 1432,
+                "end": 1441,
+                "type": "LOC",
+                "text": "Singapore"
+            },
+            {
+                "start": 1443,
+                "end": 1448,
+                "type": "LOC",
+                "text": "Japan"
+            },
+            {
+                "start": 1552,
+                "end": 1581,
+                "type": "MISC",
+                "text": "Global Observation Grid (GOG)"
+            },
+            {
+                "start": 1643,
+                "end": 1646,
+                "type": "MISC",
+                "text": "PHP"
+            },
+            {
+                "start": 1707,
+                "end": 1712,
+                "type": "LOC",
+                "text": "Japan"
+            },
+            {
+                "start": 1714,
+                "end": 1723,
+                "type": "ORG",
+                "text": "GreyNoise"
+            },
+            {
+                "start": 1815,
+                "end": 1828,
+                "type": "CVE",
+                "text": "CVE-2024-4577"
+            },
+            {
+                "start": 1858,
+                "end": 1865,
+                "type": "LOC",
+                "text": "Germany"
+            },
+            {
+                "start": 1870,
+                "end": 1875,
+                "type": "LOC",
+                "text": "China"
+            },
+            {
+                "start": 1983,
+                "end": 1992,
+                "type": "ORG",
+                "text": "GreyNoise"
+            },
+            {
+                "start": 2165,
+                "end": 2178,
+                "type": "CVE",
+                "text": "CVE-2024-4577"
+            },
+            {
+                "start": 2244,
+                "end": 2251,
+                "type": "Software",
+                "text": "Windows"
+            },
+            {
+                "start": 2263,
+                "end": 2269,
+                "type": "LOC",
+                "text": "Taiwan"
+            },
+            {
+                "start": 2307,
+                "end": 2315,
+                "type": "Malware",
+                "text": "Msupedge"
+            },
+            {
+                "start": 2321,
+                "end": 2335,
+                "type": "MAL-ORG",
+                "text": "TellYouThePass"
+            },
+            {
+                "start": 2397,
+                "end": 2413,
+                "type": "Event",
+                "text": "deploy webshells"
+            },
+            {
+                "start": 2418,
+                "end": 2442,
+                "type": "Event",
+                "text": "encrypt victims' systems"
+            },
+            {
+                "start": 2571,
+                "end": 2583,
+                "type": "MISC",
+                "text": "MITRE ATT&CK"
+            },
+            {
+                "start": 2665,
+                "end": 2674,
+                "type": "Software",
+                "text": "Cityworks"
+            },
+            {
+                "start": 2693,
+                "end": 2706,
+                "type": "Software",
+                "text": "Microsoft IIS"
+            },
+            {
+                "start": 2724,
+                "end": 2730,
+                "type": "ORG",
+                "text": "Ivanti"
+            },
+            {
+                "start": 2780,
+                "end": 2784,
+                "type": "ORG",
+                "text": "CISA"
+            },
+            {
+                "start": 2790,
+                "end": 2797,
+                "type": "Software",
+                "text": "Windows"
+            },
+            {
+                "start": 2799,
+                "end": 2804,
+                "type": "Software",
+                "text": "Cisco"
+            },
+            {
+                "start": 2843,
+                "end": 2847,
+                "type": "ORG",
+                "text": "CISA"
+            },
+            {
+                "start": 2854,
+                "end": 2863,
+                "type": "Software",
+                "text": "Craft CMS"
+            },
+            {
+                "start": 2908,
+                "end": 2914,
+                "type": "ORG",
+                "text": "Ivanti"
+            },
+            {
+                "start": 2945,
+                "end": 2959,
+                "type": "Software",
+                "text": "Connect Secure"
+            },
+            {
+                "start": 2962,
+                "end": 2975,
+                "type": "Software",
+                "text": "Policy Secure"
+            }
+        ]
+    },
+    {
+        "text": "New York prosecutors say that two people working at a third-party contractor for the StubHub online ticket marketplace made $635,000 after almost 1,000 concert tickets and reselling them online. As the prosecutors explain, the vast majority\u00a0of stolen tickets were for Taylor Swift's Eras Tour. However, the criminals also targeted other high-value and high-profile events, including Ed Sheeran concerts, Adele concerts, NBA games, and the US Open Tennis Championships. The two defendants, 20-year-old Tyrone Rose and 31-year-old Shamara Simmons, worked for Sutherland Global Services in Jamaica and stole the tickets by allegedly intercepting approximately 350 StubHub orders by exploiting a loophole in the platform of an offshore ticket vendor. 'The Sutherland employees, defendant Tyrone Rose and an unapprehended accomplice, allegedly used their access to StubHub's computer system to find a backdoor into a secure area of the network where already sold tickets were given a URL and queued to be emailed to the purchaser to download,\" said Queens County District Attorney Melinda Katz. \"Rose and his co-conspirator re-directed the URLs to the emails of co-conspirators Shamara Simmons in Queens and a now deceased accomplice who lived in Queens.\" The investigation is still ongoing, with prosecutors trying to determine the extent of this operation, including other potential co-conspirators yet to be discovered. The Sutherland employees were arrested in New York City and arraigned on Thursday on a criminal complaint charging them with grand larceny in the second-degree, first-degree computer tampering, fourth-degree conspiracy, and fourth-degree computer tampering. If they're found guilty, they each face a potential maximum sentence of three to 15 years in prison if convicted of the top count. \"According to the charges, these defendants tried to use the popularity of Taylor Swift's concert tour and other high-profile events to profit at the expensive of others,\" District Attorney Katz added. \"This takedown highlights the vigilance of my office's Cybercrime and Cryptocurrency Unit as well as the importance of working with our industry partners to combat fraudulent activities and ensure the protection of consumers.\" Based on an analysis of 14M malicious actions, discover the top 10 MITRE ATT&CK techniques behind 93% of attacks and how to defend against them. Suspected Desorden hacker arrested for breaching 90 organizations Police arrests suspects tied to AI-generated CSAM distribution ring Microsoft names cybercriminals behind AI deepfake network New NailaoLocker ransomware used against EU healthcare orgs Darcula PhaaS can now auto-generate phishing kits for any brand",
+        "entities": [
+            {
+                "start": 0,
+                "end": 8,
+                "type": "LOC",
+                "text": "New York"
+            },
+            {
+                "start": 85,
+                "end": 92,
+                "type": "ORG",
+                "text": "StubHub"
+            },
+            {
+                "start": 268,
+                "end": 282,
+                "type": "PER",
+                "text": "Taylor Swift's"
+            },
+            {
+                "start": 283,
+                "end": 292,
+                "type": "MISC",
+                "text": "Eras Tour"
+            },
+            {
+                "start": 383,
+                "end": 393,
+                "type": "PER",
+                "text": "Ed Sheeran"
+            },
+            {
+                "start": 404,
+                "end": 409,
+                "type": "PER",
+                "text": "Adele"
+            },
+            {
+                "start": 420,
+                "end": 423,
+                "type": "ORG",
+                "text": "NBA"
+            },
+            {
+                "start": 439,
+                "end": 441,
+                "type": "LOC",
+                "text": "US"
+            },
+            {
+                "start": 442,
+                "end": 467,
+                "type": "MISC",
+                "text": "Open Tennis Championships"
+            },
+            {
+                "start": 501,
+                "end": 512,
+                "type": "PER",
+                "text": "Tyrone Rose"
+            },
+            {
+                "start": 529,
+                "end": 544,
+                "type": "PER",
+                "text": "Shamara Simmons"
+            },
+            {
+                "start": 557,
+                "end": 583,
+                "type": "ORG",
+                "text": "Sutherland Global Services"
+            },
+            {
+                "start": 587,
+                "end": 594,
+                "type": "LOC",
+                "text": "Jamaica"
+            },
+            {
+                "start": 661,
+                "end": 668,
+                "type": "ORG",
+                "text": "StubHub"
+            },
+            {
+                "start": 679,
+                "end": 700,
+                "type": "Event",
+                "text": "exploiting a loophole"
+            },
+            {
+                "start": 752,
+                "end": 762,
+                "type": "ORG",
+                "text": "Sutherland"
+            },
+            {
+                "start": 784,
+                "end": 795,
+                "type": "PER",
+                "text": "Tyrone Rose"
+            },
+            {
+                "start": 860,
+                "end": 869,
+                "type": "ORG",
+                "text": "StubHub's"
+            },
+            {
+                "start": 1044,
+                "end": 1057,
+                "type": "LOC",
+                "text": "Queens County"
+            },
+            {
+                "start": 1058,
+                "end": 1075,
+                "type": "MISC",
+                "text": "District Attorney"
+            },
+            {
+                "start": 1076,
+                "end": 1088,
+                "type": "PER",
+                "text": "Melinda Katz"
+            },
+            {
+                "start": 1091,
+                "end": 1095,
+                "type": "PER",
+                "text": "Rose"
+            },
+            {
+                "start": 1173,
+                "end": 1188,
+                "type": "PER",
+                "text": "Shamara Simmons"
+            },
+            {
+                "start": 1192,
+                "end": 1198,
+                "type": "LOC",
+                "text": "Queens"
+            },
+            {
+                "start": 1242,
+                "end": 1248,
+                "type": "LOC",
+                "text": "Queens"
+            },
+            {
+                "start": 1422,
+                "end": 1432,
+                "type": "ORG",
+                "text": "Sutherland"
+            },
+            {
+                "start": 1460,
+                "end": 1473,
+                "type": "LOC",
+                "text": "New York City"
+            },
+            {
+                "start": 1882,
+                "end": 1896,
+                "type": "PER",
+                "text": "Taylor Swift's"
+            },
+            {
+                "start": 1979,
+                "end": 1996,
+                "type": "MISC",
+                "text": "District Attorney"
+            },
+            {
+                "start": 1997,
+                "end": 2001,
+                "type": "PER",
+                "text": "Katz"
+            },
+            {
+                "start": 2064,
+                "end": 2098,
+                "type": "ORG",
+                "text": "Cybercrime and Cryptocurrency Unit"
+            },
+            {
+                "start": 2303,
+                "end": 2315,
+                "type": "MISC",
+                "text": "MITRE ATT&CK"
+            },
+            {
+                "start": 2391,
+                "end": 2399,
+                "type": "MAL-ORG",
+                "text": "Desorden"
+            },
+            {
+                "start": 2492,
+                "end": 2496,
+                "type": "MISC",
+                "text": "CSAM"
+            },
+            {
+                "start": 2515,
+                "end": 2524,
+                "type": "ORG",
+                "text": "Microsoft"
+            },
+            {
+                "start": 2577,
+                "end": 2589,
+                "type": "Malware",
+                "text": "NailaoLocker"
+            },
+            {
+                "start": 2614,
+                "end": 2616,
+                "type": "LOC",
+                "text": "EU"
+            },
+            {
+                "start": 2633,
+                "end": 2646,
+                "type": "Malware",
+                "text": "Darcula PhaaS"
+            }
+        ]
+    },
+    {
+        "text": "Japanese telecommunication services provider NTT Communications Corporation (NTT) is warning almost 18,000 corporate customers that their information was compromised during a cybersecurity incident. The data breach was discovered in early February 2025, but the exact date when the hackers gained initial access to NTT's systems hasn't been determined. \"NTT Communications Corporation discovered on February 5 that our facilities had been subjected to unauthorized access,\" reads the announcement. \"On February 6, we confirmed that some information might have been leaked externally.\" Specifically, NTT says hackers breached its 'Order Information Distribution System,' which held details on 17,891 corporate customers (companies), but no data on personal customers (consumers). The types of data that may have been stolen by hackers includes: NTT says contracts for corporate smartphones and mobile phones provided directly by NTT Docomo were not affected by this incident. The company discovered the breach on February 5 and blocked the threat actor's access to the breached system by the next day. However, its investigation revealed on February 15 that the attackers had pivoted to another device on NTT's network. This device was promptly disconnected to prevent further lateral movement, and the firm is now confident that the threat has been fully contained. NTT has made it clear that it will not send personalized notifications to impacted customers, so the public announcement on its website will remain the sole notice. Being a large telecommunications service provider in Japan, NTT often becomes a target of cybercriminals looking to disrupt its operations or steal valuable data from its networks. On January 2, 2025, the company suffered a massive 12-hour service disruption on its mobile services and payment platforms, attributed to a distributed denial of service (DDoS) attack. In May 2020, the company suffered another data breach where hackers gained access to its internal network again, stealing the information of hundreds of customers. Based on an analysis of 14M malicious actions, discover the top 10 MITRE ATT&CK techniques behind 93% of attacks and how to defend against them. Hacker leaks account data of 12 million Zacks Investment users Globe Life data breach may impact an additional 850,000 clients PowerSchool starts notifying victims of massive data breach Wolf Haldenstein law firm says 3.5 million impacted by data breach Label giant Avery says website hacked to steal credit cards",
+        "entities": [
+            {
+                "start": 0,
+                "end": 8,
+                "type": "LOC",
+                "text": "Japanese"
+            },
+            {
+                "start": 45,
+                "end": 81,
+                "type": "ORG",
+                "text": "NTT Communications Corporation (NTT)"
+            },
+            {
+                "start": 315,
+                "end": 320,
+                "type": "ORG",
+                "text": "NTT's"
+            },
+            {
+                "start": 354,
+                "end": 384,
+                "type": "ORG",
+                "text": "NTT Communications Corporation"
+            },
+            {
+                "start": 452,
+                "end": 471,
+                "type": "Event",
+                "text": "unauthorized access"
+            },
+            {
+                "start": 599,
+                "end": 602,
+                "type": "ORG",
+                "text": "NTT"
+            },
+            {
+                "start": 630,
+                "end": 667,
+                "type": "MISC",
+                "text": "Order Information Distribution System"
+            },
+            {
+                "start": 844,
+                "end": 847,
+                "type": "ORG",
+                "text": "NTT"
+            },
+            {
+                "start": 928,
+                "end": 938,
+                "type": "ORG",
+                "text": "NTT Docomo"
+            },
+            {
+                "start": 1204,
+                "end": 1209,
+                "type": "ORG",
+                "text": "NTT's"
+            },
+            {
+                "start": 1366,
+                "end": 1369,
+                "type": "ORG",
+                "text": "NTT"
+            },
+            {
+                "start": 1584,
+                "end": 1589,
+                "type": "LOC",
+                "text": "Japan"
+            },
+            {
+                "start": 1591,
+                "end": 1594,
+                "type": "ORG",
+                "text": "NTT"
+            },
+            {
+                "start": 1647,
+                "end": 1669,
+                "type": "Event",
+                "text": "disrupt its operations"
+            },
+            {
+                "start": 1673,
+                "end": 1692,
+                "type": "Event",
+                "text": "steal valuable data"
+            },
+            {
+                "start": 1852,
+                "end": 1895,
+                "type": "Event",
+                "text": "distributed denial of service (DDoS) attack"
+            },
+            {
+                "start": 1965,
+                "end": 2002,
+                "type": "Event",
+                "text": "gained access to its internal network"
+            },
+            {
+                "start": 2010,
+                "end": 2034,
+                "type": "Event",
+                "text": "stealing the information"
+            },
+            {
+                "start": 2128,
+                "end": 2140,
+                "type": "MISC",
+                "text": "MITRE ATT&CK"
+            },
+            {
+                "start": 2246,
+                "end": 2262,
+                "type": "ORG",
+                "text": "Zacks Investment"
+            },
+            {
+                "start": 2269,
+                "end": 2279,
+                "type": "ORG",
+                "text": "Globe Life"
+            },
+            {
+                "start": 2333,
+                "end": 2344,
+                "type": "ORG",
+                "text": "PowerSchool"
+            },
+            {
+                "start": 2393,
+                "end": 2409,
+                "type": "ORG",
+                "text": "Wolf Haldenstein"
+            },
+            {
+                "start": 2472,
+                "end": 2477,
+                "type": "ORG",
+                "text": "Avery"
+            }
+        ]
+    },
+    {
+        "text": "A software developer\u00a0has been found guilty of sabotaging his ex-employer's systems by running custom malware and installing a \"kill switch\" after being demoted at the company. Davis Lu, 55, of Houston, was a software developer for an Ohio company, reportedly Eaton Corp, from November 2007 to October 2019. Eaton Corporation is a global power management company that provides electrical, hydraulic, and mechanical solutions for various industries. Following a corporate restructuring in 2018, Lu\u00a0lost responsibilities at his job and was found guilty of sabotaging\u00a0his employer's computer systems and network with custom malware and kill switches. The malicious activities included code that ran in an \"infinite loop,\" exhausting a production server's resources and eventually causing the system to crash and prevent user logins. These infinite loops were designed\u00a0to exhaust Java threads by repeatedly generating new threads without proper termination. According to Lu's indictment,\u00a0Lu\u00a0also deleted coworker's user profiles and implemented a \"kill switch\" that would lock out all users if his account in the company's Windows active directory was disabled. The \"kill switch\" code, named \"IsDLEnabledinAD,\" was an abbreviation of \"Is Davis Lu enabled in Active Directory.\" This kill switch was automatically triggered when Lu\u00a0was terminated on September 9, 2019, causing thousands of employees to lose access to systems. On the day he was directed to return his company laptop, Lu reportedly deleted encrypted data. The DOJ says internet search queries also revealed that Lu had been researching ways to elevate privileges, hide processes, and quickly delete files. The Department of Justice says that Lu's activities and system disruption cost the company hundreds of thousands of dollars. A jury convicted Lu of causing intentional damage to protected computers, a charge that carries a maximum penalty of 10 years in prison.\u00a0A sentencing date has not been set. Based on an analysis of 14M malicious actions, discover the top 10 MITRE ATT&CK techniques behind 93% of attacks and how to defend against them. Five best practices for securing Active Directory service accounts",
+        "entities": [
+            {
+                "start": 176,
+                "end": 184,
+                "type": "PER",
+                "text": "Davis Lu"
+            },
+            {
+                "start": 193,
+                "end": 200,
+                "type": "LOC",
+                "text": "Houston"
+            },
+            {
+                "start": 234,
+                "end": 238,
+                "type": "LOC",
+                "text": "Ohio"
+            },
+            {
+                "start": 259,
+                "end": 269,
+                "type": "ORG",
+                "text": "Eaton Corp"
+            },
+            {
+                "start": 307,
+                "end": 324,
+                "type": "ORG",
+                "text": "Eaton Corporation"
+            },
+            {
+                "start": 493,
+                "end": 495,
+                "type": "PER",
+                "text": "Lu"
+            },
+            {
+                "start": 553,
+                "end": 595,
+                "type": "Event",
+                "text": "sabotaging his employer's computer systems"
+            },
+            {
+                "start": 875,
+                "end": 879,
+                "type": "Software",
+                "text": "Java"
+            },
+            {
+                "start": 966,
+                "end": 970,
+                "type": "PER",
+                "text": "Lu's"
+            },
+            {
+                "start": 983,
+                "end": 985,
+                "type": "PER",
+                "text": "Lu"
+            },
+            {
+                "start": 1118,
+                "end": 1142,
+                "type": "Software",
+                "text": "Windows active directory"
+            },
+            {
+                "start": 1188,
+                "end": 1203,
+                "type": "MISC",
+                "text": "IsDLEnabledinAD"
+            },
+            {
+                "start": 1233,
+                "end": 1241,
+                "type": "PER",
+                "text": "Davis Lu"
+            },
+            {
+                "start": 1253,
+                "end": 1269,
+                "type": "Software",
+                "text": "Active Directory"
+            },
+            {
+                "start": 1322,
+                "end": 1324,
+                "type": "PER",
+                "text": "Lu"
+            },
+            {
+                "start": 1477,
+                "end": 1479,
+                "type": "PER",
+                "text": "Lu"
+            },
+            {
+                "start": 1491,
+                "end": 1513,
+                "type": "Event",
+                "text": "deleted encrypted data"
+            },
+            {
+                "start": 1519,
+                "end": 1522,
+                "type": "ORG",
+                "text": "DOJ"
+            },
+            {
+                "start": 1571,
+                "end": 1573,
+                "type": "PER",
+                "text": "Lu"
+            },
+            {
+                "start": 1603,
+                "end": 1621,
+                "type": "Event",
+                "text": "elevate privileges"
+            },
+            {
+                "start": 1623,
+                "end": 1637,
+                "type": "Event",
+                "text": "hide processes"
+            },
+            {
+                "start": 1643,
+                "end": 1663,
+                "type": "Event",
+                "text": "quickly delete files"
+            },
+            {
+                "start": 1669,
+                "end": 1690,
+                "type": "ORG",
+                "text": "Department of Justice"
+            },
+            {
+                "start": 1701,
+                "end": 1705,
+                "type": "PER",
+                "text": "Lu's"
+            },
+            {
+                "start": 1807,
+                "end": 1809,
+                "type": "PER",
+                "text": "Lu"
+            },
+            {
+                "start": 1813,
+                "end": 1862,
+                "type": "Event",
+                "text": "causing intentional damage to protected computers"
+            },
+            {
+                "start": 2030,
+                "end": 2042,
+                "type": "MISC",
+                "text": "MITRE ATT&CK"
+            },
+            {
+                "start": 2141,
+                "end": 2157,
+                "type": "Software",
+                "text": "Active Directory"
+            }
+        ]
+    },
+    {
+        "text": "The US Cybersecurity and Infrastructure Security Agency says that media reports about it being directed\u00a0to no longer follow or report on Russian cyber activity are untrue, and its mission remains unchanged. \"CISA's mission is to defend against all cyber threats to U.S. Critical Infrastructure, including from Russia,\" the US cyber agency posted to X. \"There has been no change in our posture. Any reporting to the contrary is fake and undermines our national security.\" This comes after The Guardian reported\u00a0on Saturday that the Trump administration no longer sees Russia as a cyber threat against US critical infrastructure and its interests. According to the report, a new memo at\u00a0CISA directs the agency to prioritize China and protecting local systems and does not mention Russia. The Guardian further reports that CISA\u00a0analysts were verbally told not to follow or report on Russia's cyber activity. CISA is a U.S. government agency responsible for protecting critical infrastructure, including election infrastructure,\u00a0from cyber and physical threats. The agency monitors and mitigates cyber threats from foreign adversaries, including Russia, by sharing threat intelligence, coordinating incident response, and working with government and private organizations to strengthen national cybersecurity defenses. In response to questions about the Guardian's story, Tricia McLaughlin, Assistant Secretary for Public Affairs, U.S. Department of Homeland Security, told BleepingComputer that the memo is fake and that CISA will continue to address cyber threats from Russia. \"This is garbage. The Guardian's entire story is based on an alleged memo that the Trump Administration never issued and the Guardian refuses to let us see or provide the date of said memo,\"\u00a0McLaughlin told BleepingComputer. \"CISA remains committed to addressing all cyber threats to US Critical Infrastructure, including from Russia. There has been no change in its posture or priority on this front.\" TheRecord also reported on Friday that Defense Secretary Pete Hegseth ordered Cyber Command to stand down from any planned offensive operations targeting Russia. This was further confirmed by The New York Times and\u00a0The Washington Post on Saturday, with sources stating this shift in posture is only meant to last during the ongoing negotiations to stop Russia's invasion of Ukraine. A senior defense official shared the following statement when contacted about the shift in Cyber Command's directives. \"Due to operational security concerns, we do not comment nor discuss cyber intelligence, plans, or operations,\" shared the\u00a0defense official. \"There is no greater priority to Secretary Hegseth than the safety of the Warfighter in all operations, to include the cyber domain.\" Based on an analysis of 14M malicious actions, discover the top 10 MITRE ATT&CK techniques behind 93% of attacks and how to defend against them. CISA tags critical Ivanti EPM flaws as actively exploited in attacks Critical Ivanti RCE flaw with public exploit now used in attacks US charges Garantex admins with money laundering, sanctions violations US seizes domain of Garantex crypto exchange used by ransomware gangs CISA tags Windows, Cisco vulnerabilities as actively exploited",
+        "entities": [
+            {
+                "start": 4,
+                "end": 6,
+                "type": "LOC",
+                "text": "US"
+            },
+            {
+                "start": 7,
+                "end": 55,
+                "type": "ORG",
+                "text": "Cybersecurity and Infrastructure Security Agency"
+            },
+            {
+                "start": 137,
+                "end": 144,
+                "type": "LOC",
+                "text": "Russian"
+            },
+            {
+                "start": 208,
+                "end": 214,
+                "type": "ORG",
+                "text": "CISA's"
+            },
+            {
+                "start": 265,
+                "end": 269,
+                "type": "LOC",
+                "text": "U.S."
+            },
+            {
+                "start": 310,
+                "end": 316,
+                "type": "LOC",
+                "text": "Russia"
+            },
+            {
+                "start": 323,
+                "end": 325,
+                "type": "LOC",
+                "text": "US"
+            },
+            {
+                "start": 488,
+                "end": 500,
+                "type": "ORG",
+                "text": "The Guardian"
+            },
+            {
+                "start": 531,
+                "end": 536,
+                "type": "PER",
+                "text": "Trump"
+            },
+            {
+                "start": 567,
+                "end": 573,
+                "type": "LOC",
+                "text": "Russia"
+            },
+            {
+                "start": 600,
+                "end": 602,
+                "type": "LOC",
+                "text": "US"
+            },
+            {
+                "start": 685,
+                "end": 689,
+                "type": "ORG",
+                "text": "CISA"
+            },
+            {
+                "start": 723,
+                "end": 728,
+                "type": "LOC",
+                "text": "China"
+            },
+            {
+                "start": 779,
+                "end": 785,
+                "type": "LOC",
+                "text": "Russia"
+            },
+            {
+                "start": 787,
+                "end": 799,
+                "type": "ORG",
+                "text": "The Guardian"
+            },
+            {
+                "start": 821,
+                "end": 825,
+                "type": "ORG",
+                "text": "CISA"
+            },
+            {
+                "start": 881,
+                "end": 889,
+                "type": "LOC",
+                "text": "Russia's"
+            },
+            {
+                "start": 906,
+                "end": 910,
+                "type": "ORG",
+                "text": "CISA"
+            },
+            {
+                "start": 916,
+                "end": 920,
+                "type": "LOC",
+                "text": "U.S."
+            },
+            {
+                "start": 1143,
+                "end": 1149,
+                "type": "LOC",
+                "text": "Russia"
+            },
+            {
+                "start": 1154,
+                "end": 1181,
+                "type": "Event",
+                "text": "sharing threat intelligence"
+            },
+            {
+                "start": 1183,
+                "end": 1213,
+                "type": "Event",
+                "text": "coordinating incident response"
+            },
+            {
+                "start": 1347,
+                "end": 1361,
+                "type": "ORG",
+                "text": "the Guardian's"
+            },
+            {
+                "start": 1369,
+                "end": 1386,
+                "type": "PER",
+                "text": "Tricia McLaughlin"
+            },
+            {
+                "start": 1388,
+                "end": 1426,
+                "type": "MISC",
+                "text": "Assistant Secretary for Public Affairs"
+            },
+            {
+                "start": 1428,
+                "end": 1432,
+                "type": "LOC",
+                "text": "U.S."
+            },
+            {
+                "start": 1433,
+                "end": 1464,
+                "type": "ORG",
+                "text": "Department of Homeland Security"
+            },
+            {
+                "start": 1471,
+                "end": 1487,
+                "type": "ORG",
+                "text": "BleepingComputer"
+            },
+            {
+                "start": 1519,
+                "end": 1523,
+                "type": "ORG",
+                "text": "CISA"
+            },
+            {
+                "start": 1568,
+                "end": 1574,
+                "type": "LOC",
+                "text": "Russia"
+            },
+            {
+                "start": 1594,
+                "end": 1608,
+                "type": "ORG",
+                "text": "The Guardian's"
+            },
+            {
+                "start": 1659,
+                "end": 1664,
+                "type": "PER",
+                "text": "Trump"
+            },
+            {
+                "start": 1697,
+                "end": 1709,
+                "type": "ORG",
+                "text": "the Guardian"
+            },
+            {
+                "start": 1767,
+                "end": 1777,
+                "type": "PER",
+                "text": "McLaughlin"
+            },
+            {
+                "start": 1783,
+                "end": 1799,
+                "type": "ORG",
+                "text": "BleepingComputer"
+            },
+            {
+                "start": 1802,
+                "end": 1806,
+                "type": "ORG",
+                "text": "CISA"
+            },
+            {
+                "start": 1860,
+                "end": 1862,
+                "type": "LOC",
+                "text": "US"
+            },
+            {
+                "start": 1903,
+                "end": 1909,
+                "type": "LOC",
+                "text": "Russia"
+            },
+            {
+                "start": 1979,
+                "end": 1988,
+                "type": "ORG",
+                "text": "TheRecord"
+            },
+            {
+                "start": 2018,
+                "end": 2035,
+                "type": "MISC",
+                "text": "Defense Secretary"
+            },
+            {
+                "start": 2036,
+                "end": 2048,
+                "type": "PER",
+                "text": "Pete Hegseth"
+            },
+            {
+                "start": 2057,
+                "end": 2070,
+                "type": "ORG",
+                "text": "Cyber Command"
+            },
+            {
+                "start": 2133,
+                "end": 2139,
+                "type": "LOC",
+                "text": "Russia"
+            },
+            {
+                "start": 2171,
+                "end": 2189,
+                "type": "ORG",
+                "text": "The New York Times"
+            },
+            {
+                "start": 2194,
+                "end": 2213,
+                "type": "ORG",
+                "text": "The Washington Post"
+            },
+            {
+                "start": 2332,
+                "end": 2340,
+                "type": "LOC",
+                "text": "Russia's"
+            },
+            {
+                "start": 2353,
+                "end": 2360,
+                "type": "LOC",
+                "text": "Ukraine"
+            },
+            {
+                "start": 2453,
+                "end": 2468,
+                "type": "ORG",
+                "text": "Cyber Command's"
+            },
+            {
+                "start": 2655,
+                "end": 2672,
+                "type": "PER",
+                "text": "Secretary Hegseth"
+            },
+            {
+                "start": 2696,
+                "end": 2706,
+                "type": "MISC",
+                "text": "Warfighter"
+            },
+            {
+                "start": 2823,
+                "end": 2835,
+                "type": "MISC",
+                "text": "MITRE ATT&CK"
+            },
+            {
+                "start": 2901,
+                "end": 2905,
+                "type": "ORG",
+                "text": "CISA"
+            },
+            {
+                "start": 2920,
+                "end": 2930,
+                "type": "Software",
+                "text": "Ivanti EPM"
+            },
+            {
+                "start": 2979,
+                "end": 2985,
+                "type": "ORG",
+                "text": "Ivanti"
+            },
+            {
+                "start": 3035,
+                "end": 3037,
+                "type": "LOC",
+                "text": "US"
+            },
+            {
+                "start": 3046,
+                "end": 3054,
+                "type": "ORG",
+                "text": "Garantex"
+            },
+            {
+                "start": 3106,
+                "end": 3108,
+                "type": "LOC",
+                "text": "US"
+            },
+            {
+                "start": 3126,
+                "end": 3134,
+                "type": "ORG",
+                "text": "Garantex"
+            },
+            {
+                "start": 3176,
+                "end": 3180,
+                "type": "ORG",
+                "text": "CISA"
+            },
+            {
+                "start": 3186,
+                "end": 3193,
+                "type": "Software",
+                "text": "Windows"
+            },
+            {
+                "start": 3195,
+                "end": 3200,
+                "type": "Software",
+                "text": "Cisco"
+            }
+        ]
+    },
+    {
+        "text": "\u200bThe Termite ransomware gang has claimed responsibility for stealing sensitive healthcare data in a recent breach of Genea, one of Australia's largest fertility services providers. The IVF (in vitro fertilization) provider has been operating since\u00a01986 (when it was known as\u00a0Sydney IVF).\u00a0It offers a wide range of services, including fertility treatments, tests, genetic services, preservation options, and donor programs, in 22 fertility clinics in New South Wales, South Australia, Western Australia, Melbourne, Canberra, and Queensland. According to\u00a0Australia's national broadcaster, Genea and two other companies (Monash IVF and Virtus) account for over 80% of the industry's total revenue in the country. Genea\u00a0first revealed\u00a0last Wednesday it was investigated\u00a0a \"cyber incident\" after detecting\u00a0\"suspicious activity\" on its network. In an\u00a0updated statement issued today, the\u00a0fertility services giant confirmed the attackers stole data from its systems, which was later published online. The company said it obtained a\u00a0court-ordered injunction to prevent the leaked data from being shared by others, and it's also working with\u00a0the Australian Cyber Security Centre to investigate an incident. The\u00a0redacted court order reveals\u00a0that the threat actors breached Genea's network on January 31, 2025, through a\u00a0Citrix server. Subsequently, they gained access to the company's primary file server,\u00a0domain controller, backup program,\u00a0and BabySentry\u00a0primary patient\u00a0management system. Two weeks later, on\u00a0February 14, the attackers exfiltrated 940.7GB of data from Genea's compromised systems to a DigitalOcean cloud server under their control. The ongoing investigation also discovered that\u00a0Genea's compromised patient management systems contained the following types of personal and health data, with the\u00a0exposed information varying for each affected\u00a0individual:\u00a0 \"At this stage there is no evidence that any financial information such as credit card details or bank account numbers have been impacted by this incident,\" Genea added. \"We have also notified the Office of the Australian Information Commissioner of the latest development in this incident,\"\u00a0a Genea spokesperson told BleepingComputer. While Genea didn't attribute the attack to a specific threat group or cybercrime operation, the Termite ransomware gang claimed responsibility on Monday. In a new entry on their dark web leak site, they said they stole roughly 700GB of data and leaked screenshots of identification documents and patients' files allegedly stolen from Genea's network. \"We have ~700gb of data from company's\u00a0servers such as confidential, personal data of clients,\" the threat actors claim. Termite is a ransomware operation that surfaced in mid-October, according to\u00a0threat intelligence company Cyjax, and has\u00a0since listed 18 victims on its dark web portal from all over the world and various industry sectors. In December, the ransomware gang also claimed to have\u00a0breached the network of Arizona-based service (SaaS) provider Blue Yonder. This worldwide supply chain software provider has over 3,000 customers, including high-profile companies such as Microsoft, Renault, Bayer, Tesco, Lenovo, DHL, 3M, Ace Hardware, Procter & Gamble, Carlsberg, Dole, Wallgreens, Western Digital, and 7-Eleven. Like other ransomware gangs, the\u00a0Termite cybercrime group is involved in data theft, extortion, and encryption attacks.\u00a0According to cybersecurity firm\u00a0Trend Micro, they're using a version of the\u00a0Babuk encryptor leaked in September 2021\u00a0and are known to drop a \"How To Restore Your Files.txt\" ransom note on the victims' encrypted systems. Trend Micro\u00a0also\u00a0added\u00a0that Termite's ransomware encryptor is still likely a work in progress, as it will terminate prematurely due to a code execution flaw. Update: Added Genea statement and\u00a0fixed court order link. Based on an analysis of 14M malicious actions, discover the top 10 MITRE ATT&CK techniques behind 93% of attacks and how to defend against them. Black Basta ransomware gang's internal chat logs leak online Lee Enterprises newspaper disruptions caused by ransomware attack Mizuno USA says hackers stayed in its network for two months Krispy Kreme breach, data theft claimed by Play ransomware gang Microsoft: North Korean hackers join Qilin ransomware gang",
+        "entities": [
+            {
+                "start": 5,
+                "end": 12,
+                "type": "MAL-ORG",
+                "text": "Termite"
+            },
+            {
+                "start": 60,
+                "end": 94,
+                "type": "Event",
+                "text": "stealing sensitive healthcare data"
+            },
+            {
+                "start": 117,
+                "end": 122,
+                "type": "ORG",
+                "text": "Genea"
+            },
+            {
+                "start": 131,
+                "end": 142,
+                "type": "LOC",
+                "text": "Australia's"
+            },
+            {
+                "start": 275,
+                "end": 285,
+                "type": "ORG",
+                "text": "Sydney IVF"
+            },
+            {
+                "start": 450,
+                "end": 465,
+                "type": "LOC",
+                "text": "New South Wales"
+            },
+            {
+                "start": 467,
+                "end": 482,
+                "type": "LOC",
+                "text": "South Australia"
+            },
+            {
+                "start": 484,
+                "end": 501,
+                "type": "LOC",
+                "text": "Western Australia"
+            },
+            {
+                "start": 503,
+                "end": 512,
+                "type": "LOC",
+                "text": "Melbourne"
+            },
+            {
+                "start": 514,
+                "end": 522,
+                "type": "LOC",
+                "text": "Canberra"
+            },
+            {
+                "start": 528,
+                "end": 538,
+                "type": "LOC",
+                "text": "Queensland"
+            },
+            {
+                "start": 553,
+                "end": 564,
+                "type": "LOC",
+                "text": "Australia's"
+            },
+            {
+                "start": 587,
+                "end": 592,
+                "type": "ORG",
+                "text": "Genea"
+            },
+            {
+                "start": 618,
+                "end": 628,
+                "type": "ORG",
+                "text": "Monash IVF"
+            },
+            {
+                "start": 633,
+                "end": 639,
+                "type": "ORG",
+                "text": "Virtus"
+            },
+            {
+                "start": 710,
+                "end": 715,
+                "type": "ORG",
+                "text": "Genea"
+            },
+            {
+                "start": 930,
+                "end": 957,
+                "type": "Event",
+                "text": "stole data from its systems"
+            },
+            {
+                "start": 1136,
+                "end": 1168,
+                "type": "ORG",
+                "text": "Australian Cyber Security Centre"
+            },
+            {
+                "start": 1262,
+                "end": 1269,
+                "type": "ORG",
+                "text": "Genea's"
+            },
+            {
+                "start": 1309,
+                "end": 1315,
+                "type": "Software",
+                "text": "Citrix"
+            },
+            {
+                "start": 1253,
+                "end": 1277,
+                "type": "Event",
+                "text": "breached Genea's network"
+            },
+            {
+                "start": 1434,
+                "end": 1444,
+                "type": "Software",
+                "text": "BabySentry"
+            },
+            {
+                "start": 1517,
+                "end": 1554,
+                "type": "Event",
+                "text": "attackers exfiltrated 940.7GB of data"
+            },
+            {
+                "start": 1560,
+                "end": 1567,
+                "type": "ORG",
+                "text": "Genea's"
+            },
+            {
+                "start": 1593,
+                "end": 1605,
+                "type": "Software",
+                "text": "DigitalOcean"
+            },
+            {
+                "start": 1687,
+                "end": 1694,
+                "type": "ORG",
+                "text": "Genea's"
+            },
+            {
+                "start": 2018,
+                "end": 2023,
+                "type": "ORG",
+                "text": "Genea"
+            },
+            {
+                "start": 2058,
+                "end": 2107,
+                "type": "ORG",
+                "text": "Office of the Australian Information Commissioner"
+            },
+            {
+                "start": 2155,
+                "end": 2160,
+                "type": "ORG",
+                "text": "Genea"
+            },
+            {
+                "start": 2179,
+                "end": 2195,
+                "type": "ORG",
+                "text": "BleepingComputer"
+            },
+            {
+                "start": 2203,
+                "end": 2208,
+                "type": "ORG",
+                "text": "Genea"
+            },
+            {
+                "start": 2293,
+                "end": 2300,
+                "type": "MAL-ORG",
+                "text": "Termite"
+            },
+            {
+                "start": 2531,
+                "end": 2538,
+                "type": "ORG",
+                "text": "Genea's"
+            },
+            {
+                "start": 2442,
+                "end": 2460,
+                "type": "Event",
+                "text": "leaked screenshots"
+            },
+            {
+                "start": 2669,
+                "end": 2676,
+                "type": "MAL-ORG",
+                "text": "Termite"
+            },
+            {
+                "start": 2774,
+                "end": 2779,
+                "type": "ORG",
+                "text": "Cyjax"
+            },
+            {
+                "start": 2968,
+                "end": 2975,
+                "type": "LOC",
+                "text": "Arizona"
+            },
+            {
+                "start": 3006,
+                "end": 3017,
+                "type": "ORG",
+                "text": "Blue Yonder"
+            },
+            {
+                "start": 3132,
+                "end": 3141,
+                "type": "ORG",
+                "text": "Microsoft"
+            },
+            {
+                "start": 3143,
+                "end": 3150,
+                "type": "ORG",
+                "text": "Renault"
+            },
+            {
+                "start": 3152,
+                "end": 3157,
+                "type": "ORG",
+                "text": "Bayer"
+            },
+            {
+                "start": 3159,
+                "end": 3164,
+                "type": "ORG",
+                "text": "Tesco"
+            },
+            {
+                "start": 3166,
+                "end": 3172,
+                "type": "ORG",
+                "text": "Lenovo"
+            },
+            {
+                "start": 3174,
+                "end": 3177,
+                "type": "ORG",
+                "text": "DHL"
+            },
+            {
+                "start": 3179,
+                "end": 3181,
+                "type": "ORG",
+                "text": "3M"
+            },
+            {
+                "start": 3183,
+                "end": 3195,
+                "type": "ORG",
+                "text": "Ace Hardware"
+            },
+            {
+                "start": 3197,
+                "end": 3213,
+                "type": "ORG",
+                "text": "Procter & Gamble"
+            },
+            {
+                "start": 3215,
+                "end": 3224,
+                "type": "ORG",
+                "text": "Carlsberg"
+            },
+            {
+                "start": 3226,
+                "end": 3230,
+                "type": "ORG",
+                "text": "Dole"
+            },
+            {
+                "start": 3232,
+                "end": 3242,
+                "type": "ORG",
+                "text": "Wallgreens"
+            },
+            {
+                "start": 3244,
+                "end": 3259,
+                "type": "ORG",
+                "text": "Western Digital"
+            },
+            {
+                "start": 3265,
+                "end": 3273,
+                "type": "ORG",
+                "text": "7-Eleven"
+            },
+            {
+                "start": 3308,
+                "end": 3315,
+                "type": "MAL-ORG",
+                "text": "Termite"
+            },
+            {
+                "start": 3348,
+                "end": 3358,
+                "type": "Event",
+                "text": "data theft"
+            },
+            {
+                "start": 3360,
+                "end": 3369,
+                "type": "Event",
+                "text": "extortion"
+            },
+            {
+                "start": 3375,
+                "end": 3393,
+                "type": "Event",
+                "text": "encryption attacks"
+            },
+            {
+                "start": 3427,
+                "end": 3438,
+                "type": "ORG",
+                "text": "Trend Micro"
+            },
+            {
+                "start": 3471,
+                "end": 3486,
+                "type": "Malware",
+                "text": "Babuk encryptor"
+            },
+            {
+                "start": 3643,
+                "end": 3652,
+                "type": "MAL-ORG",
+                "text": "Termite's"
+            },
+            {
+                "start": 3787,
+                "end": 3792,
+                "type": "ORG",
+                "text": "Genea"
+            },
+            {
+                "start": 3615,
+                "end": 3626,
+                "type": "ORG",
+                "text": "Trend Micro"
+            },
+            {
+                "start": 3898,
+                "end": 3910,
+                "type": "MISC",
+                "text": "MITRE ATT&CK"
+            },
+            {
+                "start": 3976,
+                "end": 3987,
+                "type": "MAL-ORG",
+                "text": "Black Basta"
+            },
+            {
+                "start": 4037,
+                "end": 4052,
+                "type": "ORG",
+                "text": "Lee Enterprises"
+            },
+            {
+                "start": 4103,
+                "end": 4113,
+                "type": "ORG",
+                "text": "Mizuno USA"
+            },
+            {
+                "start": 4164,
+                "end": 4176,
+                "type": "ORG",
+                "text": "Krispy Kreme"
+            },
+            {
+                "start": 4177,
+                "end": 4183,
+                "type": "Event",
+                "text": "breach"
+            },
+            {
+                "start": 4185,
+                "end": 4195,
+                "type": "Event",
+                "text": "data theft"
+            },
+            {
+                "start": 4207,
+                "end": 4211,
+                "type": "MAL-ORG",
+                "text": "Play"
+            },
+            {
+                "start": 4228,
+                "end": 4237,
+                "type": "ORG",
+                "text": "Microsoft"
+            },
+            {
+                "start": 4239,
+                "end": 4251,
+                "type": "LOC",
+                "text": "North Korean"
+            },
+            {
+                "start": 4265,
+                "end": 4270,
+                "type": "MAL-ORG",
+                "text": "Qilin"
+            }
+        ]
+    },
+    {
+        "text": "The BadBox Android malware botnet has been disrupted again by removing 24 malicious apps from Google Play and sinkholing communications for half a million infected devices. The BadBox botnet is a cyber-fraud operation targeting primarily low-cost Android-based devices like TV streaming boxes, tablets, smart TVs, and smartphones. These devices either come pre-loaded with the BadBox malware from the manufacturer or are infected by malicious apps or firmware downloads. The malware then turns the devices into residential proxies, generates fake ad impressions on the infected devices, redirects users to low-quality domains as part of fraudulent traffic distribution operations, and uses people's IPs to create fake accounts and perform credential stuffing attacks. Last December, German authorities disrupted the malware for infected devices in the country. However, a few days later, BitSight reported that the malware had been found in at least 192,000 devices, showing resilience against law enforcement action. Since then, it is estimated that the botnet has grown to over 1,000,000 infections, impacting Android devices in 222 countries, with most located in Brazil (37.6%), the United States (18.2%), Mexico (6.3%), and Argentina (5.3%). HUMAN's Satori Threat Intelligence team led the latest disruption operation in collaboration with Google, Trend Micro, The Shadowserver Foundation,\u00a0and other partners. Due to the botnet's sudden size inflation, HUMAN now calls it 'BadBox 2.0,' indicating a new era in its operation. \"This scheme impacted\u00a0more than 1 million consumer devices. Devices connected to the BADBOX 2.0 operation included lower-price-point, \"off brand\", uncertified tablets, connected TV (CTV) boxes, digital projectors, and more,\" explains HUMAN. \"The infected devices are Android Open Source Project devices, not Android TV OS devices or\u00a0Play Protect certified Android devices. All of these devices are manufactured in mainland China and shipped globally; indeed, HUMAN observed BADBOX 2.0-associated traffic from\u00a0222 countries and territories worldwide.\" HUMAN says it found evidence that the botnet serves and is supported by multiple threat groups with distinct roles or benefits. These groups are\u00a0SalesTracker (infrastructure management), MoYu (backdoor and botnet development), Lemon (ad fraud campaigns), and LongTV (malicious app development). Android devices infected with the BadBox malware will routinely connect to attacker-controlled command and control servers to receive new configuration settings and commands to execute on the infected device. HUMAN told BleepingComputer that, in partnership with The Shadowserver Foundation, the researchers sinkholed an undisclosed number of BADBOX 2.0 domains to prevent over 500,000 infected devices from communicating with command-and-control (C2) servers set up by threat actors. When a domain is sinkholed, it is take\u00a0over by the researchers, allowing them to monitor all connections made by infected devices to that domain and gather data about the botnet. As the infected devices can no longer connect with attacker-controlled domains, the malware is put into a dormant state, effectively disrupting the infection. HUMAN says it also discovered 24 Android apps in the official app store, Google Play, that installed the BadBox malware on Android devices. Some apps, like 'Earn Extra Income' and 'Pregnancy Ovulation Calculator' by Seekiny Studio, had over 50,000 downloads each. Google removed the apps from Google Play and added a Play Protect enforcement rule to warn users and block the installation of apps associated with BadBox 2.0 on certified Android devices. Moreover, the tech giant has terminated publisher accounts that engaged in ad fraud associated with the BadBox operation, preventing monetization through Google Ads. However, it is important to note that Google cannot disinfect non-Play Protect-certified Android devices sold globally, so while BadBox 2.0 has been disrupted, it has not been eliminated. Ultimately, as long as consumers buy AOSP-based Android devices like off-brand TV boxes, that lack official Google Play Services support, they are at risk of using hardware pre-loaded with malware. A list of devices known to be impacted by the BadBox malware are listed below: In response to the disruption, Google shared the following statement with BleepingComputer. \"We appreciate collaborating with HUMAN to take action against the BADBOX operation and protect consumers from fraud. The infected devices are Android Open Source Project devices, not Android TV OS devices or Play Protect certified Android devices,\" says\u00a0Shailesh Saini, Google's Director of Android Security & Privacy Engineering & Assurance. \"If a device isn't Play Protect certified, Google doesn't have a record of security and compatibility test results. Play Protect certified Android devices undergo extensive testing to ensure quality and user safety. Users should ensure Google Play Protect, Android's malware protection that is on by default on devices with Google Play Services, is enabled.\" If you own any of the above devices, it is likely that you will not be able to get clean firmware for them. Instead, these devices should be replaced with those from reputable brands. If it is impossible to replace the device, they should be disconnected from the Internet. Based on an analysis of 14M malicious actions, discover the top 10 MITRE ATT&CK techniques behind 93% of attacks and how to defend against them. Vo1d malware botnet grows to 1.6 million Android TVs worldwide SpyLend Android malware downloaded 100,000 times from Google Play Google blocked 2.36 million risky Android apps from Play Store in 2024 Google fixes Android zero-day exploited by Serbian authorities New Eleven11bot botnet infects 86,000 devices for DDoS attacks",
+        "entities": [
+            {
+                "start": 4,
+                "end": 10,
+                "type": "Malware",
+                "text": "BadBox"
+            },
+            {
+                "start": 11,
+                "end": 18,
+                "type": "Software",
+                "text": "Android"
+            },
+            {
+                "start": 94,
+                "end": 105,
+                "type": "Software",
+                "text": "Google Play"
+            },
+            {
+                "start": 177,
+                "end": 183,
+                "type": "Malware",
+                "text": "BadBox"
+            },
+            {
+                "start": 196,
+                "end": 217,
+                "type": "Event",
+                "text": "cyber-fraud operation"
+            },
+            {
+                "start": 247,
+                "end": 254,
+                "type": "Software",
+                "text": "Android"
+            },
+            {
+                "start": 377,
+                "end": 383,
+                "type": "Malware",
+                "text": "BadBox"
+            },
+            {
+                "start": 488,
+                "end": 530,
+                "type": "Event",
+                "text": "turns the devices into residential proxies"
+            },
+            {
+                "start": 532,
+                "end": 561,
+                "type": "Event",
+                "text": "generates fake ad impressions"
+            },
+            {
+                "start": 587,
+                "end": 602,
+                "type": "Event",
+                "text": "redirects users"
+            },
+            {
+                "start": 637,
+                "end": 679,
+                "type": "Event",
+                "text": "fraudulent traffic distribution operations"
+            },
+            {
+                "start": 706,
+                "end": 726,
+                "type": "Event",
+                "text": "create fake accounts"
+            },
+            {
+                "start": 739,
+                "end": 766,
+                "type": "Event",
+                "text": "credential stuffing attacks"
+            },
+            {
+                "start": 783,
+                "end": 789,
+                "type": "LOC",
+                "text": "German"
+            },
+            {
+                "start": 888,
+                "end": 896,
+                "type": "ORG",
+                "text": "BitSight"
+            },
+            {
+                "start": 1112,
+                "end": 1119,
+                "type": "Software",
+                "text": "Android"
+            },
+            {
+                "start": 1167,
+                "end": 1173,
+                "type": "LOC",
+                "text": "Brazil"
+            },
+            {
+                "start": 1187,
+                "end": 1200,
+                "type": "LOC",
+                "text": "United States"
+            },
+            {
+                "start": 1210,
+                "end": 1216,
+                "type": "LOC",
+                "text": "Mexico"
+            },
+            {
+                "start": 1229,
+                "end": 1238,
+                "type": "LOC",
+                "text": "Argentina"
+            },
+            {
+                "start": 1247,
+                "end": 1254,
+                "type": "ORG",
+                "text": "HUMAN's"
+            },
+            {
+                "start": 1255,
+                "end": 1281,
+                "type": "ORG",
+                "text": "Satori Threat Intelligence"
+            },
+            {
+                "start": 1345,
+                "end": 1351,
+                "type": "ORG",
+                "text": "Google"
+            },
+            {
+                "start": 1353,
+                "end": 1364,
+                "type": "ORG",
+                "text": "Trend Micro"
+            },
+            {
+                "start": 1366,
+                "end": 1393,
+                "type": "ORG",
+                "text": "The Shadowserver Foundation"
+            },
+            {
+                "start": 1458,
+                "end": 1463,
+                "type": "ORG",
+                "text": "HUMAN"
+            },
+            {
+                "start": 1478,
+                "end": 1488,
+                "type": "Malware",
+                "text": "BadBox 2.0"
+            },
+            {
+                "start": 1615,
+                "end": 1625,
+                "type": "Malware",
+                "text": "BADBOX 2.0"
+            },
+            {
+                "start": 1764,
+                "end": 1769,
+                "type": "ORG",
+                "text": "HUMAN"
+            },
+            {
+                "start": 1797,
+                "end": 1824,
+                "type": "MISC",
+                "text": "Android Open Source Project"
+            },
+            {
+                "start": 1838,
+                "end": 1851,
+                "type": "Software",
+                "text": "Android TV OS"
+            },
+            {
+                "start": 1863,
+                "end": 1875,
+                "type": "Software",
+                "text": "Play Protect"
+            },
+            {
+                "start": 1886,
+                "end": 1893,
+                "type": "Software",
+                "text": "Android"
+            },
+            {
+                "start": 1953,
+                "end": 1958,
+                "type": "LOC",
+                "text": "China"
+            },
+            {
+                "start": 1989,
+                "end": 1994,
+                "type": "ORG",
+                "text": "HUMAN"
+            },
+            {
+                "start": 2004,
+                "end": 2014,
+                "type": "Malware",
+                "text": "BADBOX 2.0"
+            },
+            {
+                "start": 2081,
+                "end": 2086,
+                "type": "ORG",
+                "text": "HUMAN"
+            },
+            {
+                "start": 2226,
+                "end": 2238,
+                "type": "MAL-ORG",
+                "text": "SalesTracker"
+            },
+            {
+                "start": 2268,
+                "end": 2272,
+                "type": "MAL-ORG",
+                "text": "MoYu"
+            },
+            {
+                "start": 2274,
+                "end": 2282,
+                "type": "Event",
+                "text": "backdoor"
+            },
+            {
+                "start": 2308,
+                "end": 2313,
+                "type": "MAL-ORG",
+                "text": "Lemon"
+            },
+            {
+                "start": 2315,
+                "end": 2333,
+                "type": "Event",
+                "text": "ad fraud campaigns"
+            },
+            {
+                "start": 2340,
+                "end": 2346,
+                "type": "MAL-ORG",
+                "text": "LongTV"
+            },
+            {
+                "start": 2376,
+                "end": 2383,
+                "type": "Software",
+                "text": "Android"
+            },
+            {
+                "start": 2410,
+                "end": 2416,
+                "type": "Malware",
+                "text": "BadBox"
+            },
+            {
+                "start": 2471,
+                "end": 2490,
+                "type": "Event",
+                "text": "command and control"
+            },
+            {
+                "start": 2585,
+                "end": 2590,
+                "type": "ORG",
+                "text": "HUMAN"
+            },
+            {
+                "start": 2596,
+                "end": 2612,
+                "type": "ORG",
+                "text": "BleepingComputer"
+            },
+            {
+                "start": 2639,
+                "end": 2666,
+                "type": "ORG",
+                "text": "The Shadowserver Foundation"
+            },
+            {
+                "start": 2719,
+                "end": 2729,
+                "type": "Malware",
+                "text": "BADBOX 2.0"
+            },
+            {
+                "start": 2784,
+                "end": 2827,
+                "type": "Event",
+                "text": "communicating with command-and-control (C2)"
+            },
+            {
+                "start": 3199,
+                "end": 3204,
+                "type": "ORG",
+                "text": "HUMAN"
+            },
+            {
+                "start": 3232,
+                "end": 3239,
+                "type": "Software",
+                "text": "Android"
+            },
+            {
+                "start": 3272,
+                "end": 3283,
+                "type": "Software",
+                "text": "Google Play"
+            },
+            {
+                "start": 3304,
+                "end": 3310,
+                "type": "Malware",
+                "text": "BadBox"
+            },
+            {
+                "start": 3322,
+                "end": 3329,
+                "type": "Software",
+                "text": "Android"
+            },
+            {
+                "start": 3356,
+                "end": 3373,
+                "type": "MISC",
+                "text": "Earn Extra Income"
+            },
+            {
+                "start": 3380,
+                "end": 3410,
+                "type": "MISC",
+                "text": "Pregnancy Ovulation Calculator"
+            },
+            {
+                "start": 3415,
+                "end": 3429,
+                "type": "ORG",
+                "text": "Seekiny Studio"
+            },
+            {
+                "start": 3463,
+                "end": 3469,
+                "type": "ORG",
+                "text": "Google"
+            },
+            {
+                "start": 3492,
+                "end": 3503,
+                "type": "Software",
+                "text": "Google Play"
+            },
+            {
+                "start": 3516,
+                "end": 3528,
+                "type": "Software",
+                "text": "Play Protect"
+            },
+            {
+                "start": 3611,
+                "end": 3621,
+                "type": "Malware",
+                "text": "BadBox 2.0"
+            },
+            {
+                "start": 3635,
+                "end": 3642,
+                "type": "Software",
+                "text": "Android"
+            },
+            {
+                "start": 3756,
+                "end": 3762,
+                "type": "Malware",
+                "text": "BadBox"
+            },
+            {
+                "start": 3806,
+                "end": 3816,
+                "type": "Software",
+                "text": "Google Ads"
+            },
+            {
+                "start": 3856,
+                "end": 3862,
+                "type": "ORG",
+                "text": "Google"
+            },
+            {
+                "start": 3884,
+                "end": 3896,
+                "type": "Software",
+                "text": "Play Protect"
+            },
+            {
+                "start": 3907,
+                "end": 3914,
+                "type": "Software",
+                "text": "Android"
+            },
+            {
+                "start": 3947,
+                "end": 3957,
+                "type": "Malware",
+                "text": "BadBox 2.0"
+            },
+            {
+                "start": 4043,
+                "end": 4047,
+                "type": "MISC",
+                "text": "AOSP"
+            },
+            {
+                "start": 4054,
+                "end": 4061,
+                "type": "Software",
+                "text": "Android"
+            },
+            {
+                "start": 4114,
+                "end": 4134,
+                "type": "Software",
+                "text": "Google Play Services"
+            },
+            {
+                "start": 4250,
+                "end": 4256,
+                "type": "Malware",
+                "text": "BadBox"
+            },
+            {
+                "start": 4314,
+                "end": 4320,
+                "type": "ORG",
+                "text": "Google"
+            },
+            {
+                "start": 4357,
+                "end": 4373,
+                "type": "ORG",
+                "text": "BleepingComputer"
+            },
+            {
+                "start": 4409,
+                "end": 4414,
+                "type": "ORG",
+                "text": "HUMAN"
+            },
+            {
+                "start": 4442,
+                "end": 4448,
+                "type": "Malware",
+                "text": "BADBOX"
+            },
+            {
+                "start": 4518,
+                "end": 4545,
+                "type": "MISC",
+                "text": "Android Open Source Project"
+            },
+            {
+                "start": 4559,
+                "end": 4572,
+                "type": "Software",
+                "text": "Android TV OS"
+            },
+            {
+                "start": 4584,
+                "end": 4596,
+                "type": "Software",
+                "text": "Play Protect"
+            },
+            {
+                "start": 4607,
+                "end": 4614,
+                "type": "Software",
+                "text": "Android"
+            },
+            {
+                "start": 4630,
+                "end": 4644,
+                "type": "PER",
+                "text": "Shailesh Saini"
+            },
+            {
+                "start": 4646,
+                "end": 4654,
+                "type": "ORG",
+                "text": "Google's"
+            },
+            {
+                "start": 4655,
+                "end": 4717,
+                "type": "MISC",
+                "text": "Director of Android Security & Privacy Engineering & Assurance"
+            },
+            {
+                "start": 4738,
+                "end": 4750,
+                "type": "Software",
+                "text": "Play Protect"
+            },
+            {
+                "start": 4762,
+                "end": 4768,
+                "type": "ORG",
+                "text": "Google"
+            },
+            {
+                "start": 4835,
+                "end": 4847,
+                "type": "Software",
+                "text": "Play Protect"
+            },
+            {
+                "start": 4858,
+                "end": 4865,
+                "type": "Software",
+                "text": "Android"
+            },
+            {
+                "start": 4955,
+                "end": 4974,
+                "type": "Software",
+                "text": "Google Play Protect"
+            },
+            {
+                "start": 4976,
+                "end": 4985,
+                "type": "Software",
+                "text": "Android's"
+            },
+            {
+                "start": 5043,
+                "end": 5063,
+                "type": "Software",
+                "text": "Google Play Services"
+            },
+            {
+                "start": 5419,
+                "end": 5431,
+                "type": "MISC",
+                "text": "MITRE ATT&CK"
+            },
+            {
+                "start": 5497,
+                "end": 5501,
+                "type": "Malware",
+                "text": "Vo1d"
+            },
+            {
+                "start": 5538,
+                "end": 5549,
+                "type": "Software",
+                "text": "Android TVs"
+            },
+            {
+                "start": 5560,
+                "end": 5567,
+                "type": "Malware",
+                "text": "SpyLend"
+            },
+            {
+                "start": 5568,
+                "end": 5575,
+                "type": "Software",
+                "text": "Android"
+            },
+            {
+                "start": 5614,
+                "end": 5625,
+                "type": "Software",
+                "text": "Google Play"
+            },
+            {
+                "start": 5626,
+                "end": 5632,
+                "type": "ORG",
+                "text": "Google"
+            },
+            {
+                "start": 5660,
+                "end": 5667,
+                "type": "Software",
+                "text": "Android"
+            },
+            {
+                "start": 5678,
+                "end": 5688,
+                "type": "Software",
+                "text": "Play Store"
+            },
+            {
+                "start": 5697,
+                "end": 5703,
+                "type": "ORG",
+                "text": "Google"
+            },
+            {
+                "start": 5710,
+                "end": 5717,
+                "type": "Software",
+                "text": "Android"
+            },
+            {
+                "start": 5740,
+                "end": 5747,
+                "type": "LOC",
+                "text": "Serbian"
+            },
+            {
+                "start": 5764,
+                "end": 5775,
+                "type": "Malware",
+                "text": "Eleven11bot"
+            },
+            {
+                "start": 5810,
+                "end": 5822,
+                "type": "Event",
+                "text": "DDoS attacks"
+            }
+        ]
+    },
+    {
+        "text": "\u200bThe Belgian federal prosecutor's office is investigating whether Chinese hackers were behind a breach of the country's State Security Service (VSSE). Chinese state-backed attackers reportedly gained access to VSSE's external email server between 2021 and May 2023, siphoning around 10% of all emails sent and received by the agency's staff. The compromised server was only used for exchanging emails with public prosecutors, government ministries, law enforcement, and other public Belgian administration bodies,\u00a0as Belgian news outlet Le Soir reported on Wednesday. According to The Brussels Times, the hacked server also routed internal HR exchanges among Belgian intelligence personnel, raising concerns about the potential exposure of sensitive personal data including identity documents and CVs belonging to nearly half of the VSSE's current staff and past applicants. Belgian local media first reported an attack on the VSSE in 2023, coinciding with Barracuda's vulnerability disclosure. Following this, the Belgian intelligence service stopped using Barracuda as a cybersecurity provider and advised affected staff to renew identification documents to mitigate the risk of identity fraud. However, there is currently no evidence of stolen data appearing on the dark web or ransom demands, and anonymous sources indicate that VSSE's security team monitors dark web hacking forums and marketplaces for leaked information. \"The timing of the attack was especially unfortunate, as we were in the midst of a major recruitment drive following the previous government's decision to almost double our workforce,\" an anonymous intelligence source told Le Soir. \"We thought we had bought a bulletproof vest, only to find a gaping hole in it.\" The VSSE has remained silent on the issue, only noting that a formal complaint was submitted, per\u00a0Brussels Times's report.\u00a0At the same time, the federal prosecutor's office confirmed that a judicial investigation started in November 2023 but stressed that it's too early to draw any conclusions. This isn't the first time Chinese state hackers targeted Belgium. In July 2022, the country's Minister for Foreign Affairs said that the APT27, APT30, APT31, and Gallium (aka Softcell and UNSC 2814) Chinese state-backed threat groups attacked Belgium's defense and interior ministries. The Chinese Embassy in Belgium denied the accusations and pointed to a lack of evidence to sustain the Belgian government's claims. \"It is extremely unserious and irresponsible of the Belgian side to issue a statement about the so-called 'malicious cyberattacks' by Chinese hackers without any evidence,\" the Chinese embassy spokesperson said. VSSE's server was likely breached using a zero-day vulnerability in Barracuda's Email Security Gateway (ESG) appliance. In May 2023, Barracuda warned that attackers had been using custom-tailored Saltwater, SeaSpy, Sandbar, and SeaSide malware in data-theft attacks since at least October 2022, urging customers to immediately replace compromised appliances. Subsequently, CISA revealed that it found new Submarine (aka DepthCharge) and Whirlpool malware used to backdoor Barracuda ESG appliances on U.S. federal agencies' networks. At the same time, cybersecurity company Mandiant linked the attacks to UNC4841, a hacking group known for cyber espionage attacks in support of the People's Republic of China. Mandiant also found that the suspected Chinese hackers disproportionately targeted and breached government and government-linked organizations worldwide in these attacks. In December 2023, Barracuda warned of another ESG zero-day vulnerability exploited in a second wave of attacks by the UNC4841 Chinese hackers. Update February 27, 15:08 EST: A Barracuda spokesperson shared the following statement after publishing time: \"Exploitation of the vulnerability impacting less than five percent of Email Security Gateway appliances took place in 2023 \u2013 not 2021. Our investigation data confirms that the vulnerability was not exploited in 2021. Barracuda promptly remediated the issue, which was fixed as part of the BNSF-36456 patch and applied to all customer appliances. A detailed timeline of updates can be found\u00a0here.\" Based on an analysis of 14M malicious actions, discover the top 10 MITRE ATT&CK techniques behind 93% of attacks and how to defend against them. Engineering giant Smiths Group discloses security breach Trump bans China-linked apps for collecting Americans\u2019 data Silk Typhoon hackers now target IT supply chains to breach networks US charges Chinese hackers linked to critical infrastructure breaches Rubrik rotates authentication keys after log server breach",
+        "entities": [
+            {
+                "start": 5,
+                "end": 12,
+                "type": "LOC",
+                "text": "Belgian"
+            },
+            {
+                "start": 66,
+                "end": 73,
+                "type": "LOC",
+                "text": "Chinese"
+            },
+            {
+                "start": 120,
+                "end": 149,
+                "type": "ORG",
+                "text": "State Security Service (VSSE)"
+            },
+            {
+                "start": 151,
+                "end": 158,
+                "type": "LOC",
+                "text": "Chinese"
+            },
+            {
+                "start": 210,
+                "end": 216,
+                "type": "ORG",
+                "text": "VSSE's"
+            },
+            {
+                "start": 193,
+                "end": 206,
+                "type": "Event",
+                "text": "gained access"
+            },
+            {
+                "start": 483,
+                "end": 490,
+                "type": "LOC",
+                "text": "Belgian"
+            },
+            {
+                "start": 517,
+                "end": 524,
+                "type": "LOC",
+                "text": "Belgian"
+            },
+            {
+                "start": 537,
+                "end": 544,
+                "type": "ORG",
+                "text": "Le Soir"
+            },
+            {
+                "start": 581,
+                "end": 599,
+                "type": "ORG",
+                "text": "The Brussels Times"
+            },
+            {
+                "start": 659,
+                "end": 666,
+                "type": "LOC",
+                "text": "Belgian"
+            },
+            {
+                "start": 833,
+                "end": 839,
+                "type": "ORG",
+                "text": "VSSE's"
+            },
+            {
+                "start": 875,
+                "end": 882,
+                "type": "LOC",
+                "text": "Belgian"
+            },
+            {
+                "start": 927,
+                "end": 931,
+                "type": "ORG",
+                "text": "VSSE"
+            },
+            {
+                "start": 957,
+                "end": 968,
+                "type": "ORG",
+                "text": "Barracuda's"
+            },
+            {
+                "start": 1015,
+                "end": 1022,
+                "type": "LOC",
+                "text": "Belgian"
+            },
+            {
+                "start": 1058,
+                "end": 1067,
+                "type": "ORG",
+                "text": "Barracuda"
+            },
+            {
+                "start": 1181,
+                "end": 1195,
+                "type": "Event",
+                "text": "identity fraud"
+            },
+            {
+                "start": 1333,
+                "end": 1339,
+                "type": "ORG",
+                "text": "VSSE's"
+            },
+            {
+                "start": 1651,
+                "end": 1658,
+                "type": "ORG",
+                "text": "Le Soir"
+            },
+            {
+                "start": 1745,
+                "end": 1749,
+                "type": "ORG",
+                "text": "VSSE"
+            },
+            {
+                "start": 1839,
+                "end": 1855,
+                "type": "ORG",
+                "text": "Brussels Times's"
+            },
+            {
+                "start": 2063,
+                "end": 2070,
+                "type": "LOC",
+                "text": "Chinese"
+            },
+            {
+                "start": 2094,
+                "end": 2101,
+                "type": "LOC",
+                "text": "Belgium"
+            },
+            {
+                "start": 2131,
+                "end": 2159,
+                "type": "MISC",
+                "text": "Minister for Foreign Affairs"
+            },
+            {
+                "start": 2174,
+                "end": 2179,
+                "type": "MAL-ORG",
+                "text": "APT27"
+            },
+            {
+                "start": 2181,
+                "end": 2186,
+                "type": "MAL-ORG",
+                "text": "APT30"
+            },
+            {
+                "start": 2188,
+                "end": 2193,
+                "type": "MAL-ORG",
+                "text": "APT31"
+            },
+            {
+                "start": 2199,
+                "end": 2206,
+                "type": "MAL-ORG",
+                "text": "Gallium"
+            },
+            {
+                "start": 2212,
+                "end": 2220,
+                "type": "MAL-ORG",
+                "text": "Softcell"
+            },
+            {
+                "start": 2225,
+                "end": 2234,
+                "type": "MAL-ORG",
+                "text": "UNSC 2814"
+            },
+            {
+                "start": 2236,
+                "end": 2243,
+                "type": "LOC",
+                "text": "Chinese"
+            },
+            {
+                "start": 2280,
+                "end": 2289,
+                "type": "LOC",
+                "text": "Belgium's"
+            },
+            {
+                "start": 2327,
+                "end": 2342,
+                "type": "MISC",
+                "text": "Chinese Embassy"
+            },
+            {
+                "start": 2346,
+                "end": 2353,
+                "type": "LOC",
+                "text": "Belgium"
+            },
+            {
+                "start": 2426,
+                "end": 2433,
+                "type": "LOC",
+                "text": "Belgian"
+            },
+            {
+                "start": 2507,
+                "end": 2514,
+                "type": "LOC",
+                "text": "Belgian"
+            },
+            {
+                "start": 2589,
+                "end": 2596,
+                "type": "LOC",
+                "text": "Chinese"
+            },
+            {
+                "start": 2632,
+                "end": 2639,
+                "type": "LOC",
+                "text": "Chinese"
+            },
+            {
+                "start": 2667,
+                "end": 2673,
+                "type": "ORG",
+                "text": "VSSE's"
+            },
+            {
+                "start": 2692,
+                "end": 2731,
+                "type": "Event",
+                "text": "breached using a zero-day vulnerability"
+            },
+            {
+                "start": 2735,
+                "end": 2746,
+                "type": "ORG",
+                "text": "Barracuda's"
+            },
+            {
+                "start": 2747,
+                "end": 2775,
+                "type": "MISC",
+                "text": "Email Security Gateway (ESG)"
+            },
+            {
+                "start": 2800,
+                "end": 2809,
+                "type": "ORG",
+                "text": "Barracuda"
+            },
+            {
+                "start": 2863,
+                "end": 2872,
+                "type": "Malware",
+                "text": "Saltwater"
+            },
+            {
+                "start": 2874,
+                "end": 2880,
+                "type": "Malware",
+                "text": "SeaSpy"
+            },
+            {
+                "start": 2882,
+                "end": 2889,
+                "type": "Malware",
+                "text": "Sandbar"
+            },
+            {
+                "start": 2895,
+                "end": 2902,
+                "type": "Malware",
+                "text": "SeaSide"
+            },
+            {
+                "start": 2914,
+                "end": 2932,
+                "type": "Event",
+                "text": "data-theft attacks"
+            },
+            {
+                "start": 3040,
+                "end": 3044,
+                "type": "ORG",
+                "text": "CISA"
+            },
+            {
+                "start": 3072,
+                "end": 3081,
+                "type": "Malware",
+                "text": "Submarine"
+            },
+            {
+                "start": 3087,
+                "end": 3098,
+                "type": "Malware",
+                "text": "DepthCharge"
+            },
+            {
+                "start": 3104,
+                "end": 3113,
+                "type": "Malware",
+                "text": "Whirlpool"
+            },
+            {
+                "start": 3139,
+                "end": 3148,
+                "type": "ORG",
+                "text": "Barracuda"
+            },
+            {
+                "start": 3149,
+                "end": 3152,
+                "type": "MISC",
+                "text": "ESG"
+            },
+            {
+                "start": 3130,
+                "end": 3163,
+                "type": "Event",
+                "text": "backdoor Barracuda ESG appliances"
+            },
+            {
+                "start": 3167,
+                "end": 3171,
+                "type": "LOC",
+                "text": "U.S."
+            },
+            {
+                "start": 3240,
+                "end": 3248,
+                "type": "ORG",
+                "text": "Mandiant"
+            },
+            {
+                "start": 3271,
+                "end": 3278,
+                "type": "MAL-ORG",
+                "text": "UNC4841"
+            },
+            {
+                "start": 3306,
+                "end": 3329,
+                "type": "Event",
+                "text": "cyber espionage attacks"
+            },
+            {
+                "start": 3348,
+                "end": 3374,
+                "type": "LOC",
+                "text": "People's Republic of China"
+            },
+            {
+                "start": 3376,
+                "end": 3384,
+                "type": "ORG",
+                "text": "Mandiant"
+            },
+            {
+                "start": 3415,
+                "end": 3422,
+                "type": "LOC",
+                "text": "Chinese"
+            },
+            {
+                "start": 3450,
+                "end": 3471,
+                "type": "Event",
+                "text": "targeted and breached"
+            },
+            {
+                "start": 3565,
+                "end": 3574,
+                "type": "ORG",
+                "text": "Barracuda"
+            },
+            {
+                "start": 3593,
+                "end": 3596,
+                "type": "MISC",
+                "text": "ESG"
+            },
+            {
+                "start": 3665,
+                "end": 3672,
+                "type": "MAL-ORG",
+                "text": "UNC4841"
+            },
+            {
+                "start": 3673,
+                "end": 3680,
+                "type": "LOC",
+                "text": "Chinese"
+            },
+            {
+                "start": 3723,
+                "end": 3732,
+                "type": "ORG",
+                "text": "Barracuda"
+            },
+            {
+                "start": 3871,
+                "end": 3893,
+                "type": "MISC",
+                "text": "Email Security Gateway"
+            },
+            {
+                "start": 4018,
+                "end": 4027,
+                "type": "ORG",
+                "text": "Barracuda"
+            },
+            {
+                "start": 4090,
+                "end": 4100,
+                "type": "MISC",
+                "text": "BNSF-36456"
+            },
+            {
+                "start": 4265,
+                "end": 4277,
+                "type": "MISC",
+                "text": "MITRE ATT&CK"
+            },
+            {
+                "start": 4361,
+                "end": 4373,
+                "type": "ORG",
+                "text": "Smiths Group"
+            },
+            {
+                "start": 4400,
+                "end": 4405,
+                "type": "PER",
+                "text": "Trump"
+            },
+            {
+                "start": 4411,
+                "end": 4416,
+                "type": "LOC",
+                "text": "China"
+            },
+            {
+                "start": 4444,
+                "end": 4454,
+                "type": "LOC",
+                "text": "Americans\u00e2\u20ac\u2122"
+            },
+            {
+                "start": 4460,
+                "end": 4472,
+                "type": "MAL-ORG",
+                "text": "Silk Typhoon"
+            },
+            {
+                "start": 4528,
+                "end": 4530,
+                "type": "LOC",
+                "text": "US"
+            },
+            {
+                "start": 4539,
+                "end": 4546,
+                "type": "LOC",
+                "text": "Chinese"
+            },
+            {
+                "start": 4598,
+                "end": 4604,
+                "type": "ORG",
+                "text": "Rubrik"
+            }
+        ]
+    },
+    {
+        "text": "A massive botnet of over 130,000 compromised devices is conducting password-spray attacks against Microsoft 365 (M365) accounts worldwide, targeting basic authentication to evade multi-factor authentication. According to a report by SecurityScorecard, the attackers are leveraging credentials stolen by infostealer malware to target the accounts at a large scale. The attacks rely on non-interactive sign-ins using Basic Authentication (Basic Auth) to bypass Multi-Factor Authentication (MFA) protections and gain unauthorized access without triggering security alerts. \"Organizations relying solely on interactive sign-in monitoring are blind to these attacks. Non-interactive sign-ins, commonly used for service-to-service authentication, legacy protocols (e.g., POP, IMAP, SMTP), and automated processes, do not trigger MFA in many configurations,\" warns SecurityScorecard. \"Basic Authentication, still enabled in some environments, allows credentials to be transmitted in plain form, making it a prime target for attackers.\" Basic Auth is an outdated authentication method where a user's credentials are sent in plaintext or base64 encoded form with every request to a server. It lacks modern security features like MFA and token-based authentication, and Microsoft plans to deprecate it in favor of OAuth 2.0 in September 2025, already having disabled it for most Microsoft 365 services. The newly discovered botnet uses Basic Auth attempts targeting a large number of accounts with common/leaked passwords. Since Basic Auth is non-interactive, when there's a match with the tried credentials, the attackers aren't prompted for MFA and very often aren't restricted by Conditional Access Policies (CAP), allowing the attackers to quietly verify account credentials. Once credentials are verified, they can be used to access legacy services that do not require MFA or in more sophisticated phishing attacks to bypass the security feature and gain full access to the account. SecurityScorecard also highlights that you may be able to see signs of the password-spray attacks in Entra ID logs, which will show increased login attempts for non-interactive logins, multiple failed login attempts from different IPs, and the presence of the \"fasthttp\" user agent in the authentication logs. In January, SpearTip warned of threat actors conducting Microsoft 365 password attacks using the FastHTTP Go library in a similar manner but did not mention the non-interactive logins. It is unclear if that is a newer development by the botnet to evade detection. SecurityScorecard reports that the operators of the botnet are likely Chinese-affiliated, although there's no clear or confident attribution yet. The botnet operates through six primary command and control (C2) servers hosted by U.S. provider Shark Tech, while it proxies traffic through Hong Kong-based UCLOUD HK and China-linked CDS Global Cloud. The C2 servers run Apache Zookeeper and use Kafka to manage botnet operations. The system timezone on the C2 servers is set to Asia/Shanghai, while their uptimes indicate the botnet has been active since at least December 2024. The botnet uses over 130,000 compromised devices to spread out login attempts across different IP addresses, which helps evade getting flagged for suspicious activity and blocked. Organizations should disable Basic Auth in Microsoft 365, block the IP addresses listed in the report, enable CAPs to restrict login attempts and use MFA on all accounts. Based on an analysis of 14M malicious actions, discover the top 10 MITRE ATT&CK techniques behind 93% of attacks and how to defend against them. Hackers use FastHTTP in new high-speed Microsoft 365 password attacks Unpatched Edimax IP camera flaw actively exploited in botnet attacks Microsoft 365 apps will prompt users to back up files in OneDrive BadBox malware disrupted on 500K infected Android devices New Eleven11bot botnet infects 86,000 devices for DDoS attacks",
+        "entities": [
+            {
+                "start": 56,
+                "end": 89,
+                "type": "Event",
+                "text": "conducting password-spray attacks"
+            },
+            {
+                "start": 98,
+                "end": 118,
+                "type": "Software",
+                "text": "Microsoft 365 (M365)"
+            },
+            {
+                "start": 173,
+                "end": 206,
+                "type": "Event",
+                "text": "evade multi-factor authentication"
+            },
+            {
+                "start": 233,
+                "end": 250,
+                "type": "ORG",
+                "text": "SecurityScorecard"
+            },
+            {
+                "start": 270,
+                "end": 322,
+                "type": "Event",
+                "text": "leveraging credentials stolen by infostealer malware"
+            },
+            {
+                "start": 415,
+                "end": 448,
+                "type": "MISC",
+                "text": "Basic Authentication (Basic Auth)"
+            },
+            {
+                "start": 459,
+                "end": 492,
+                "type": "MISC",
+                "text": "Multi-Factor Authentication (MFA)"
+            },
+            {
+                "start": 509,
+                "end": 533,
+                "type": "Event",
+                "text": "gain unauthorized access"
+            },
+            {
+                "start": 765,
+                "end": 768,
+                "type": "MISC",
+                "text": "POP"
+            },
+            {
+                "start": 770,
+                "end": 774,
+                "type": "MISC",
+                "text": "IMAP"
+            },
+            {
+                "start": 776,
+                "end": 780,
+                "type": "MISC",
+                "text": "SMTP"
+            },
+            {
+                "start": 823,
+                "end": 826,
+                "type": "MISC",
+                "text": "MFA"
+            },
+            {
+                "start": 858,
+                "end": 875,
+                "type": "ORG",
+                "text": "SecurityScorecard"
+            },
+            {
+                "start": 878,
+                "end": 898,
+                "type": "MISC",
+                "text": "Basic Authentication"
+            },
+            {
+                "start": 1029,
+                "end": 1039,
+                "type": "MISC",
+                "text": "Basic Auth"
+            },
+            {
+                "start": 1220,
+                "end": 1223,
+                "type": "MISC",
+                "text": "MFA"
+            },
+            {
+                "start": 1260,
+                "end": 1269,
+                "type": "ORG",
+                "text": "Microsoft"
+            },
+            {
+                "start": 1304,
+                "end": 1313,
+                "type": "MISC",
+                "text": "OAuth 2.0"
+            },
+            {
+                "start": 1369,
+                "end": 1382,
+                "type": "Software",
+                "text": "Microsoft 365"
+            },
+            {
+                "start": 1426,
+                "end": 1436,
+                "type": "MISC",
+                "text": "Basic Auth"
+            },
+            {
+                "start": 1519,
+                "end": 1529,
+                "type": "MISC",
+                "text": "Basic Auth"
+            },
+            {
+                "start": 1633,
+                "end": 1636,
+                "type": "MISC",
+                "text": "MFA"
+            },
+            {
+                "start": 1673,
+                "end": 1706,
+                "type": "MISC",
+                "text": "Conditional Access Policies (CAP)"
+            },
+            {
+                "start": 1864,
+                "end": 1867,
+                "type": "MISC",
+                "text": "MFA"
+            },
+            {
+                "start": 1879,
+                "end": 1909,
+                "type": "Event",
+                "text": "sophisticated phishing attacks"
+            },
+            {
+                "start": 1978,
+                "end": 1995,
+                "type": "ORG",
+                "text": "SecurityScorecard"
+            },
+            {
+                "start": 2053,
+                "end": 2075,
+                "type": "Event",
+                "text": "password-spray attacks"
+            },
+            {
+                "start": 2079,
+                "end": 2087,
+                "type": "Software",
+                "text": "Entra ID"
+            },
+            {
+                "start": 2239,
+                "end": 2247,
+                "type": "Software",
+                "text": "fasthttp"
+            },
+            {
+                "start": 2300,
+                "end": 2308,
+                "type": "ORG",
+                "text": "SpearTip"
+            },
+            {
+                "start": 2344,
+                "end": 2357,
+                "type": "Software",
+                "text": "Microsoft 365"
+            },
+            {
+                "start": 2358,
+                "end": 2374,
+                "type": "Event",
+                "text": "password attacks"
+            },
+            {
+                "start": 2385,
+                "end": 2396,
+                "type": "Software",
+                "text": "FastHTTP Go"
+            },
+            {
+                "start": 2552,
+                "end": 2569,
+                "type": "ORG",
+                "text": "SecurityScorecard"
+            },
+            {
+                "start": 2622,
+                "end": 2629,
+                "type": "LOC",
+                "text": "Chinese"
+            },
+            {
+                "start": 2781,
+                "end": 2785,
+                "type": "LOC",
+                "text": "U.S."
+            },
+            {
+                "start": 2795,
+                "end": 2805,
+                "type": "ORG",
+                "text": "Shark Tech"
+            },
+            {
+                "start": 2840,
+                "end": 2849,
+                "type": "LOC",
+                "text": "Hong Kong"
+            },
+            {
+                "start": 2856,
+                "end": 2865,
+                "type": "ORG",
+                "text": "UCLOUD HK"
+            },
+            {
+                "start": 2870,
+                "end": 2875,
+                "type": "LOC",
+                "text": "China"
+            },
+            {
+                "start": 2883,
+                "end": 2899,
+                "type": "ORG",
+                "text": "CDS Global Cloud"
+            },
+            {
+                "start": 2920,
+                "end": 2936,
+                "type": "Software",
+                "text": "Apache Zookeeper"
+            },
+            {
+                "start": 2945,
+                "end": 2950,
+                "type": "Software",
+                "text": "Kafka"
+            },
+            {
+                "start": 3028,
+                "end": 3032,
+                "type": "LOC",
+                "text": "Asia"
+            },
+            {
+                "start": 3033,
+                "end": 3041,
+                "type": "LOC",
+                "text": "Shanghai"
+            },
+            {
+                "start": 3338,
+                "end": 3348,
+                "type": "MISC",
+                "text": "Basic Auth"
+            },
+            {
+                "start": 3352,
+                "end": 3365,
+                "type": "Software",
+                "text": "Microsoft 365"
+            },
+            {
+                "start": 3419,
+                "end": 3423,
+                "type": "MISC",
+                "text": "CAPs"
+            },
+            {
+                "start": 3459,
+                "end": 3462,
+                "type": "MISC",
+                "text": "MFA"
+            },
+            {
+                "start": 3547,
+                "end": 3559,
+                "type": "MISC",
+                "text": "MITRE ATT&CK"
+            },
+            {
+                "start": 3637,
+                "end": 3645,
+                "type": "Software",
+                "text": "FastHTTP"
+            },
+            {
+                "start": 3664,
+                "end": 3677,
+                "type": "Software",
+                "text": "Microsoft 365"
+            },
+            {
+                "start": 3705,
+                "end": 3711,
+                "type": "ORG",
+                "text": "Edimax"
+            },
+            {
+                "start": 3736,
+                "end": 3763,
+                "type": "Event",
+                "text": "exploited in botnet attacks"
+            },
+            {
+                "start": 3764,
+                "end": 3777,
+                "type": "Software",
+                "text": "Microsoft 365"
+            },
+            {
+                "start": 3821,
+                "end": 3829,
+                "type": "Software",
+                "text": "OneDrive"
+            },
+            {
+                "start": 3830,
+                "end": 3836,
+                "type": "Malware",
+                "text": "BadBox"
+            },
+            {
+                "start": 3872,
+                "end": 3879,
+                "type": "Software",
+                "text": "Android"
+            },
+            {
+                "start": 3892,
+                "end": 3903,
+                "type": "Malware",
+                "text": "Eleven11bot"
+            },
+            {
+                "start": 3938,
+                "end": 3950,
+                "type": "Event",
+                "text": "DDoS attacks"
+            }
+        ]
+    },
+    {
+        "text": "Broadcom warned customers today about three VMware zero-days, tagged as exploited in attacks and reported by the Microsoft Threat Intelligence Center. The vulnerabilities (CVE-2025-22224, CVE-2025-22225, and CVE-2025-22226) impact VMware ESX products, including VMware ESXi, vSphere, Workstation, Fusion, Cloud Foundation, and Telco Cloud Platform. Attackers with privileged administrator or root access\u00a0can chain these flaws to escape the virtual machine's sandbox. \"This is a situation where an attacker who has already compromised a virtual machine's guest OS and gained privileged access (administrator or root) could move into the hypervisor itself,\" the company\u00a0explained today.\u00a0\"Broadcom has information to suggest that exploitation of these issues has occurred 'in the wild'.\" Broadcom says\u00a0CVE-2025-22224 is a critical-severity VCMI heap overflow vulnerability that enables local attackers with administrative privileges on the targeted VM to execute code as the VMX process running on the host. CVE-2025-22225 is an ESXi arbitrary write vulnerability that allows the VMX process to trigger arbitrary kernel writes, leading to a sandbox escape, while CVE-2025-22226 is described as an HGFS information-disclosure flaw that lets threat actors with admin permissions to leak memory from the VMX process. When asked if Microsoft had more information regarding the flaws' in-the-wild exploitation, a spokesperson told BleepingComputer the company \"does not have anything additional to share at this time.\" VMware vulnerabilities are often targeted in attacks by ransomware gangs and state-sponsored hacking groups because they are commonly used in enterprise operations to store or transfer sensitive corporate data. Most recently, \u200bBroadcom warned in November that attackers were actively exploiting two VMware vCenter Server vulnerabilities that were patched in September. One allows privilege escalation to root (CVE-2024-38813) while the other is a critical remote code execution flaw (CVE-2024-38812) reported during China's 2024 Matrix Cup hacking contest. In January 2024, Broadcom also revealed that Chinese state hackers had exploited a critical vCenter Server vulnerability (CVE-2023-34048) as a zero-day since at least late 2021 to deploy VirtualPita and VirtualPie backdoors on vulnerable ESXi hosts. Based on an analysis of 14M malicious actions, discover the top 10 MITRE ATT&CK techniques behind 93% of attacks and how to defend against them. Unpatched Edimax IP camera flaw actively exploited in botnet attacks Over 37,000 VMware ESXi servers vulnerable to ongoing attacks Google fixes Android zero-day exploited by Serbian authorities Google fixes two Android zero-days used in targeted attacks Serbian police used Cellebrite zero-day hack to unlock Android phones",
+        "entities": [
+            {
+                "start": 0,
+                "end": 8,
+                "type": "ORG",
+                "text": "Broadcom"
+            },
+            {
+                "start": 44,
+                "end": 50,
+                "type": "Software",
+                "text": "VMware"
+            },
+            {
+                "start": 72,
+                "end": 92,
+                "type": "Event",
+                "text": "exploited in attacks"
+            },
+            {
+                "start": 113,
+                "end": 149,
+                "type": "ORG",
+                "text": "Microsoft Threat Intelligence Center"
+            },
+            {
+                "start": 172,
+                "end": 186,
+                "type": "CVE",
+                "text": "CVE-2025-22224"
+            },
+            {
+                "start": 188,
+                "end": 202,
+                "type": "CVE",
+                "text": "CVE-2025-22225"
+            },
+            {
+                "start": 208,
+                "end": 222,
+                "type": "CVE",
+                "text": "CVE-2025-22226"
+            },
+            {
+                "start": 231,
+                "end": 241,
+                "type": "Software",
+                "text": "VMware ESX"
+            },
+            {
+                "start": 262,
+                "end": 273,
+                "type": "Software",
+                "text": "VMware ESXi"
+            },
+            {
+                "start": 275,
+                "end": 282,
+                "type": "Software",
+                "text": "vSphere"
+            },
+            {
+                "start": 284,
+                "end": 295,
+                "type": "Software",
+                "text": "Workstation"
+            },
+            {
+                "start": 297,
+                "end": 303,
+                "type": "Software",
+                "text": "Fusion"
+            },
+            {
+                "start": 305,
+                "end": 321,
+                "type": "Software",
+                "text": "Cloud Foundation"
+            },
+            {
+                "start": 327,
+                "end": 347,
+                "type": "Software",
+                "text": "Telco Cloud Platform"
+            },
+            {
+                "start": 364,
+                "end": 403,
+                "type": "Event",
+                "text": "privileged administrator or root access"
+            },
+            {
+                "start": 429,
+                "end": 465,
+                "type": "Event",
+                "text": "escape the virtual machine's sandbox"
+            },
+            {
+                "start": 522,
+                "end": 562,
+                "type": "Event",
+                "text": "compromised a virtual machine's guest OS"
+            },
+            {
+                "start": 567,
+                "end": 591,
+                "type": "Event",
+                "text": "gained privileged access"
+            },
+            {
+                "start": 686,
+                "end": 694,
+                "type": "ORG",
+                "text": "Broadcom"
+            },
+            {
+                "start": 785,
+                "end": 793,
+                "type": "ORG",
+                "text": "Broadcom"
+            },
+            {
+                "start": 799,
+                "end": 813,
+                "type": "CVE",
+                "text": "CVE-2025-22224"
+            },
+            {
+                "start": 837,
+                "end": 841,
+                "type": "Software",
+                "text": "VCMI"
+            },
+            {
+                "start": 952,
+                "end": 964,
+                "type": "Event",
+                "text": "execute code"
+            },
+            {
+                "start": 972,
+                "end": 975,
+                "type": "Software",
+                "text": "VMX"
+            },
+            {
+                "start": 1005,
+                "end": 1019,
+                "type": "CVE",
+                "text": "CVE-2025-22225"
+            },
+            {
+                "start": 1026,
+                "end": 1030,
+                "type": "Software",
+                "text": "ESXi"
+            },
+            {
+                "start": 1077,
+                "end": 1080,
+                "type": "Software",
+                "text": "VMX"
+            },
+            {
+                "start": 1100,
+                "end": 1123,
+                "type": "Event",
+                "text": "arbitrary kernel writes"
+            },
+            {
+                "start": 1138,
+                "end": 1152,
+                "type": "Event",
+                "text": "sandbox escape"
+            },
+            {
+                "start": 1160,
+                "end": 1174,
+                "type": "CVE",
+                "text": "CVE-2025-22226"
+            },
+            {
+                "start": 1194,
+                "end": 1198,
+                "type": "Software",
+                "text": "HGFS"
+            },
+            {
+                "start": 1277,
+                "end": 1309,
+                "type": "Event",
+                "text": "leak memory from the VMX process"
+            },
+            {
+                "start": 1325,
+                "end": 1334,
+                "type": "ORG",
+                "text": "Microsoft"
+            },
+            {
+                "start": 1423,
+                "end": 1439,
+                "type": "ORG",
+                "text": "BleepingComputer"
+            },
+            {
+                "start": 1511,
+                "end": 1517,
+                "type": "Software",
+                "text": "VMware"
+            },
+            {
+                "start": 1687,
+                "end": 1720,
+                "type": "Event",
+                "text": "transfer sensitive corporate data"
+            },
+            {
+                "start": 1738,
+                "end": 1746,
+                "type": "ORG",
+                "text": "Broadcom"
+            },
+            {
+                "start": 1810,
+                "end": 1831,
+                "type": "Software",
+                "text": "VMware vCenter Server"
+            },
+            {
+                "start": 1921,
+                "end": 1935,
+                "type": "CVE",
+                "text": "CVE-2024-38813"
+            },
+            {
+                "start": 1891,
+                "end": 1919,
+                "type": "Event",
+                "text": "privilege escalation to root"
+            },
+            {
+                "start": 1967,
+                "end": 1988,
+                "type": "Event",
+                "text": "remote code execution"
+            },
+            {
+                "start": 1995,
+                "end": 2009,
+                "type": "CVE",
+                "text": "CVE-2024-38812"
+            },
+            {
+                "start": 2027,
+                "end": 2034,
+                "type": "LOC",
+                "text": "China's"
+            },
+            {
+                "start": 2035,
+                "end": 2050,
+                "type": "MISC",
+                "text": "2024 Matrix Cup"
+            },
+            {
+                "start": 2085,
+                "end": 2093,
+                "type": "ORG",
+                "text": "Broadcom"
+            },
+            {
+                "start": 2113,
+                "end": 2120,
+                "type": "LOC",
+                "text": "Chinese"
+            },
+            {
+                "start": 2160,
+                "end": 2174,
+                "type": "Software",
+                "text": "vCenter Server"
+            },
+            {
+                "start": 2190,
+                "end": 2204,
+                "type": "CVE",
+                "text": "CVE-2023-34048"
+            },
+            {
+                "start": 2255,
+                "end": 2266,
+                "type": "Malware",
+                "text": "VirtualPita"
+            },
+            {
+                "start": 2271,
+                "end": 2281,
+                "type": "Malware",
+                "text": "VirtualPie"
+            },
+            {
+                "start": 2306,
+                "end": 2310,
+                "type": "Software",
+                "text": "ESXi"
+            },
+            {
+                "start": 2385,
+                "end": 2397,
+                "type": "MISC",
+                "text": "MITRE ATT&CK"
+            },
+            {
+                "start": 2473,
+                "end": 2479,
+                "type": "ORG",
+                "text": "Edimax"
+            },
+            {
+                "start": 2594,
+                "end": 2600,
+                "type": "ORG",
+                "text": "Google"
+            },
+            {
+                "start": 2607,
+                "end": 2614,
+                "type": "Software",
+                "text": "Android"
+            },
+            {
+                "start": 2637,
+                "end": 2644,
+                "type": "LOC",
+                "text": "Serbian"
+            },
+            {
+                "start": 2657,
+                "end": 2663,
+                "type": "ORG",
+                "text": "Google"
+            },
+            {
+                "start": 2674,
+                "end": 2681,
+                "type": "Software",
+                "text": "Android"
+            },
+            {
+                "start": 2717,
+                "end": 2724,
+                "type": "LOC",
+                "text": "Serbian"
+            },
+            {
+                "start": 2737,
+                "end": 2747,
+                "type": "Malware",
+                "text": "Cellebrite"
+            },
+            {
+                "start": 2772,
+                "end": 2779,
+                "type": "Software",
+                "text": "Android"
+            }
+        ]
+    },
+    {
+        "text": "CISA warned U.S. federal agencies to secure their networks against attacks exploiting three critical vulnerabilities affecting Ivanti Endpoint Manager (EPM) appliances. The three flaws (CVE-2024-13159, CVE-2024-13160, and CVE-2024-13161) are due to absolute path traversal weaknesses that can let remote unauthenticated attackers fully compromise vulnerable servers. They were reported in October by Horizon3.ai vulnerability researcher Zach Hanley and patched by Ivanti on January 13. Just over a month later, Horizon3.ai also released proof-of-concept exploits that can be used in relay attacks for unauthenticated coercion of the Ivanti EPM machine credentials. On Monday, CISA added the three vulnerabilities to its Known Exploited Vulnerabilities catalog, which lists security flaws the cybersecurity agency has marked as exploited in the wild. Federal Civilian Executive Branch (FCEB) agencies now have three weeks, until March 31, to secure their systems against ongoing attacks, as mandated by the Binding Operational Directive (BOD) 22-01 issued in November 2021. \"These types of vulnerabilities are frequent attack vectors for malicious cyber actors and pose significant risks to the federal enterprise.\" CISA said. \"Although BOD 22-01 only applies to FCEB agencies, CISA strongly urges all organizations to reduce their exposure to cyberattacks by prioritizing timely remediation of Catalog vulnerabilities as part of their vulnerability management practice.\" Ivanti has not yet updated its security advisory after CISA tagged the vulnerabilities as actively exploited in attacks. In January, CISA and the FBI cautioned that attackers are still exploiting Ivanti Cloud Service Appliances (CSA) security flaws patched since September to breach vulnerable networks. Multiple other Ivanti vulnerabilities have been exploited as zero-days over the last year in widespread attacks targeting the company's VPN appliances and ICS, IPS, and ZTA gateways. Since the start of 2025, a suspected China-nexus espionage actor (tracked as UNC5221) also targeted Ivanti Connect Secure VPN appliances, infecting them with new Dryhook and Phasejam malware following successful remote code execution zero-day attacks. Ivanti says it partners with over 7,000 organizations worldwide to provide\u00a0system and IT asset management solutions to over 40,000 companies. Based on an analysis of 14M malicious actions, discover the top 10 MITRE ATT&CK techniques behind 93% of attacks and how to defend against them. Critical Ivanti RCE flaw with public exploit now used in attacks CISA: Hackers still exploiting older Ivanti bugs to breach networks CISA tags Windows, Cisco vulnerabilities as actively exploited CISA flags Craft CMS code injection flaw as exploited in attacks Critical RCE bug in Microsoft Outlook now exploited in attacks",
+        "entities": [
+            {
+                "start": 0,
+                "end": 4,
+                "type": "ORG",
+                "text": "CISA"
+            },
+            {
+                "start": 12,
+                "end": 16,
+                "type": "LOC",
+                "text": "U.S."
+            },
+            {
+                "start": 127,
+                "end": 156,
+                "type": "Software",
+                "text": "Ivanti Endpoint Manager (EPM)"
+            },
+            {
+                "start": 186,
+                "end": 200,
+                "type": "CVE",
+                "text": "CVE-2024-13159"
+            },
+            {
+                "start": 202,
+                "end": 216,
+                "type": "CVE",
+                "text": "CVE-2024-13160"
+            },
+            {
+                "start": 222,
+                "end": 236,
+                "type": "CVE",
+                "text": "CVE-2024-13161"
+            },
+            {
+                "start": 336,
+                "end": 365,
+                "type": "Event",
+                "text": "compromise vulnerable servers"
+            },
+            {
+                "start": 400,
+                "end": 411,
+                "type": "ORG",
+                "text": "Horizon3.ai"
+            },
+            {
+                "start": 437,
+                "end": 448,
+                "type": "PER",
+                "text": "Zach Hanley"
+            },
+            {
+                "start": 464,
+                "end": 470,
+                "type": "ORG",
+                "text": "Ivanti"
+            },
+            {
+                "start": 511,
+                "end": 522,
+                "type": "ORG",
+                "text": "Horizon3.ai"
+            },
+            {
+                "start": 583,
+                "end": 625,
+                "type": "Event",
+                "text": "relay attacks for unauthenticated coercion"
+            },
+            {
+                "start": 633,
+                "end": 643,
+                "type": "Software",
+                "text": "Ivanti EPM"
+            },
+            {
+                "start": 676,
+                "end": 680,
+                "type": "ORG",
+                "text": "CISA"
+            },
+            {
+                "start": 720,
+                "end": 751,
+                "type": "MISC",
+                "text": "Known Exploited Vulnerabilities"
+            },
+            {
+                "start": 850,
+                "end": 890,
+                "type": "ORG",
+                "text": "Federal Civilian Executive Branch (FCEB)"
+            },
+            {
+                "start": 1006,
+                "end": 1047,
+                "type": "MISC",
+                "text": "Binding Operational Directive (BOD) 22-01"
+            },
+            {
+                "start": 1215,
+                "end": 1219,
+                "type": "ORG",
+                "text": "CISA"
+            },
+            {
+                "start": 1236,
+                "end": 1245,
+                "type": "MISC",
+                "text": "BOD 22-01"
+            },
+            {
+                "start": 1262,
+                "end": 1266,
+                "type": "ORG",
+                "text": "FCEB"
+            },
+            {
+                "start": 1277,
+                "end": 1281,
+                "type": "ORG",
+                "text": "CISA"
+            },
+            {
+                "start": 1471,
+                "end": 1477,
+                "type": "ORG",
+                "text": "Ivanti"
+            },
+            {
+                "start": 1526,
+                "end": 1530,
+                "type": "ORG",
+                "text": "CISA"
+            },
+            {
+                "start": 1604,
+                "end": 1608,
+                "type": "ORG",
+                "text": "CISA"
+            },
+            {
+                "start": 1617,
+                "end": 1620,
+                "type": "ORG",
+                "text": "FBI"
+            },
+            {
+                "start": 1667,
+                "end": 1704,
+                "type": "Software",
+                "text": "Ivanti Cloud Service Appliances (CSA)"
+            },
+            {
+                "start": 1747,
+                "end": 1773,
+                "type": "Event",
+                "text": "breach vulnerable networks"
+            },
+            {
+                "start": 1790,
+                "end": 1796,
+                "type": "ORG",
+                "text": "Ivanti"
+            },
+            {
+                "start": 1911,
+                "end": 1914,
+                "type": "Software",
+                "text": "VPN"
+            },
+            {
+                "start": 1930,
+                "end": 1933,
+                "type": "MISC",
+                "text": "ICS"
+            },
+            {
+                "start": 1935,
+                "end": 1938,
+                "type": "MISC",
+                "text": "IPS"
+            },
+            {
+                "start": 1944,
+                "end": 1947,
+                "type": "MISC",
+                "text": "ZTA"
+            },
+            {
+                "start": 1995,
+                "end": 2000,
+                "type": "LOC",
+                "text": "China"
+            },
+            {
+                "start": 2035,
+                "end": 2042,
+                "type": "MAL-ORG",
+                "text": "UNC5221"
+            },
+            {
+                "start": 2058,
+                "end": 2083,
+                "type": "Software",
+                "text": "Ivanti Connect Secure VPN"
+            },
+            {
+                "start": 2120,
+                "end": 2127,
+                "type": "Malware",
+                "text": "Dryhook"
+            },
+            {
+                "start": 2132,
+                "end": 2140,
+                "type": "Malware",
+                "text": "Phasejam"
+            },
+            {
+                "start": 2170,
+                "end": 2208,
+                "type": "Event",
+                "text": "remote code execution zero-day attacks"
+            },
+            {
+                "start": 2210,
+                "end": 2216,
+                "type": "ORG",
+                "text": "Ivanti"
+            },
+            {
+                "start": 2419,
+                "end": 2431,
+                "type": "MISC",
+                "text": "MITRE ATT&CK"
+            },
+            {
+                "start": 2506,
+                "end": 2512,
+                "type": "ORG",
+                "text": "Ivanti"
+            },
+            {
+                "start": 2562,
+                "end": 2566,
+                "type": "ORG",
+                "text": "CISA"
+            },
+            {
+                "start": 2599,
+                "end": 2605,
+                "type": "ORG",
+                "text": "Ivanti"
+            },
+            {
+                "start": 2630,
+                "end": 2634,
+                "type": "ORG",
+                "text": "CISA"
+            },
+            {
+                "start": 2640,
+                "end": 2647,
+                "type": "Software",
+                "text": "Windows"
+            },
+            {
+                "start": 2649,
+                "end": 2654,
+                "type": "Software",
+                "text": "Cisco"
+            },
+            {
+                "start": 2693,
+                "end": 2697,
+                "type": "ORG",
+                "text": "CISA"
+            },
+            {
+                "start": 2704,
+                "end": 2713,
+                "type": "Software",
+                "text": "Craft CMS"
+            },
+            {
+                "start": 2778,
+                "end": 2795,
+                "type": "Software",
+                "text": "Microsoft Outlook"
+            }
+        ]
+    },
+    {
+        "text": "CISA has warned US federal agencies to secure their systems against attacks exploiting vulnerabilities in Cisco and Windows systems. While the cybersecurity agency has tagged these flaws as actively exploited in the wild, it has yet to provide specific details regarding this malicious activity and who is behind it. The first flaw (tracked as CVE-2023-20118) enables attackers to execute arbitrary commands on RV016, RV042, RV042G, RV082, RV320, and RV325 VPN routers. While it requires valid administrative credentials, this can still be achieved by chaining the CVE-2023-20025 authentication bypass, which provides root privileges. Cisco says in an advisory published in January 2023 and updated one year later that its Product Security Incident Response Team (PSIRT) is aware of CVE-2023-20025 publicly available proof-of-concept exploit code. The second security bug (CVE-2018-8639) is a Win32k elevation of privilege flaw that local attackers logged into the target system can exploit to run arbitrary code in kernel mode. Successful exploitation also allows them to alter data or create rogue accounts with full user rights to take over vulnerable Windows devices. According to a security advisory issued by Microsoft in December 2018, this vulnerability impacts client (Windows 7 or later) and server (Windows Server 2008 and up) platforms. Today, CISA added the two vulnerabilities to its Known Exploited Vulnerabilities catalog, which lists security bugs the agency has tagged as exploited in attacks. As mandated by the Binding Operational Directive (BOD) 22-01 issued in November 2021, Federal Civilian Executive Branch (FCEB) agencies now have three weeks, until March 23, to secure their networks against ongoing exploitation. \"These types of vulnerabilities are frequent attack vectors for malicious cyber actors and pose significant risks to the federal enterprise,\" CISA said today. Microsoft and Cisco have not yet updated their security advisories after CISA tagged the two vulnerabilities as actively exploited in attacks. In early February, CISA also announced that a critical Microsoft Outlook remote code execution (RCE) vulnerability (CVE-2024-21413) is now being exploited in ongoing attacks and ordered federal agencies to patch their systems by February 27. Based on an analysis of 14M malicious actions, discover the top 10 MITRE ATT&CK techniques behind 93% of attacks and how to defend against them. CISA flags Craft CMS code injection flaw as exploited in attacks Critical RCE bug in Microsoft Outlook now exploited in attacks Critical Cisco ISE bug can let attackers run commands as root SonicWall warns of SMA1000 RCE flaw exploited in zero-day attacks Google fixes Android zero-day exploited by Serbian authorities ",
+        "entities": [
+            {
+                "start": 0,
+                "end": 4,
+                "type": "ORG",
+                "text": "CISA"
+            },
+            {
+                "start": 16,
+                "end": 18,
+                "type": "LOC",
+                "text": "US"
+            },
+            {
+                "start": 106,
+                "end": 111,
+                "type": "Software",
+                "text": "Cisco"
+            },
+            {
+                "start": 116,
+                "end": 123,
+                "type": "Software",
+                "text": "Windows"
+            },
+            {
+                "start": 344,
+                "end": 358,
+                "type": "CVE",
+                "text": "CVE-2023-20118"
+            },
+            {
+                "start": 381,
+                "end": 407,
+                "type": "Event",
+                "text": "execute arbitrary commands"
+            },
+            {
+                "start": 411,
+                "end": 416,
+                "type": "MISC",
+                "text": "RV016"
+            },
+            {
+                "start": 418,
+                "end": 423,
+                "type": "MISC",
+                "text": "RV042"
+            },
+            {
+                "start": 425,
+                "end": 431,
+                "type": "MISC",
+                "text": "RV042G"
+            },
+            {
+                "start": 433,
+                "end": 438,
+                "type": "MISC",
+                "text": "RV082"
+            },
+            {
+                "start": 440,
+                "end": 445,
+                "type": "MISC",
+                "text": "RV320"
+            },
+            {
+                "start": 451,
+                "end": 456,
+                "type": "MISC",
+                "text": "RV325"
+            },
+            {
+                "start": 457,
+                "end": 460,
+                "type": "Software",
+                "text": "VPN"
+            },
+            {
+                "start": 565,
+                "end": 579,
+                "type": "CVE",
+                "text": "CVE-2023-20025"
+            },
+            {
+                "start": 635,
+                "end": 640,
+                "type": "ORG",
+                "text": "Cisco"
+            },
+            {
+                "start": 723,
+                "end": 770,
+                "type": "ORG",
+                "text": "Product Security Incident Response Team (PSIRT)"
+            },
+            {
+                "start": 783,
+                "end": 797,
+                "type": "CVE",
+                "text": "CVE-2023-20025"
+            },
+            {
+                "start": 873,
+                "end": 886,
+                "type": "CVE",
+                "text": "CVE-2018-8639"
+            },
+            {
+                "start": 893,
+                "end": 899,
+                "type": "Software",
+                "text": "Win32k"
+            },
+            {
+                "start": 994,
+                "end": 1027,
+                "type": "Event",
+                "text": "run arbitrary code in kernel mode"
+            },
+            {
+                "start": 1073,
+                "end": 1108,
+                "type": "Event",
+                "text": "alter data or create rogue accounts"
+            },
+            {
+                "start": 1134,
+                "end": 1170,
+                "type": "Event",
+                "text": "take over vulnerable Windows devices"
+            },
+            {
+                "start": 1155,
+                "end": 1162,
+                "type": "Software",
+                "text": "Windows"
+            },
+            {
+                "start": 1215,
+                "end": 1224,
+                "type": "ORG",
+                "text": "Microsoft"
+            },
+            {
+                "start": 1278,
+                "end": 1287,
+                "type": "Software",
+                "text": "Windows 7"
+            },
+            {
+                "start": 1310,
+                "end": 1329,
+                "type": "Software",
+                "text": "Windows Server 2008"
+            },
+            {
+                "start": 1356,
+                "end": 1360,
+                "type": "ORG",
+                "text": "CISA"
+            },
+            {
+                "start": 1398,
+                "end": 1429,
+                "type": "MISC",
+                "text": "Known Exploited Vulnerabilities"
+            },
+            {
+                "start": 1531,
+                "end": 1572,
+                "type": "MISC",
+                "text": "Binding Operational Directive (BOD) 22-01"
+            },
+            {
+                "start": 1598,
+                "end": 1638,
+                "type": "ORG",
+                "text": "Federal Civilian Executive Branch (FCEB)"
+            },
+            {
+                "start": 1883,
+                "end": 1887,
+                "type": "ORG",
+                "text": "CISA"
+            },
+            {
+                "start": 1900,
+                "end": 1909,
+                "type": "ORG",
+                "text": "Microsoft"
+            },
+            {
+                "start": 1914,
+                "end": 1919,
+                "type": "ORG",
+                "text": "Cisco"
+            },
+            {
+                "start": 1973,
+                "end": 1977,
+                "type": "ORG",
+                "text": "CISA"
+            },
+            {
+                "start": 2062,
+                "end": 2066,
+                "type": "ORG",
+                "text": "CISA"
+            },
+            {
+                "start": 2098,
+                "end": 2115,
+                "type": "Software",
+                "text": "Microsoft Outlook"
+            },
+            {
+                "start": 2159,
+                "end": 2173,
+                "type": "CVE",
+                "text": "CVE-2024-21413"
+            },
+            {
+                "start": 2352,
+                "end": 2364,
+                "type": "MISC",
+                "text": "MITRE ATT&CK"
+            },
+            {
+                "start": 2430,
+                "end": 2434,
+                "type": "ORG",
+                "text": "CISA"
+            },
+            {
+                "start": 2441,
+                "end": 2450,
+                "type": "Software",
+                "text": "Craft CMS"
+            },
+            {
+                "start": 2515,
+                "end": 2532,
+                "type": "Software",
+                "text": "Microsoft Outlook"
+            },
+            {
+                "start": 2567,
+                "end": 2576,
+                "type": "Software",
+                "text": "Cisco ISE"
+            },
+            {
+                "start": 2620,
+                "end": 2629,
+                "type": "ORG",
+                "text": "SonicWall"
+            },
+            {
+                "start": 2599,
+                "end": 2619,
+                "type": "Event",
+                "text": "run commands as root"
+            },
+            {
+                "start": 2639,
+                "end": 2646,
+                "type": "MISC",
+                "text": "SMA1000"
+            },
+            {
+                "start": 2686,
+                "end": 2692,
+                "type": "ORG",
+                "text": "Google"
+            },
+            {
+                "start": 2699,
+                "end": 2706,
+                "type": "Software",
+                "text": "Android"
+            },
+            {
+                "start": 2729,
+                "end": 2736,
+                "type": "LOC",
+                "text": "Serbian"
+            }
+        ]
+    },
+    {
+        "text": "Cisco warned customers\u00a0today of a vulnerability in Webex for BroadWorks that could let unauthenticated attackers access credentials remotely. Webex for BroadWorks integrates Cisco Webex's video conferencing and collaboration features with the BroadWorks unified communications platform. While the company has yet to assign a CVE ID to track this security issue, Cisco says in a Tuesday security advisory\u00a0that it already pushed a configuration change to address the flaw and advised customers to restart their Cisco Webex app to get the fix. \"A low-severity vulnerability in Cisco Webex for BroadWorks Release 45.2 could allow an unauthenticated, remote attacker to access data and credentials if unsecure transport is configured for the SIP communication,\" Cisco explained. \"A related issue could allow an authenticated user to access credentials in plain text in the client and server logs. A malicious actor could exploit this vulnerability and the related issue to access data and credentials and impersonate the user.\" The vulnerability is caused by sensitive information exposed in the SIP headers and only affects Cisco BroadWorks (on-premises) and Cisco Webex for BroadWorks (hybrid cloud/on-premises) instances running in Windows environments. The company\u00a0advises admins to configure secure transport for SIP communication to encrypt data in transit as a temporary workaround until the configuration change reaches their environment. \"Cisco also recommends rotating credentials to protect against the possibility that the credentials have been acquired by a malicious actor,\" the company added. It also added that\u00a0its Product Security Incident Response Team (PSIRT) has no evidence of malicious use in the wild or public announcements sharing further information on this vulnerability. On Monday, CISA tagged another Cisco vulnerability (CVE-2023-20118) patched in January 2023 as actively exploited. This flaw allows attackers to execute arbitrary commands on Cisco RV016, RV042, RV042G, RV082, RV320, and RV325 VPN routers. Last month, Recorded Future's Insikt Group threat research division also reported that China's Salt Typhoon hackers had breached more U.S. telecom providers via unpatched Cisco IOS XE network devices. Based on an analysis of 14M malicious actions, discover the top 10 MITRE ATT&CK techniques behind 93% of attacks and how to defend against them. Quantum leap: Passwords in the new era of computing security Unpatched Edimax IP camera flaw actively exploited in botnet attacks Five best practices for securing Active Directory service accounts Over 37,000 VMware ESXi servers vulnerable to ongoing attacks CISA tags Windows, Cisco vulnerabilities as actively exploited",
+        "entities": [
+            {
+                "start": 0,
+                "end": 5,
+                "type": "ORG",
+                "text": "Cisco"
+            },
+            {
+                "start": 51,
+                "end": 71,
+                "type": "Software",
+                "text": "Webex for BroadWorks"
+            },
+            {
+                "start": 113,
+                "end": 140,
+                "type": "Event",
+                "text": "access credentials remotely"
+            },
+            {
+                "start": 142,
+                "end": 162,
+                "type": "Software",
+                "text": "Webex for BroadWorks"
+            },
+            {
+                "start": 174,
+                "end": 187,
+                "type": "Software",
+                "text": "Cisco Webex's"
+            },
+            {
+                "start": 243,
+                "end": 253,
+                "type": "Software",
+                "text": "BroadWorks"
+            },
+            {
+                "start": 362,
+                "end": 367,
+                "type": "ORG",
+                "text": "Cisco"
+            },
+            {
+                "start": 509,
+                "end": 520,
+                "type": "Software",
+                "text": "Cisco Webex"
+            },
+            {
+                "start": 574,
+                "end": 600,
+                "type": "Software",
+                "text": "Cisco Webex for BroadWorks"
+            },
+            {
+                "start": 665,
+                "end": 692,
+                "type": "Event",
+                "text": "access data and credentials"
+            },
+            {
+                "start": 757,
+                "end": 762,
+                "type": "ORG",
+                "text": "Cisco"
+            },
+            {
+                "start": 828,
+                "end": 860,
+                "type": "Event",
+                "text": "access credentials in plain text"
+            },
+            {
+                "start": 968,
+                "end": 995,
+                "type": "Event",
+                "text": "access data and credentials"
+            },
+            {
+                "start": 1000,
+                "end": 1020,
+                "type": "Event",
+                "text": "impersonate the user"
+            },
+            {
+                "start": 1120,
+                "end": 1136,
+                "type": "Software",
+                "text": "Cisco BroadWorks"
+            },
+            {
+                "start": 1155,
+                "end": 1181,
+                "type": "Software",
+                "text": "Cisco Webex for BroadWorks"
+            },
+            {
+                "start": 1230,
+                "end": 1237,
+                "type": "Software",
+                "text": "Windows"
+            },
+            {
+                "start": 1443,
+                "end": 1448,
+                "type": "ORG",
+                "text": "Cisco"
+            },
+            {
+                "start": 1626,
+                "end": 1673,
+                "type": "ORG",
+                "text": "Product Security Incident Response Team (PSIRT)"
+            },
+            {
+                "start": 1805,
+                "end": 1809,
+                "type": "ORG",
+                "text": "CISA"
+            },
+            {
+                "start": 1825,
+                "end": 1830,
+                "type": "ORG",
+                "text": "Cisco"
+            },
+            {
+                "start": 1846,
+                "end": 1860,
+                "type": "CVE",
+                "text": "CVE-2023-20118"
+            },
+            {
+                "start": 1939,
+                "end": 1965,
+                "type": "Event",
+                "text": "execute arbitrary commands"
+            },
+            {
+                "start": 1969,
+                "end": 1974,
+                "type": "ORG",
+                "text": "Cisco"
+            },
+            {
+                "start": 1975,
+                "end": 1980,
+                "type": "MISC",
+                "text": "RV016"
+            },
+            {
+                "start": 1982,
+                "end": 1987,
+                "type": "MISC",
+                "text": "RV042"
+            },
+            {
+                "start": 1989,
+                "end": 1995,
+                "type": "MISC",
+                "text": "RV042G"
+            },
+            {
+                "start": 1997,
+                "end": 2002,
+                "type": "MISC",
+                "text": "RV082"
+            },
+            {
+                "start": 2004,
+                "end": 2009,
+                "type": "MISC",
+                "text": "RV320"
+            },
+            {
+                "start": 2015,
+                "end": 2020,
+                "type": "MISC",
+                "text": "RV325"
+            },
+            {
+                "start": 2021,
+                "end": 2024,
+                "type": "Software",
+                "text": "VPN"
+            },
+            {
+                "start": 2046,
+                "end": 2076,
+                "type": "ORG",
+                "text": "Recorded Future's Insikt Group"
+            },
+            {
+                "start": 2121,
+                "end": 2128,
+                "type": "LOC",
+                "text": "China's"
+            },
+            {
+                "start": 2129,
+                "end": 2141,
+                "type": "MAL-ORG",
+                "text": "Salt Typhoon"
+            },
+            {
+                "start": 2168,
+                "end": 2172,
+                "type": "LOC",
+                "text": "U.S."
+            },
+            {
+                "start": 2205,
+                "end": 2217,
+                "type": "Software",
+                "text": "Cisco IOS XE"
+            },
+            {
+                "start": 2302,
+                "end": 2314,
+                "type": "MISC",
+                "text": "MITRE ATT&CK"
+            },
+            {
+                "start": 2451,
+                "end": 2457,
+                "type": "ORG",
+                "text": "Edimax"
+            },
+            {
+                "start": 2543,
+                "end": 2559,
+                "type": "Software",
+                "text": "Active Directory"
+            },
+            {
+                "start": 2589,
+                "end": 2600,
+                "type": "Software",
+                "text": "VMware ESXi"
+            },
+            {
+                "start": 2639,
+                "end": 2643,
+                "type": "ORG",
+                "text": "CISA"
+            },
+            {
+                "start": 2649,
+                "end": 2656,
+                "type": "Software",
+                "text": "Windows"
+            },
+            {
+                "start": 2658,
+                "end": 2663,
+                "type": "Software",
+                "text": "Cisco"
+            }
+        ]
+    }
+]

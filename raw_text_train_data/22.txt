@@ -1,0 +1,23 @@
+
+Comcast Cable Communications and Truist Bank have disclosed they were impacted by a data breach at FBCS, and are now informing their respective customers that their data has been compromised.
+The case concerns a data breach at Financial Business and Consumer Solutions (FBCS), a debt collection agency in the U.S. that partners with various companies to collect unpaid debts on their behalf.
+Last April this year, FBCS informed of a data breach determined to have occurred between February 14 and February 26, 2024, when threat actors breached its network and stole the following details from its electronic records:
+The data breach was initially believed to have impacted 1.9 million people, but subsequent findings upped the tally to 3.2 million in June and, finally, 4.2 million individuals in July.
+The internal investigation into the incident appears to be ongoing, as FBCS recently informed additional entities that they had been impacted, including Comcast and Truist.
+Also, it is now made known that due to FBCS's worsening financial position, presumably a direct result of the breach, entities indirectly impacted by the incident will have to undertake the notification and remediation processes themselves.
+Comcast says FBCS assured them in March that the security incident impacted no customer data. However, on July 17, FBCS notified Comcast that its customer data was also impacted.
+According to a notice submitted to the Maine authorities, 273,703 Comcast customers were impacted by the breach.
+"FBCS's investigation discovered that files downloaded by the unauthorized party included your name, address, Social Security number, date of birth, and your Comcast account number and ID numbers used internally at FBCS," reads the notification sent to impacted customers.
+"FBCS states that it has no indication that any personal information compromised during this incident has been further misused."
+Impacted people were given 12 months of free-of-charge identity theft protection services, with activation instructions enclosed.
+In related news, Truist Bank, one of the largest banks in the United States, also sent notices of a data breach to its customers linked to the FBCS incident.
+The letters were sent out in mid-September, but a sample was submitted more recently to the Californian authorities.
+"FBCS has indicated that the type of information that may have been impacted varies per person and may include consumer name, address, account number, date of birth and Social Security number," disclosed Truist Bank.
+Truist operates over 2,700 branches across 15 states and employs 40,000 people. As such, the number of impacted people could be significant, though it has not been specified.
+BleepingComputer emailed Truist to learn how many of its customers were impacted by this incident, but a comment wasn't immediately available.
+Meanwhile, last June, Truist Bank confirmed a separate breach that reportedly occurred in October 2023 after a threat actor leaked stolen data on a hacking forum.
+Temu denies breach after hacker claims theft of 87 million data records
+Transport for London confirms customer data stolen in cyberattack
+Payment gateway data breach affects 1.7 million credit card owners
+Business services giant CBIZ discloses customer data breach
+BlackSuit ransomware stole data of 950,000 from software vendor

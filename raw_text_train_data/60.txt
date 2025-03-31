@@ -1,0 +1,18 @@
+
+A recently disclosed vulnerability in the Common Unix Printing System (CUPS) open-source printing system can be exploited by threat actors to launch distributed denial-of-service (DDoS) attacks with a 600x amplification factor.
+As Akamai security researchers found, a CVE-2024-47176 security flaw in the cups-browsed daemon that can be chained with three other bugs to gain remote code execution on Unix-like systems via a single UDP packet can also be leveraged to amplify DDoS attacks.
+The vulnerability is triggered when an attacker sends a specially crafted packet, tricking a CUPS server into treating a target as a printer to be added. 
+Each packet sent to vulnerable CUPS servers prompts them to generate larger IPP/HTTP requests aimed at the targeted device. This impacts both the target and the CUPS server, consuming their bandwidth and CPU resources.
+To initiate such an attack, a malicious actor only needs to send a single packet to an exposed and vulnerable CUPS service exposed online. Akamai researchers estimate that around 58,000 servers, out of over 198,000 exposed devices, could be recruited for DDoS attacks.
+Furthermore, hundreds of vulnerable devices demonstrated an "infinite loop" of requests, with some CUPS servers repeatedly sending requests after receiving an initial probe and some servers entering an endless loop in response to specific HTTP/404 errors.
+Many of these vulnerable machines were running outdated versions of CUPS (going as far back as 2007), which are easy targets for cybercriminals who can exploit them to build botnets via the RCE chain or use them for DDoS amplification.
+"In the worst-case scenario, we observed what appeared to be an endless stream of attempted connections and requests as a result of a single probe. These flows appear to have no end, and will continue until the daemon is killed or restarted," the Akamai researchers said.
+"Many of these systems we observed in testing established thousands of requests, sending them to our testing infrastructure. In some cases, this behavior appeared to continue indefinitely."
+This DDoS amplification attack also requires minimal resources and little time to execute. Akamai warns that a threat actor could easily take control of every exposed CUPS service on the internet in seconds.
+Admins are advised to deploy CVE-2024-47176 patches or disable the cups-browsed service from running to block potential attacks to mitigate the risk of having their servers added to a botnet or used in DDoS attacks.
+"DDoS continues to be a viable attack vector used to harass and disrupt victims across the internet, from major industries and governments to small content creators, online shops, and gamers," Akamai's researchers warned.
+"Although the original analysis focused on the RCE, which could have a more severe outcome, DDoS amplification is also easily abused in this case."
+As Cloudflare revealed this week, its DDoS defense systems had to protect customers against a wave of hyper-volumetric L3/4 DDoS attacks reaching 3.8 terabits per second (Tbps), the largest such attack ever recorded.
+Cloudflare blocks largest recorded DDoS attack peaking at 3.8Tbps
+CUPS flaws enable Linux remote code execution, but there’s a catch
+SonicWall warns of critical access control flaw in SonicOS

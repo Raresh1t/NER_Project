@@ -1,0 +1,19 @@
+
+Users were left alarmed this week on receiving unexpected emails from Google Pay stating that they had successfully "added a new card" to their Google account.
+The notification left users panicking and voicing their concerns on social media amid concerns they had been victims of a compromise.
+For many, the payment card being referred to had been issued years ago and presently expired, which added to the confusion. 
+Between Wednesday and Thursday this week, several Google Pay users received the following email about a new card being added to their Google Pay account:
+For several users including myself, the card in question had been "expired" and had not been used in a long time, which led to confusion.
+Concerned users took to social media and Google's support forums, seeking clarification on these notifications and if they had been victims of a compromise.
+Google Pay user Arran Dickson reported receiving the "odd 4am email" notification about an old expired card and asked Google if this was a cause for concern.
+Others chimed in, including systems engineer Anthony Parkes, who states having received 15 such emails which made him wonder if he had been hacked.
+Google's support forums also had the topic "trending" with hundreds of upvotes from panicky users. Similar threads [1, 2] surfaced on Reddit.
+On Saturday, Google sent out an additional email to impacted users stating that the previous email notification was "accidental" and that there was no cause for concern:
+The subsequent correction sent from the Google Pay team stated:
+"You may have received one or more emails about payment methods being added to your Google Account. If you received one of these emails, it was an error that has been resolved. We apologize for the inconvenience.
+There was no unauthorized access to your Google Account, and none of your information was compromised. You do not need to take any action.
+You can review your payment methods at any time in your Google Account.
+Thanks,
+The Google Pay team"
+As such, those who received unexpected 'new card' emails this week can safely disregard them.
+As a best practice, users should regularly review payment methods and transactions listed under their Google Accounts and similar digital wallet products.

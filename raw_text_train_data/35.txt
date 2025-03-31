@@ -1,0 +1,23 @@
+The notorious APT hacking group known as FIN7 has launched a network of fake AI-powered deepnude generator sites to infect visitors with information-stealing malware.
+FIN7 is believed to be a Russian hacking group that has been conducting financial fraud and cybercrime since 2013, with ties to ransomware gangs, such as DarkSide, BlackMatter, and BlackCat, who recently conducted an exit scam after stealing a $20 million UnitedHealth ransom payment.
+FIN7 is known for its sophisticated phishing and social engineering attacks, such as impersonating BestBuy to send malicious USB keys or creating a fake security company to hire pentesters and developers for ransomware attacks without them knowing.
+So it's not surprising to find that they have now been linked to an intricate network of websites promoting AI-powered deepnude generators that claim to create fake nude versions of photos of clothed individuals.
+The technology has been controversial due to the harm it can cause to the subjects by creating non-consensual explicit images, and it has even been outlawed in many places in the world. However, the interest in this technology remains strong.
+FIN7's fake deepnude sites serve as honeypots for people interested in generating deepfake nudes of celebrities or other people.  In 2019, threat actors used a similar lure to spread info-stealing malware even before the AI explosion.
+The network of deepnude generators operates under the same "AI Nude" brand and is promoted through black hat SEO tactics to rank the sites high in search results.
+According to Silent Push, FIN7 directly operated sites like "aiNude[.]ai", "easynude[.]website", and nude-ai[.]pro," which offered "free trials" or "free downloads," but in reality just spread malware.
+All the sites use a similar design that promises the ability to generate free AI deepnude images from any uploaded photo.
+The fake websites allow users to upload photos that they would like to create deepfake nudes. However, after the alleged "deepnude" is made, it is not displayed on the screen. Instead, the user is prompted to click a link to download the generated image.
+Doing so will bring the user to another site that displays a password and a link for a password-protected archive hosted on Dropbox. While this site is still alive, the Dropbox link no longer works.
+However, instead of a deepnude image, the archive archive contains the Lumma Stealer information-stealing malware. When executed, the malware will steal credentials and cookies saved in web browsers, cryptocurrency wallets, and other data from the computer.
+Silent Push also saw some sites promoting a deepnude generation program for Windows that would instead deploy Redline Stealer and D3F@ck Loader, which are also used to steal information from compromised devices.
+All seven sites detected by Silent Push have since been taken down, but users who might have downloaded files from them should consider themselves infected.
+Silent Push also identified parallel FIN7 campaigns dropping NetSupport RAT through websites that prompt visitors to install a browser extension.
+In other cases, FIN7 uses payloads that appear to spoof well-known brands and applications such as Cannon, Zoom, Fortnite, Fortinet VPN, Razer Gaming, and PuTTY.
+These payloads may be distributed to victims using SEO tactics and malvertising, tricking them into downloading trojanized installers.
+FIN7 was recently exposed for selling its custom "AvNeutralizer" EDR killing tool to other cybercriminals, targeting IT staff of car makers in phishing attacks, and deploying Cl0p ransomware in attacks against organizations.
+Microsoft removes revenge porn from Bing search using new tool
+GitHub comments abused to push password stealing malware masked as fixes
+New Octo Android malware version impersonates NordVPN, Google Chrome
+Linux malware “perfctl” behind years-long cryptomining campaign
+Fake browser updates spread updated WarmCookie malware

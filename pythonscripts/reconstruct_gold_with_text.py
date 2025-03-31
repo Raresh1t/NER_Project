@@ -48,9 +48,9 @@ def reconstruct_text_with_entities(gold_labels, text_file_dir):
     return reconstructed_data
 
 # Usage
-gold_labels = load_gold_labels('../Labeled_data/gold_labels/filtered_annotations.json')
-reconstructed_gold_data = reconstruct_text_with_entities(gold_labels, '../data')
+gold_labels = load_gold_labels('dataset_for_testing/blind_test_2.json')
+reconstructed_gold_data = reconstruct_text_with_entities(gold_labels, '../raw_text_test_data')
 
 # Output or save the reconstructed data for evaluation
-with open('reconstructed_gold_labels_2.json', 'w') as outfile:
+with open('blind_test', 'w') as outfile:
     json.dump(reconstructed_gold_data, outfile, indent=4)

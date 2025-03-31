@@ -1,0 +1,17 @@
+
+U.S. cybersecurity agency CISA is warning about two critical vulnerabilities that allow authentication bypass and remote code execution in Optigo Networks ONS-S8 Aggregation Switch products used in critical infrastructure.
+The flaws concern weak authentication problems, allowing bypassing of password requirements, and user input validation issues potentially leading to remote code execution, arbitrary file uploads, and directory traversal.
+The device is used in critical infrastructure and manufacturing units worldwide, and considering that the flaws are remotely exploitable with low attack complexity, the risk is deemed very high.
+Currently, no fixes are available, so users are recommended to apply suggested mitigations proposed by the Canadian vendor.
+The first flaw is tracked as CVE-2024-41925 and is classified as a PHP Remote File Inclusion (RFI) problem stemming from incorrect validation or sanitation of user-supplied file paths.
+An attacker could use this vulnerability to perform directory traversal, bypass authentication, and execute arbitrary remote code.
+The second issue, tracked as CVE-2024-45367, is a weak authentication problem arising from improper password verification enforcement on the authentication mechanism.
+Exploiting this enables an attacker to gain unauthorized access to the switches' management interface, alter configurations, access sensitive data, or pivot to other network points.
+Both problems were discovered by Claroty Team82 and are rated as critical, with a CVSS v4 score of 9.3. The vulnerabilities impact all ONS-S8 Spectra Aggregation Switch versions up to and including 1.3.7.
+While CISA has not seen signs of these flaws being actively exploited, system administrators are recommended to perform the following actions to mitigate the flaws:
+CISA recommends that organizations observing suspicious activity on these devices follow their breach protocols and report the incident to the cybersecurity agency so that it can be tracked and correlated with other incidents.
+Man charged for selling forged license keys for network switches
+DrayTek fixed critical flaws in over 700,000 exposed routers
+Critical flaw in NVIDIA Container Toolkit allows full host takeover
+Progress urges admins to patch critical WhatsUp Gold bugs ASAP
+Hackers targeting WhatsUp Gold with public exploit since August
